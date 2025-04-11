@@ -1,5 +1,7 @@
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
+![logo_upc](img/README/upc_logo.png)
+
 ### "Informe de Trabajo Final"
 ### A1SI0729 - Desarrollo de Aplicaciones Open Source
 ### Ingeniería de Software - 5to Ciclo
