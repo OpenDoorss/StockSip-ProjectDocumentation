@@ -23,7 +23,10 @@ Mediante un análisis comparativo, hemos organizado información clave de cada p
 | |Oportunidades|Expansión en las integraciones con otros sistemas de comercio|Expansión en los sectores con métodos tradicionales |Ampliar las funcionalidades como análisis predictivo|Expansión en las integraciones con otros sistemas de comercio|
 | |Amenazas|Competidores con softwares desarrollados y con alta experiencia en el mercado|Competidores con softwares desarrollados y con alta experiencia en el mercado|Fallos de compatibilidad con otros dispositivos|Cambios en la demanda del mercado|
 ### 2.1.2. Estrategias y tácticas frente a competidores
+Una vez realizado la identificación de fortalezas, oportunidades, debilidades y amenazas con el análisis FODA de nuestros competidores en el sector del mercado, pasaremos a plantear las estrategias y tácticas para hacerle frente a estos mismos.
 
+* Expansión de integraciones: Con nuevas plataformas para agregar funciones que faciliten la gestión de inventario, sistemas de puntos de ventas (POS) y cooperar con proveedores como BEES
+* Soporte Postventa:  Soporte y asesorías personalizadas para garantizar al cliente el máximo provecho de cada función y asegurar la fidelidad del cliente
 ## _2.2. Entrevistas_ ##
 
 ### 2.2.1. Diseño de entrevistas ###
