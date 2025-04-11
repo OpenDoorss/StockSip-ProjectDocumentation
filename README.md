@@ -25,3 +25,10 @@
 
 | Versión | Fecha | Autor | Descripción de la modificación |
 |--|--|--|--|
+
+# Student OutCome
+
+| Criterio Específico | Acciones realizadas | Conclusiones |
+| -- | -- | -- |
+| 3.c1 Comunica de manera oral con efectividad a diferentes rangos de audiencia | | |
+| 3.c2 Comunica por escrito con efectividad rangos de audiencia
