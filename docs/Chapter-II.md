@@ -59,14 +59,30 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 ## _2.3. Needfinding_ ##
 
+El Needfinding es el proceso por el cual se busca comprender las necesidades que nuestros segmentos objetivos desean satisfacer.
+Se utilizaron diversas herramientas como el diseño de User Persona por cada segmento objetivo, el User Task Matrix para analizar la importancia y
+frecuencia de cada tarea que realiza cada segmento objetivo, el Journey Mapping que muestra el camino que sigue cada segmento objetivo para completar un objetivo,
+el Empathy Mapping para comprender como se siente, piensa y actúa cada segmento objetivo y, finalmente, el As-Is Scenario Map que describe una experiencia existente
+de cada segmento objetivo.
+
 ### 2.3.1. Users Persona ###
+
+Para desarrollar la propuesta de solución, se creará un _User Persona_ por cada segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo ya sea información personal, gustos, usos tecnológicos u objetivos. De esta forma, se podrá dar una idea más clara de a qué publico nos estamos acercando con la idea de solución. Además, se realiza una conclusión del análisis de cada User Persona.
 
 ### 2.3.2. User Task Matrix ###
 
+El _User Task Matrix_ de cada _User Persona_ incluye las actividades que realizan que más destacan en una situación cotidiana. A cada actividad se le asigna un puntaje en cuanto a qué tan frecuente es realizada por el User Persona y otro puntaje en cuanto a qué tanta importancia posee dicha actividad. Gracias a esta herramienta se puede identificar las actividades que necesitan realizar los usuarios y cómo las realizan para hallar formas de mejora que serán parte del producto a diseñar.
+
 ### 2.3.3. User Journey Mapping ###
+
+El _User Journey Mapping_ muestra paso a paso qué actividades realiza un usuario para cumplir un objetivo. Gracias a este mapa de viaje, podemos entender mejor al usuario, ya que, al describir este proceso nos ponemos en los zapatos del usuario e identificamos cómo se siente, qué hace y qué obstáculos se le presenta al momento de querer cumplir un objetivo.
 
 ### 2.3.4. Empathy Mapping ###
 
+El _Empathy Mapping_ ayuda a entender de manera más profunda a nuestro User Persona. Con esta herramienta, capturamos lo que el usuario siente, dice, piensa y hace desde la perspectiva del propio usuario. Además, nos ayuda a identificar dolores y metas qué desea cumplir que nos serán útiles para formar ideas de diseño útiles para el producto que servirá como solución.
+
 ### 2.3.5. As-Is Scenario Mapping ###
+
+En el _As-Is Scenario Map_ se representa el proceso real que vive un usuario previo a la existencia del producto solución. Este mapa, ayuda a encontrar puntos claves que usualmente forman obstáculos en las metas de los User Persona y ayudan a formar ideas de solución a estos obstáculos que se integran en el producto a diseñar.
 
 ## _2.4. Ubiquitous Language_ ##
