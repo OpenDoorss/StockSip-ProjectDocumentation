@@ -69,6 +69,32 @@ de cada segmento objetivo.
 
 Para desarrollar la propuesta de solución, se creará un _User Persona_ por cada segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo ya sea información personal, gustos, usos tecnológicos u objetivos. De esta forma, se podrá dar una idea más clara de a qué publico nos estamos acercando con la idea de solución. Además, se realiza una conclusión del análisis de cada User Persona.
 
+- Segmento objetivo 1: Dueños de licorerías
+
+<p align="center">
+  <img src="../img/Chapter II/user_persona1.png" 
+  alt="user_person1"/>
+
+  > <p align="center">User Persona del primer segmento objetivo</p>
+</p>
+
+En esta imagen, se colocó información relacionada al primer user persona. El cuadro incluye una descripción breve sobre esta persona y cuáles son sus objetivos y frustraciones respecto a la situación en la que vive. Esta representación ayuda a entender mejor sus necesidades específicas, como la optimización del control de inventario, la reducción de pérdidas y el deseo de contar con herramientas tecnológicas que faciliten la toma de decisiones. Esta información fue clave para diseñar una solución más eficiente y alineada con su realidad diaria como dueño de un negocio de productos de licorería. 
+
+<br>
+
+- Segmento objetivo 2: Proveedores de licores
+
+<p align="center">
+  <img src="../img/Chapter II/user_persona2.png" 
+  alt="user_person2"/>
+
+  > <p align="center">User Persona del segundo segmento objetivo</p>
+</p>
+
+En esta otra imagen, se colocó información relacionada al segundo user persona. El cuadro incluye una descripción breve sobre esta persona y cuáles son sus objetivos y frustraciones respecto a la situación en la que vive. En este caso, se trata de un proveedor que busca optimizar sus rutas, asegurar ventas completas y fortalecer la relación con sus clientes. Las necesidades y motivaciones identificadas resaltan la importancia de implementar una solución digital que facilite la comunicación, el acceso a información de productos y el uso compartido de herramientas tecnológicas.
+
+<br>
+
 ### 2.3.2. User Task Matrix ###
 
 El _User Task Matrix_ de cada _User Persona_ incluye las actividades que realizan que más destacan en una situación cotidiana. A cada actividad se le asigna un puntaje en cuanto a qué tan frecuente es realizada por el User Persona y otro puntaje en cuanto a qué tanta importancia posee dicha actividad. Gracias a esta herramienta se puede identificar las actividades que necesitan realizar los usuarios y cómo las realizan para hallar formas de mejora que serán parte del producto a diseñar.
