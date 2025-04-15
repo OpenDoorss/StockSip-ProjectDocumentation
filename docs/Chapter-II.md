@@ -154,3 +154,11 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 21. **Supplier Portal** (Portal de Proveedores)
 
 **Definición:** Espacio dentro de la aplicación que facilita la comunicación directa entre proveedores y dueños de licorerías. Permite enviar mensajes, cotizaciones, pedidos personalizados y recibir alertas sobre nuevos productos o cambios en precios.
+
+22. **Premium Plan** (Plan Premium)
+
+**Definición:** Modelo de pago que otorga acceso a funciones avanzadas de la aplicación, como reportes personalizados, soporte prioritario e integración con proveedores. Ideal para licorerías que buscan escalar su operación.
+
+23. **Control Panel** (Panel de Control)
+
+**Definición:** Interfaz principal del usuario donde puede manipular el sistema y sus funcionalidades a su antojo. Se visualiza el inventario, las notificaciones o alertas activas, perfil y ajustes de configuración.
