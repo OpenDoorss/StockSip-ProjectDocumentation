@@ -111,3 +111,27 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Bebidas alcohólicas premezcladas y listas para consumir, en formatos como latas o botellas, que no requieren preparación adicional.
 
+11. **Care Guide** (Guía de Cuidados)
+
+**Definición:** Documento físico o digital que describe las características y cuidados de cada bebida alcohólica: temperatura de conservación, sensibilidad a la luz, durabilidad, y observaciones del proveedor.
+
+12. **Conservation Guide** (Guia de Conservación)
+
+**Definición:** Registro digital donde se documentan prácticas de cuidado aplicadas a los productos (temperatura, iluminación, limpieza del área, entre otros). Permite asegurar el cumplimiento de estándares relacionados con calidad.
+
+13. **Loss Report** (Reporte de pérdidas)
+
+**Definición:** Registro que documenta las pérdidas de producto por razones como vencimiento, mal almacenamiento, daños físicos o evaporación. Ayuda a evaluar riesgos y tomar acciones correctivas.
+
+14. **Internal Referral Guide** (Guía de remisión interna)
+
+**Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
+
+15. **Internal Referral Guide** (Guía de remisión interna)
+
+**Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
+
+16. **Invoice** (Factura)
+
+**Definición:** Registro formal de la compra o venta de productos entre la licorería y un proveedor o cliente. Incluye fecha, tipo de producto, cantidades, condiciones de entrega y estado del pago.
+
