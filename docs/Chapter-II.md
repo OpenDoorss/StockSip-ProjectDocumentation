@@ -71,5 +71,19 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 ## _2.4. Ubiquitous Language_ ##
 
-Para garantizar una comunicación clara, coherente y sin ambigüedades entre todos los involucrados en el desarrollo y uso de **StockSip**. Este conjunto de términos representa los conceptos clave del dominio del sistema y será utilizado de forma consistente en la interfaz de usuario y documentación técnica.
+**Inventory** (Inventario)
+
+**Definición:** Registro detallado (físico/digital) de todos los productos en stock, incluyendo cantidades, fechas de vencimiento y estado. Es la fuente confiable para gestionar existencias y reposiciones.
+
+**Movement Log** (Registro de movimientos)
+
+**Definición:** Registro de entradas y salidas de productos del inventario. Pueden ser: salida de productos del inventario debido al uso interno, degustaciones, o promociones dentro de la licorería. Permite distinguir el consumo operativo del comercial.
+
+**Inventory Management** (Administración de Inventario)
+
+**Definición:** Proceso mediante por el cual el dueño o encargado de la licorería organiza, controla y actualiza los productos en su tienda o bodega.
+
+**Inventory Control Panel** (Panel de control de inventario)
+
+**Definición:** Visualizaciones que muestran el estado general del stock: porcentaje de productos próximos a vencer, nivel de abastecimiento, y eficiencia de rotación.
 
