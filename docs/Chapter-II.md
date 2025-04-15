@@ -142,3 +142,15 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 18. **Expiration Alert** (Alerta de Expiración)
 
 **Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
+
+19. **Replenishment Plan** (Plan de Reabastecimiento)
+
+**Definición:** Funcionalidad que permite al usuario planificar de manera anticipada las compras de productos, en función de las proyecciones de demanda y disponibilidad de stock, de forma en que se evite desabastecimientos o sobrestock.
+
+20. **Purchase suggestion** (Sugerencia de compra)
+
+**Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
+
+21. **Supplier Portal** (Portal de Proveedores)
+
+**Definición:** Espacio dentro de la aplicación que facilita la comunicación directa entre proveedores y dueños de licorerías. Permite enviar mensajes, cotizaciones, pedidos personalizados y recibir alertas sobre nuevos productos o cambios en precios.
