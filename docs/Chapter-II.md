@@ -135,3 +135,10 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Registro formal de la compra o venta de productos entre la licorería y un proveedor o cliente. Incluye fecha, tipo de producto, cantidades, condiciones de entrega y estado del pago.
 
+17. **Notification of Replenishment** (Notificación de Reposición)
+
+**Definición:** Notificación automática que avisa al usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
+
+18. **Expiration Alert** (Alerta de Expiración)
+
+**Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
