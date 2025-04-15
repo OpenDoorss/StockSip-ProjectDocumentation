@@ -2,8 +2,10 @@
 
 ## _3.1. To-Be Scenario Mapping_ ##
 
-## _3.2. User Stories_ ##
+## _3.2. Epics_ ##
 
-## _3.3. Impact Mapping_ ##
+## _3.3. User Stories_ ##
 
-## _3.4. Product Backlog_ ##
+## _3.4. Impact Mapping_ ##
+
+## _3.5. Product Backlog_ ##
