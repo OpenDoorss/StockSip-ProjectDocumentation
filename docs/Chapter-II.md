@@ -73,7 +73,7 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 1. **Inventory** (Inventario)
 
-**Definición:** Registro detallado (físico/digital) de todos los productos en stock, incluyendo cantidades, fechas de vencimiento y estado. Es la fuente confiable para gestionar existencias y reposiciones.
+**Definición:** Registro y control digital de todos los productos en stock, incluyendo cantidades, fechas de vencimiento y estado. Es la fuente confiable para gestionar existencias y reposiciones.
 
 2. **Movement Log** (Registro de movimientos)
 
