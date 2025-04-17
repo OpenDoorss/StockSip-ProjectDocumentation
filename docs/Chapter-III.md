@@ -3,7 +3,7 @@
 ## _3.1. To-Be Scenario Mapping_ ##
 
 
-## _3.3. User Stories_ ##
+## _3.2. User Stories_ ##
 
 Para la especificación de requisitos de los usuarios, se desarrollaron las historias de usuario que describen cada requisito y funcionalidad que debe estar implementado en el desarrollo del producto final para satisfacer las necesidades del público objetivo. A continuación se presentan las historias de usuario relacionadas al landing page de el landing page de "StockSip". Esta sección reúne historias de usuario centradas en la experiencia inicial de los dueños de licorerías y proveedores al interactuar con la plataforma. Aquí se definen las necesidades clave relacionadas con la primera impresión, el acceso a la información esencial del sistema, y el incentivo para registrarse o contratar un plan.
 
@@ -114,6 +114,6 @@ Las historias de esta sección describen las necesidades técnicas relacionadas 
 | TS019           | Endpoint para consultar detalles del plan actual         | Como developer, necesito implementar el endpoint GET /api/usuarios/plan para devolver los detalles del plan activo de un usuario proveedor.                                                  | **Escenario 1:** Consulta exitosa<br><br>**Dado que** el usuario proveedor tiene un plan activo  <br>**Cuando** accede al endpoint  <br>**Entonces** el sistema responde con código 200 y muestra nombre del plan, fecha de inicio y vencimiento<br><br>**Escenario 2:** Sin plan activo<br><br>**Dado que** el proveedor no tiene ningún plan asignado  <br>**Cuando** accede al endpoint  <br>**Entonces** el sistema responde con código 200 y un mensaje "Sin plan activo actualmente"                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP019                     |
 | TS020           | Endpoint para registrar una factura                      | Como developer, necesito implementar el endpoint POST /api/facturas para registrar una nueva factura en el sistema.                                                                          | **Escenario 1:** Factura registrada exitosamente<br><br>**Dado que** el usuario envía datos válidos (número, proveedor, monto, fecha)  <br>**Cuando** se registra la factura  <br>**Entonces** el sistema responde con código 201 y los detalles de la factura registrada<br><br>**Escenario 2:** Número de factura duplicado<br><br>**Dado que** el número ya existe en la base de datos <br>**Cuando** se intenta registrar  <br>**Entonces** el sistema responde con código 409 y un mensaje "Factura ya registrada"<br><br>**Escenario 3:** Datos incompletos<br><br>**Dado que** el campo proveedor está vacío  <br>**Cuando** se realiza la solicitud  <br>**Entonces** el sistema responde con código 400 y un mensaje "Datos insuficientes"                                                                                                                                                                                           | EP020                     |
 
-## _3.4. Impact Mapping_ ##
+## _3.3. Impact Mapping_ ##
 
-## _3.5. Product Backlog_ ##
+## _3.4. Product Backlog_ ##
