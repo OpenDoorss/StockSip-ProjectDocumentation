@@ -2,7 +2,6 @@
 
 ## _3.1. To-Be Scenario Mapping_ ##
 
-
 ## _3.2. User Stories_ ##
 
 Para la especificación de requisitos de los usuarios, se desarrollaron las historias de usuario que describen cada requisito y funcionalidad que debe estar implementado en el desarrollo del producto final para satisfacer las necesidades del público objetivo. A continuación se presentan las historias de usuario relacionadas al landing page de el landing page de "StockSip". Esta sección reúne historias de usuario centradas en la experiencia inicial de los dueños de licorerías y proveedores al interactuar con la plataforma. Aquí se definen las necesidades clave relacionadas con la primera impresión, el acceso a la información esencial del sistema, y el incentivo para registrarse o contratar un plan.
@@ -115,5 +114,29 @@ Las historias de esta sección describen las necesidades técnicas relacionadas 
 | TS020           | Endpoint para registrar una factura                      | Como developer, necesito implementar el endpoint POST /api/facturas para registrar una nueva factura en el sistema.                                                                          | **Escenario 1:** Factura registrada exitosamente<br><br>**Dado que** el usuario envía datos válidos (número, proveedor, monto, fecha)  <br>**Cuando** se registra la factura  <br>**Entonces** el sistema responde con código 201 y los detalles de la factura registrada<br><br>**Escenario 2:** Número de factura duplicado<br><br>**Dado que** el número ya existe en la base de datos <br>**Cuando** se intenta registrar  <br>**Entonces** el sistema responde con código 409 y un mensaje "Factura ya registrada"<br><br>**Escenario 3:** Datos incompletos<br><br>**Dado que** el campo proveedor está vacío  <br>**Cuando** se realiza la solicitud  <br>**Entonces** el sistema responde con código 400 y un mensaje "Datos insuficientes"                                                                                                                                                                                           | EP020                     |
 
 ## _3.3. Impact Mapping_ ##
+
+En esta sección, se presentarán los mapas de impacto para cada segmento objetivo definido para el desarrollo del proyecto. El objetivo de desarrollar estos mapas es alinear los objetivos de negocio con las necesidades de los usuarios. También, se puede visualizar de manera clara qué impacto se desea generar en el comportamiento de los usuarios finales y qué entregables se deben desarrollar para alcanzar cada una de las metas descritas.
+
+●	Segmento objetivo 1: Dueños de licorerías
+
+<p align="center">
+  <img src="../img/Chapter III/impact_map1.png" alt="mapa_impacto1"/>
+
+  > <p align="center">Mapa de impacto del primer segmento objetivo</p>
+</p>
+
+El mapa de impacto del primer segmento objetivo nos permitió visualizar con claridad la conexión entre los objetivos del negocio y las verdaderas necesidades del usuario final. Gracias a esta herramienta, identificamos comportamientos clave que queremos fomentar, como el monitoreo proactivo del inventario y la toma de decisiones informadas sobre reposición de productos. 
+<br>
+
+●	Segmento objetivo 2: Proveedores de licores
+
+<p align="center">
+  <img src="../img/Chapter III/impact_map2.png" alt="mapa_impacto2"/>
+
+  > <p align="center">Mapa de impacto del segundo segmento objetivo</p>
+</p>
+
+El mapa de impacto del segundo segmento objetivo nos ayudó a entender cómo este actor tiene un rol fundamental en el cumplimiento de los objetivos comerciales. Nos permitió identificar oportunidades de mejora en su interacción con los clientes, como la necesidad de herramientas para organizar sus rutas y fortalecer la comunicación. También nos permitió extender el alcance de la solución al contemplar funcionalidades útiles para su gestión interna, como la creación de planes de reabastecimiento y guías de remisión.
+<br>
 
 ## _3.4. Product Backlog_ ##
