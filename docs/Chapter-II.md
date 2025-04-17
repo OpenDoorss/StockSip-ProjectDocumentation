@@ -75,90 +75,94 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Registro y control digital de todos los productos en stock, incluyendo cantidades, fechas de vencimiento y estado. Es la fuente confiable para gestionar existencias y reposiciones.
 
-2. **Movement Log** (Registro de movimientos)
+2. **Warehouse** (Almacén)
+
+**Definición:** Espacio físico donde se guardan, organizan y manejan los licores u otros productos. Donde se maneja: Ubicaciones específicas y condiciones de almacenamiento.
+
+3. **Movement Log** (Registro de movimientos)
 
 **Definición:** Registro de entradas y salidas de productos del inventario. Pueden ser: salida de productos del inventario debido al uso interno, degustaciones, o promociones dentro de la licorería. Permite distinguir el consumo operativo del comercial.
 
-3. **Inventory Management** (Administración de Inventario)
+4. **Inventory Management** (Administración de Inventario)
 
 **Definición:** Proceso mediante por el cual el dueño o encargado de la licorería organiza, controla y actualiza los productos en su tienda o bodega.
 
-4. **Inventory Control Panel** (Panel de control de inventario)
+5. **Inventory Control Panel** (Panel de control de inventario)
 
 **Definición:** Visualizaciones que muestran el estado general del stock: porcentaje de productos próximos a vencer, nivel de abastecimiento, y eficiencia de rotación.
 
-5. **Liquor** (Licor)
+6. **Liquor** (Licor)
 
 **Definición:** Bebida alcohólica destilada (sin azúcar añadido), con graduación alcohólica media/alta (30%-50% ALC/VOL).
 
-6. **Cream Liqueur** (Licor de Crema)
+7. **Cream Liqueur** (Licor de Crema)
 
 **Definición:** Bebida alcohólica cremosa y dulce, elaborada con licor base + lácteos (nata/leche) + azúcar. Baja graduación (15%-20% ALC/VOL).
 
-7. **Herb Liqueur** (Licor de Hierba)
+8. **Herb Liqueur** (Licor de Hierba)
 
 **Definición:** Bebida alcohólica aromatizada con mezclas de hierbas, especias, raíces y/o flores, que puede ser destilada o infusionada. Suele tener un sabor intenso y complejo, con graduación alcohólica variable (15%-40% ALC/VOL)
 
-8. **Anise Liqueur** (Licor de Anís / Anisado)
+9. **Anise Liqueur** (Licor de Anís / Anisado)
 
 **Definición:** Licor cuyo sabor y aroma predominantes provienen del anís (semillas de Pimpinella anisum o Illicium verum). Pueden ser seco o dulce.
 
-9. **Wine** (Vino)
+10. **Wine** (Vino)
 
 **Definición:** Bebida alcohólica obtenida por fermentación de uvas (o frutas/uvas pasas en algunos casos). Se clasifica por tipo, color, cuerpo, añejamiento y origen.
 
-10. **RTD** (Listo para tomar)
+11. **RTD** (Listo para tomar)
 
 **Definición:** Bebidas alcohólicas premezcladas y listas para consumir, en formatos como latas o botellas, que no requieren preparación adicional.
 
-11. **Care Guide** (Guía de Cuidados)
+12. **Care Guide** (Guía de Cuidados)
 
 **Definición:** Documento físico o digital que describe las características y cuidados de cada bebida alcohólica: temperatura de conservación, sensibilidad a la luz, durabilidad, y observaciones del proveedor.
 
-12. **Conservation Guide** (Guia de Conservación)
+13. **Conservation Guide** (Guia de Conservación)
 
 **Definición:** Registro digital donde se documentan prácticas de cuidado aplicadas a los productos (temperatura, iluminación, limpieza del área, entre otros). Permite asegurar el cumplimiento de estándares relacionados con calidad.
 
-13. **Loss Report** (Reporte de pérdidas)
+14. **Loss Report** (Reporte de pérdidas)
 
 **Definición:** Registro que documenta las pérdidas de producto por razones como vencimiento, mal almacenamiento, daños físicos o evaporación. Ayuda a evaluar riesgos y tomar acciones correctivas.
-
-14. **Internal Referral Guide** (Guía de remisión interna)
-
-**Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
 
 15. **Internal Referral Guide** (Guía de remisión interna)
 
 **Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
 
-16. **Invoice** (Factura)
+16. **Internal Referral Guide** (Guía de remisión interna)
+
+**Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
+
+17. **Invoice** (Factura)
 
 **Definición:** Registro formal de la compra o venta de productos entre la licorería y un proveedor o cliente. Incluye fecha, tipo de producto, cantidades, condiciones de entrega y estado del pago.
 
-17. **Notification of Replenishment** (Notificación de Reposición)
+18. **Notification of Replenishment** (Notificación de Reposición)
 
 **Definición:** Notificación automática que avisa al usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
 
-18. **Expiration Alert** (Alerta de Expiración)
+19. **Expiration Alert** (Alerta de Expiración)
 
 **Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
 
-19. **Replenishment Plan** (Plan de Reabastecimiento)
+20. **Replenishment Plan** (Plan de Reabastecimiento)
 
 **Definición:** Funcionalidad que permite al usuario planificar de manera anticipada las compras de productos, en función de las proyecciones de demanda y disponibilidad de stock, de forma en que se evite desabastecimientos o sobrestock.
 
-20. **Purchase suggestion** (Sugerencia de compra)
+21. **Purchase suggestion** (Sugerencia de compra)
 
 **Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
 
-21. **Supplier Portal** (Portal de Proveedores)
+22. **Supplier Portal** (Portal de Proveedores)
 
 **Definición:** Espacio dentro de la aplicación que facilita la comunicación directa entre proveedores y dueños de licorerías. Permite enviar mensajes, cotizaciones, pedidos personalizados y recibir alertas sobre nuevos productos o cambios en precios.
 
-22. **Premium Plan** (Plan Premium)
+23. **Premium Plan** (Plan Premium)
 
 **Definición:** Modelo de pago que otorga acceso a funciones avanzadas de la aplicación, como reportes personalizados, soporte prioritario e integración con proveedores. Ideal para licorerías que buscan escalar su operación.
 
-23. **Control Panel** (Panel de Control)
+24. **Control Panel** (Panel de Control)
 
 **Definición:** Interfaz principal del usuario donde puede manipular el sistema y sus funcionalidades a su antojo. Se visualiza el inventario, las notificaciones o alertas activas, perfil y ajustes de configuración.
