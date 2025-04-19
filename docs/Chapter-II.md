@@ -131,13 +131,10 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
 
-16. **Internal Referral Guide** (Guía de remisión interna)
-
-**Definición:** Documento (físico/digital) que respalda el traslado de productos entre distintas zonas de los almacenes o sucursales. Incluye información de origen, destino, cantidades y responsable del movimiento.
-
-17. **Invoice** (Factura)
+16. **Invoice** (Factura)
 
 **Definición:** Registro formal de la compra o venta de productos entre la licorería y un proveedor o cliente. Incluye fecha, tipo de producto, cantidades, condiciones de entrega y estado del pago.
+
 
 18. **Notification of Replenishment** (Notificación de Reposición)
 
@@ -155,14 +152,10 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
 
-22. **Supplier Portal** (Portal de Proveedores)
-
-**Definición:** Espacio dentro de la aplicación que facilita la comunicación directa entre proveedores y dueños de licorerías. Permite enviar mensajes, cotizaciones, pedidos personalizados y recibir alertas sobre nuevos productos o cambios en precios.
-
-23. **Premium Plan** (Plan Premium)
+22. **Premium Plan** (Plan Premium)
 
 **Definición:** Modelo de pago que otorga acceso a funciones avanzadas de la aplicación, como reportes personalizados, soporte prioritario e integración con proveedores. Ideal para licorerías que buscan escalar su operación.
 
-24. **Control Panel** (Panel de Control)
+23. **Control Panel** (Panel de Control)
 
 **Definición:** Interfaz principal del usuario donde puede manipular el sistema y sus funcionalidades a su antojo. Se visualiza el inventario, las notificaciones o alertas activas, perfil y ajustes de configuración.
