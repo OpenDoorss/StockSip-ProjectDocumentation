@@ -135,6 +135,9 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Registro formal de la compra o venta de productos entre la licorería y un proveedor o cliente. Incluye fecha, tipo de producto, cantidades, condiciones de entrega y estado del pago.
 
+17. **Purchase Order** (Orden de compra)
+
+**Definición:** Documento formal emitido por la licorería para solicitar productos a un proveedor. Detalla la fecha, tipo de producto, cantidades, precios acordados, condiciones de entrega y formas de pago. Sirve como compromiso de compra previo a la emisión de la factura y garantiza que ambas partes estén alineadas sobre los términos de la transacción.
 
 18. **Notification of Replenishment** (Notificación de Reposición)
 
