@@ -36,20 +36,30 @@
 
 ## _4.5. Web Applications Prototyping_ ##
 
-## _4.6. Domain-Driven Software Architecture_ ##
+## _4.6. Strategic Domain-Driven Design_ ##
 
-### 4.6.1. Software Architecture Context Diagram ###
+## 4.6.1. Event Storming ##
 
-### 4.6.2. Software Architecture Container Diagrams ###
+## 4.6.2. Domain Message Flow Modeling ##
 
-### 4.6.3. Software Architecture Components Diagrams ###
+## 4.6.3. Bounded Context ##
 
-## _4.7. Software Object-Oriented Design_ ##
+## 4.6.4. Bounded Context Canvas ##
 
-### 4.7.1. Class Diagram ###
+## _4.7. Domain-Driven Software Architecture_ ##
 
-### 4.7.2. Class Dictionary ###
+### 4.7.1. Software Architecture Context Diagram ###
 
-## _4.8. Database Design_ ##
+### 4.7.2. Software Architecture Container Diagrams ###
 
-### 4.8.1. Database Diagram ###
+### 4.7.3. Software Architecture Components Diagrams ###
+
+## _4.8. Software Object-Oriented Design_ ##
+
+### 4.8.1. Class Diagram ###
+
+### 4.8.2. Class Dictionary ###
+
+## _4.9. Database Design_ ##
+
+### 4.9.1. Database Diagram ###
