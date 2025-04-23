@@ -2,6 +2,8 @@
 
 ## _5.1. Software Configuration Management_ ##
 
+### 5.1.1. Software Development Environment Configuration ###
+
 * **Project Management**
 
   En el aspecto de gestión y desarrollo del ciclo de vida del proyecto se utilizó la aplicación Discord y Google Meet para las reuniones de grupo en las cuales se conversan sobre temas relacionados a avances y corrección de aspectos del proyecto. Luego, para la documentación del proyecto, se utilizó el formato MarkDown
@@ -25,7 +27,6 @@
 
   Las pruebas del Landing Page se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
-### 5.1.1. Software Development Environment Configuration ###
 
 ### 5.1.2. Source Code Management ###
 
