@@ -139,26 +139,30 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Documento formal emitido por la licorería para solicitar productos a un proveedor. Detalla la fecha, tipo de producto, cantidades, precios acordados, condiciones de entrega y formas de pago. Sirve como compromiso de compra previo a la emisión de la factura y garantiza que ambas partes estén alineadas sobre los términos de la transacción.
 
-18. **Notification of Replenishment** (Notificación de Reposición)
+18. **Sales Order** (Orden de venta)
+
+**Definición:** Documento formal emitido por la licorería para confirmar la venta de productos a un cliente. Sirve como compromiso de venta antes de generar la factura y garantiza el acuerdo entre la licorería y el cliente.
+
+19. **Notification of Replenishment** (Notificación de Reposición)
 
 **Definición:** Notificación automática que avisa al usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
 
-19. **Expiration Alert** (Alerta de Expiración)
+20. **Expiration Alert** (Alerta de Expiración)
 
 **Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
 
-20. **Replenishment Plan** (Plan de Reabastecimiento)
+21. **Replenishment Plan** (Plan de Reabastecimiento)
 
 **Definición:** Funcionalidad que permite al usuario planificar de manera anticipada las compras de productos, en función de las proyecciones de demanda y disponibilidad de stock, de forma en que se evite desabastecimientos o sobrestock.
 
-21. **Purchase suggestion** (Sugerencia de compra)
+22. **Purchase suggestion** (Sugerencia de compra)
 
 **Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
 
-22. **Premium Plan** (Plan Premium)
+23. **Premium Plan** (Plan Premium)
 
 **Definición:** Modelo de pago que otorga acceso a funciones avanzadas de la aplicación, como reportes personalizados, soporte prioritario e integración con proveedores. Ideal para licorerías que buscan escalar su operación.
 
-23. **Control Panel** (Panel de Control)
+24. **Control Panel** (Panel de Control)
 
 **Definición:** Interfaz principal del usuario donde puede manipular el sistema y sus funcionalidades a su antojo. Se visualiza el inventario, las notificaciones o alertas activas, perfil y ajustes de configuración.
