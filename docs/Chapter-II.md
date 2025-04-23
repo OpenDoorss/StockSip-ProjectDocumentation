@@ -69,11 +69,11 @@ de cada segmento objetivo.
 
 Para desarrollar la propuesta de solución, se creará un _User Persona_ por cada segmento objetivo. Este tendrá información relacionada a una persona que pertenezca al segmento objetivo respectivo ya sea información personal, gustos, usos tecnológicos u objetivos. De esta forma, se podrá dar una idea más clara de a qué publico nos estamos acercando con la idea de solución. Además, se realiza una conclusión del análisis de cada User Persona.
 
-- Segmento objetivo 1: Dueños de licorerías
+<b> User Persona 1: Dueños de licorerías </b>
 
 <p align="center">
   <img src="../img/Chapter II/user_persona1.png" 
-  alt="user_person1"/>
+  alt="user_persona1"/>
 
   > <p align="center">User Persona del primer segmento objetivo</p>
 </p>
@@ -82,11 +82,11 @@ En esta imagen, se colocó información relacionada al primer user persona. El c
 
 <br>
 
-- Segmento objetivo 2: Proveedores de licores
+<b> User Persona 2: Proveedores de productos de licorerías </b>
 
 <p align="center">
   <img src="../img/Chapter II/user_persona2.png" 
-  alt="user_person2"/>
+  alt="user_persona2"/>
 
   > <p align="center">User Persona del segundo segmento objetivo</p>
 </p>
@@ -141,7 +141,19 @@ En esta primera imagen que se muestra a continuación, se visualiza el _journey 
 
 ### 2.3.4. Empathy Mapping ###
 
-El _Empathy Mapping_ ayuda a entender de manera más profunda a nuestro User Persona. Con esta herramienta, capturamos lo que el usuario siente, dice, piensa y hace desde la perspectiva del propio usuario. Además, nos ayuda a identificar dolores y metas qué desea cumplir que nos serán útiles para formar ideas de diseño útiles para el producto que servirá como solución.
+El _Empathy Mapping_ ayuda a entender de manera más profunda a nuestro User Persona. Con esta herramienta, capturamos lo que el usuario siente, dice, piensa y hace desde la perspectiva del propio usuario. Además, nos ayuda a identificar dolores y metas qué desea cumplir que nos serán útiles para formar ideas de diseño útiles para el producto que servirá como solución. Finalmente, cada mapa de empatía se diseñó en la aplicación UXPressia.
+
+<b> User Persona 1: Dueños de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter 2/empathy_map-up01.png" 
+  alt="empathy_map_userpersona_1"/>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+<p align="center">
+  <img src="../img/Chapter 2/empathy_map-up02.png" 
+  alt="empathy_map_userpersona_2"/>
 
 ### 2.3.5. As-Is Scenario Mapping ###
 
