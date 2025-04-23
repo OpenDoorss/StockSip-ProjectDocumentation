@@ -87,6 +87,22 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 
 ### 5.2.1.4. Development Evidence for Sprint Review ###
 
+En esta sección, se describen los principales avances de implementación realizados en este primer sprint. Se tiene como principal avance la implementación de cada sección del landing page en su primera versión.
+Cada miembro del equipo avanzó progresivamente con cada sección del landing page. Finalmente, se añadieron estilos a las secciones usando CSS.
+
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+
+| Repository                             | Branch                           | Commit Id    | Commit Message                                                                 | Commited On |
+|----------------------------------------|----------------------------------|--------------|--------------------------------------------------------------------------------|-------------|
+| OpenDoors/StockSip-LandingPage         | master                           | f35ecc2      | chore: add home section                                                        | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | master                           | df4416f      | feat(home): add home section and styles                                        | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | master                           | fead8af      | chore: add images in home section                                              | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | master                           | 85a32a0      | feat(footer): add footer section and style                                     | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | feature/benefits                 |              |                                                                                |             |
+| OpenDoors/StockSip-LandingPage         | feature/how-it-works             |              |                                                                                |             |
+| OpenDoors/StockSip-LandingPage         | feature/premium-plans            |              |                                                                                |             |
+| OpenDoors/StockSip-LandingPage         | feature/testimonials             |              |                                                                                |             |
+
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review ###
