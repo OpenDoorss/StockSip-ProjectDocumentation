@@ -26,8 +26,8 @@
 | Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Diaz Quispe, Matias Sebastian / Coronel Espinoza, Farid Sebastian |
 | <b> Sprint Goal & User Stories </b>          | --                                                     |
 | Sprint 1 Goal                                | <b> Our focus </b> is on develop and deploy the first version of the landing page <br> <b> We believe it delivers </b> a first view of what our product offers to our target segments <br> <b> This will be confirmed when </b> the target segments are visiting the site and can see and know the benefits on using our product. |
-| Sprint 1 Velocity                            | 20                                                     |
-| Sum of Story Points                          | 18                                                     |
+| Sprint 1 Velocity                            | 25                                                     |
+| Sum of Story Points                          | 24                                                     |
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
 
@@ -42,6 +42,40 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 | Diaz Quispe, Matias Sebastian      | equinox-1092    |                |                                 |            |             | L      |          |
 
 ### 5.2.1.3. Sprint Backlog 1 ###
+
+Como se mencionó previamente en el planeamiento del sprint número 1, el objetivo del mismo es el desarrollar y desplegar una primera versión del landing page del producto. Esto conlleva implementar las diversas secciones que presenta un landing page que puedan ayudar a los visitantes del sitio a conocer mejor el producto en desarrollo.
+
+Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+
+[Captura de pantalla de Trello]
+
+A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este primer sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
+
+| Sprint 1     | Sprint Backlog 1                                              |     |                                         |                                                                                                            |                    |                |            |
+|--------------|---------------------------------------------------------------|-----|-----------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------|
+| User Stories |                                                               | Work Item/Task                                |                                                                                                            |                    |                |            |
+| Id           | Title                                                         | Id  | Title                                   | Description                                                                                                | Estimation (Hours) | Assigned to    | Status     |
+| US001        | Ver propuesta de valor clara                                  | 001 | Diseñar sección inicio                  | Diseñar el encabezado con logo, menú de navegación y sección principal.                                    | 0.5                | Camila Huamani | Done       |
+|              |                                                               | 002 | Estructura principal de la página       | Crear la estructura principal de la página en HTML y los estilos iniciales en CSS.                         | 0.5                | Camila Huamani | Done       |
+|              |                                                               | 003 | Diseñar sección contacto                | Diseñar el pie de página con información de contacto y enlaces a otras secciones                           | 0.5                | Camila Huamani | Done       |
+|              |                                                               | 004 | Describir visión y misión               | Agregar espacios que detallen la misión y visión de la empresa.                                            | 0.5                | Camila Huamani | Done       |
+| US002        | Acceder a explicación detallada sobre el uso de la aplicación | 001 |                                         |                                                                                                            |                    |                | To-do      |
+| US003        | Ver beneficios para licorerías	                               | 001 | Implementar sección beneficios          | Diseñar la subsección de beneficios para dueños de licorerías agregando tarjetas con listas de beneficios. | 1                  | Farid Coronel  | To-do      |
+|              |                                                               | 002 | Agregar íconos e imágenes               | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | To-do      |
+|              |                                                               | 003 | Añadir estilos                          | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | To-do      |
+| US004        | Ver beneficios para proveedores                               | 001 | Implementar sección beneficios          | Diseñar la subsección de beneficios para proveedores agregando tarjetas con listas de beneficios.          | 1                  | Farid Coronel  | To-do      |
+|              |                                                               | 002 | Agregar íconos e imágenes               | Añadir imágenes referenciales al segmento objetivo al que son dirigidos los beneficios.                    | 0.5                | Farid Coronel  | To-do      |
+|              |                                                               | 003 | Añadir estilos                          | Añadir estilos usando CSS a la subsección para dar detalles visualmente agradables.                        | 0.5                | Farid Coronel  | To-do      |
+| US005        | Explorar la aplicación como visitante		                     | 001 |                                         |                                                                                                            |                    |                | To-do      |
+| US006        | Leer testimonios de clientes		                               | 001 |                                         |                                                                                                            |                    |                | To-do      |
+| US007        | Comparar planes gratis y premium	                             | 001 | Añadir sección de planes                | Diseñar la sección de planes con tarjetas que detallen las características de cada plan.                   | 0.5                | Matias Diaz    | To-do      |
+|              |                                                               | 002 | Añadir información para ambos segmentos | Añadir texto diferenciando funcionalidades que incluye el plan para cada segmento objetivo.                | 0.6                | Matias Diaz    | To-do      |
+|              |                                                               | 003 | Agregar texto comparativo               | Añadir texto en las tarjetas que pueda ser utilizado para saber qué contiene el plan premium.              | 0.6                | Matias Diaz    | To-do      |
+|              |                                                               | 004 | Añadir íconos                           | Añadir íconos relacionados a lo que ofrece cada plan para cada segmento objetivo.                          | 0.6                | Matias Diaz    | To-do      |  
+|              |                                                               | 005 | Añadir estilos                          | Estilizar la sección usando CSS.                                                                           | 0.5                | Matias Diaz    | To-do      |
+| US008        | Conocer el precio y condiciones	                             | 001 | Añadir espacio para precios             | En la sección de planes, agregar un recuadro que indique el precio para cada plan                          | 0.3                | Matias Diaz    | To-do      |
+|              |                                                               | 002 | Añadir estilos                          | Estilizar los recuadros para precios usando CSS.                                                           | 0.3                | Matias Diaz    | To-do      |
+
 
 ### 5.2.1.4. Development Evidence for Sprint Review ###
 
