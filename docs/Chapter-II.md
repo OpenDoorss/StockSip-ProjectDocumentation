@@ -123,6 +123,22 @@ Finalmente, no se logra apreciar grandes diferencias entre ambos User Persona, e
 
 El _User Journey Mapping_ muestra paso a paso qué actividades realiza un usuario para cumplir un objetivo. Gracias a este mapa de viaje, podemos entender mejor al usuario, ya que, al describir este proceso nos ponemos en los zapatos del usuario e identificamos cómo se siente, qué hace y qué obstáculos se le presenta al momento de querer cumplir un objetivo.
 
+<b> User Persona 1: Dueños de licorerías </b>
+
+En esta primera imagen que se muestra a continuación, se visualiza el _journey map_ del primer user persona. En esta misma, se desea detallar el proceso por el que pasa este user persona al darse cuenta que sus productos están escaseando y necesita reponerlos. Para ello, acude a su aplicación de software para anotar los productos que le faltan y, finalmente, para actualizar manualmente el stock.
+
+<p align="center">
+  <img src="../img/Chapter 2/journey_map-up01.png" 
+  alt="journey_mapping_userpersona_1"/>
+
+<b> User Persona 2: Proveedores de productos de licorerías </b>
+
+En esta primera imagen que se muestra a continuación, se visualiza el _journey map_ del segundo user persona. En esta misma, se desea detallar el proceso por el que pasa este user persona al coordinar y realizar viajes para cerrar nuevas relaciones comerciales con nuevos clientes y, el proceso de recibir llamadas de pedidos y coordinar la entrega de los mismos.
+
+<p align="center">
+  <img src="../img/Chapter 2/journey_map-up02.png" 
+  alt="journey_mapping_userpersona_2"/>
+
 ### 2.3.4. Empathy Mapping ###
 
 El _Empathy Mapping_ ayuda a entender de manera más profunda a nuestro User Persona. Con esta herramienta, capturamos lo que el usuario siente, dice, piensa y hace desde la perspectiva del propio usuario. Además, nos ayuda a identificar dolores y metas qué desea cumplir que nos serán útiles para formar ideas de diseño útiles para el producto que servirá como solución.
