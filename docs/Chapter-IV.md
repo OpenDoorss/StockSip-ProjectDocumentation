@@ -270,7 +270,7 @@ En la aplicación web, se implementa una barra lateral fija con íconos**, la cu
 Cada sección está representada con un ícono claro y una etiqueta visible al pasar el cursor o expandir el menú, asegurando una navegación fluida.
 
 <p align="center">
-  <img src="https://i.imgur.com/aZvGJEz.png">
+  <img src="https://i.imgur.com/NRXVoUd.png">
 
   > <p align="center">Barra de navegación desplegable</p>
 
