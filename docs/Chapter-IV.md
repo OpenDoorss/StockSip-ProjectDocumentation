@@ -104,6 +104,7 @@ Sistema jerárquico accesible desde un menú lateral con iconografía clara. Inc
 - Visualización de demanda por producto y licorería.
 
 - Herramientas de seguimiento y emisión de guías y facturas desde la plataforma.
+<br>
 
 ### 4.2.2. Labeling Systems ###
 
@@ -142,6 +143,7 @@ El sistema de etiquetado de "StockSip" ha sido diseñado para ser claro, directo
 - **Configuración**: Sección para ajustar preferencias del sistema, notificaciones y datos de la cuenta.
 
 - **Perfil Usuario**: Acceso a los datos personales del usuario, con opción para editar información o cerrar sesión.
+<br>
 
 ### 4.2.3. SEO Tags and Meta Tags ###
 
@@ -193,7 +195,7 @@ En esta lista se incluyen palabras clave enfocadas en la experiencia dentro del 
 
 Agrega también el año del lanzamiento del producto para reforzar la actualidad del sistema y su vigencia.
 <br>
-
+<br>
 ### 4.2.4. Searching Systems ###
 
 Dentro de la sección Inventario, el sistema de búsqueda está integrado de forma simple pero efectiva para que el usuario pueda localizar productos rápidamente. Se utiliza un campo de búsqueda principal centrado en la parte superior de la tabla, acompañado de botones de acción. Este campo permite buscar por nombre de producto o tipo (por ejemplo: “Whiskey”, “Vino”).
@@ -204,6 +206,38 @@ Dentro de la sección Inventario, el sistema de búsqueda está integrado de for
 
   > <p align="center">Búsqueda en el inventario</p>
 
+
+**Filtros de Búsqueda**
+
+Al realizar una búsqueda, los usuarios pueden refinar los resultados mediante una variedad de criterios clave que les permiten adaptar la visualización a sus necesidades específicas:
+
+
+- **Categoría:** Posibilidad de filtrar por tipo de licor o bebida, tales como destilados, vinos, cervezas, espumantes, etc.
+- **Disponibilidad por zona:** Permite verificar si un producto está disponible en alguna zona creada por el usuario.
+
+**Resultados de Búsqueda**
+
+Los resultados se presentan en un formato visual tipo tabla, diseñado para proporcionar información clave de forma rápida. Cada fila en la tabla incluye:
+
+- Nombre del producto
+- Tipo
+- Precio
+- Fecha de caducidad
+- Stock actual
+- Stock mínimo
+
+Se implementa una codificación por colores para facilitar la interpretación visual de las tendencias:
+
+- **Verde:** Indica un stock aceptable
+- **Rojo:** Indica un riesgo en el stock
+
+**Búsqueda Avanzada (Proveedores)**
+
+StockSip incluye una función de búsqueda avanzada especialmente diseñada para proveedores de licores:
+
+- **Guías de conservación por tipo de producto:** Acceso exclusivo a documentos y recomendaciones técnicas que detallan las mejores prácticas para la conservación de diferentes tipos de licores (temperatura, humedad, tiempo de almacenamiento recomendado, etc.).
+- **Planes de reabastecimiento:** Herramienta que permite proyectar necesidades de reposición de stock basándose en históricos de venta, frecuencia y patrones de consumo.
+<br>
 
 ### 4.2.5. Navigation Systems ###
 
