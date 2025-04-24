@@ -119,7 +119,7 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 
 ### 1.2.2.2. Lean UX Assumptions ###
 
-##### 1.2.2.2.1 Business Assumptions
+##### 1.2.2.2.1 Business Assumptions ####
 
 - Existe un mercado no atendido de licorerías pequeñas y medianas que requieren soluciones tecnológicas para el control de inventario.
 
@@ -131,7 +131,7 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 
 - Existe poca competencia directa enfocada exclusivamente en licorerías.
 
-##### 1.2.2.2.2 Business Outcomes
+##### 1.2.2.2.2 Business Outcomes #####
 
 - Generar oportunidades de monetización, ya sea por suscripción mensual o alianzas con proveedores.
 
@@ -139,7 +139,7 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
     
 - Obtener métricas clave que puedan utilizarse para atraer inversores o fondos.
 
-##### 1.2.2.2.3 User Assumptions
+##### 1.2.2.2.3 User Assumptions #####
 
 - Los dueños de licorerías no utilizan actualmente herramientas especializadas, sino métodos manuales (libretas, hojas de cálculo).
 
@@ -151,7 +151,7 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
     
 - Valoran el control visual del inventario para tomar decisiones diarias.
 
-##### 1.2.2.2.4 User Outcomes
+##### 1.2.2.2.4 User Outcomes #####
 
 - Los usuarios reportan una mayor organización de su inventario y menos errores de reposición.
 
@@ -162,6 +162,28 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 - Recomiendan la herramienta a otros colegas del rubro.
     
 - Disminuyen su dependencia de hojas de cálculo manuales.
+
+##### 1.2.2.2.5 Features #####
+
+Features para el Segmento Objetivo 1: Dueños de licorerías pequeñas y medianas
+- Gestion de inventario.
+  
+- Visualizacion de informacion precisa sobre el cuidado y almacenamiento de los productos de licoreria
+  
+- Alertas en tiempo real sobre fecha de vencimiento cercana de productos de licoreria
+  
+- Categorizacion de productos.
+  
+- Alertas cuando se necesita reponer productos
+
+Features para el Segmento Objetivo 2: Proveedores de productos de licorería
+
+- Publicacion de informacion de cuidado de los productos que van a solicitor los duenos de las licorerias.
+  
+- Gestion de inventario y transporte de productos.
+  
+- Apartado de contacto entre el proveedor y sus clientes.
+  
   
 ### 1.2.2.3. Lean UX Hypothesis Statements ###
 
