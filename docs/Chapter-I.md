@@ -151,18 +151,6 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
     
 - Valoran el control visual del inventario para tomar decisiones diarias.
 
-##### 1.2.2.2.4 User Outcomes #####
-
-- Los usuarios reportan una mayor organización de su inventario y menos errores de reposición.
-
-- Los dueños disminuyen las pérdidas por productos vencidos o mal almacenados.
-
-- Empiezan a ver la tecnología como una aliada accesible.
-    
-- Recomiendan la herramienta a otros colegas del rubro.
-    
-- Disminuyen su dependencia de hojas de cálculo manuales.
-
 ##### 1.2.2.2.5 Features #####
 
 Features para el Segmento Objetivo 1: Dueños de licorerías pequeñas y medianas
@@ -183,7 +171,18 @@ Features para el Segmento Objetivo 2: Proveedores de productos de licorería
 - Gestion de inventario y transporte de productos.
   
 - Apartado de contacto entre el proveedor y sus clientes.
-  
+
+##### 1.2.2.2.4 User Outcomes #####
+
+- Los usuarios reportan una mayor organización de su inventario y menos errores de reposición.
+
+- Los dueños disminuyen las pérdidas por productos vencidos o mal almacenados.
+
+- Empiezan a ver la tecnología como una aliada accesible.
+    
+- Recomiendan la herramienta a otros colegas del rubro.
+    
+- Disminuyen su dependencia de hojas de cálculo manuales.
   
 ### 1.2.2.3. Lean UX Hypothesis Statements ###
 
