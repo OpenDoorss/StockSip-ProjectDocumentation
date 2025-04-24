@@ -14,7 +14,7 @@ En esta sección, se muestra la tabla del Product Backlog priorizado del product
 Fibonacci (1, 2, 3, 5, 8). Se decidió utilizar **Trello** para la creación del product backlog. La tabla inicia con las historias de usuario más importantes, mientras que las de mnenor importancia se muestran en las últimas filas de dicha tabla.
 
 Luego, se adjunta una imagen del product backlog diseñado originalmente en Trello y el enlace para acceder al mismo:
-[Link de acceso al Product Backlog en Trello](https://trello.com/invite/b/68056270c5fb6e216b7ba3ca/ATTI391b8730c967a8443a404ab3af445dbe6A6DFF65/stocksip-product-backlog)
+[Link de acceso al Product Backlog en Trello](https://trello.com/invite/b/6809aafd2445aeca880920a5/ATTI1da3855816926ef7daf1466b1490408878ACF3F2/stocksip-product-backlog)
 
 | Orden | US ID | Título                                                   | Descripción                                                                                                                                                                                                                            | Story Points |
 |-------|-------|----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
