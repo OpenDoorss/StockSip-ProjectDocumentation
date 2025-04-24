@@ -47,7 +47,9 @@ Como se mencionó previamente en el planeamiento del sprint número 1, el objeti
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
 
-[Captura de pantalla de Trello]
+<p align="center">
+  <img src="../img/Chapter V/sprint_backlog.png" 
+  alt="sprint_backlog_1"/>
 
 A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este primer sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
 
