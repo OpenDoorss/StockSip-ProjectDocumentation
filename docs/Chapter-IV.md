@@ -54,10 +54,15 @@ Es una metodología que organiza y estructura el software en base a los dominios
 
 Un diagrama de contexto es una representación visual que muestra cómo un sistema interactúa con otros sistemas y actores externos. En el caso de StockSip, el diagrama de contexto ilustra las interacciones entre la aplicación y los usuarios, así como otros sistemas relevantes.
 
-![StockSip Context Diagram](../img/Chapter%20IV/context-diagram.png)
+![StockSip Context Diagram](../img/Chapter%20IV/Software-Architecture/context-diagram.png)
 > <p align="center">StockSip Context Diagram</p>
 
 ### 4.7.2. Software Architecture Container Diagrams ###
+
+Un diagrama de contenedores es una representación visual que muestra los diferentes contenedores (aplicaciones, bases de datos, servicios, etc.) que componen un sistema y cómo interactúan entre sí. En el caso de StockSip, el diagrama de contenedores ilustra la arquitectura general del sistema, incluyendo la aplicación web, la base de datos y otros componentes relevantes.
+
+![StockSip Container Diagram](../img/Chapter%20IV/Software-Architecture/container-diagram.png)
+> <p align="center">StockSip Container Diagram</p>
 
 ### 4.7.3. Software Architecture Components Diagrams ###
 
