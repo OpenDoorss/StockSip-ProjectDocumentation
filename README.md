@@ -35,7 +35,7 @@
 
 # Contenido
 
-1. [Capítulo I: Introducción](docs/Chapter-I.md)
+1. [Capítulo I: Introducción](docs/Chapter-I.md/#capítulo-1-introducción-)
   - [1.1 Startup Profile](docs/Chapter-I.md#11-startup-profile)
     - [1.1.1 Descripción de la Startup](docs/Chapter-I.md#111-descripción-del-startup)
     - [1.1.2 Perfiles de Integrantes del equipo](docs/Chapter-I.md#112-perfiles-de-integrantes-del-equipo)
@@ -48,7 +48,7 @@
       - [1.2.2.4 Lean UX Canvas](docs/Chapter-I.md#1224-lean-ux-canvas)
   - [1.3 Segmentos Objetivo](docs/Chapter-I.md#13-segmentos-objetivo)
 
-2. [Capítulo II: Requirements Elicitation & Analysis](docs/Chapter-II.md)
+2. [Capítulo II: Requirements Elicitation & Analysis](docs/Chapter-II.md/#capítulo-2-requirements-elicitation--analysis-)
   - [2.1. Competidores](docs/Chapter-II.md#21-competidores)
     - [2.1.1. Análisis competitivo](docs/Chapter-II.md#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](docs/Chapter-II.md#212-estrategias-y-tácticas-frente-a-competidores)
@@ -63,3 +63,9 @@
     - [2.3.4. Empathy Mapping](docs/Chapter-II.md#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](docs/Chapter-II.md#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](docs/Chapter-II.md#24-ubiquitous-language)
+
+3. [Capitulo III: Requirements Specification](docs/Chapter-III.md/#capítulo-3-requirements-specification-)
+    - [3.1 To-Be Scenario Mapping](docs/Chapter-III.md/#_31-to-be-scenario-mapping_-)
+    - [3.2 User Stories](docs/Chapter-III.md/#_32-user-stories_-)
+    - [3.3 Impact Mapping](docs/Chapter-III.md/#_33-impact-mapping_-)
+    - [3.4 Product Backlog](docs/Chapter-III.md/#_34-product-backlog_-)
