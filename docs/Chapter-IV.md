@@ -21,6 +21,11 @@
 ## _4.3. Landing Page UI Design_ ##
 
 ### 4.3.1. Landing Page Wireframe ###
+Wireframes del Landing Page en Web Browser:
+
+<p align="center">
+  <img src="https://i.imgur.com/iwIbHR9.png"/>
+</p>
 
 ### 4.3.2. Landing Page Mock-up ###
 
