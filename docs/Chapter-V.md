@@ -37,7 +37,7 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 |------------------------------------|-----------------|----------------|---------------------------------|------------|-------------|--------|----------|
 | Huamani Cruz, Camila Victoria      | victiila06      | L              |                                 |            |             |        | L        |
 | Gonzales Castillo, Angel Martin    | XdiabloX426     |                | L                               |            |             |        |          |
-| Coronel Espinoza, Farid Sebastian  | Far14h          |                |                                 | L          |             |        |          |
+| Coronel Espinoza, Farid Sebastian  | Far14z          |                |                                 | L          |             |        |          |
 | Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                |                                 |            | L           |        |          |
 | Diaz Quispe, Matias Sebastian      | equinox-1092    |                |                                 |            |             | L      |          |
 
@@ -94,16 +94,17 @@ Cada miembro del equipo avanzó progresivamente con cada sección del landing pa
 
 A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
 
-| Repository                             | Branch                           | Commit Id    | Commit Message                                                                 | Commited On |
-|----------------------------------------|----------------------------------|--------------|--------------------------------------------------------------------------------|-------------|
-| OpenDoors/StockSip-LandingPage         | master                           | f35ecc2      | chore: add home section                                                        | 23/04/2025  |
-| OpenDoors/StockSip-LandingPage         | master                           | df4416f      | feat(home): add home section and styles                                        | 23/04/2025  |
-| OpenDoors/StockSip-LandingPage         | master                           | fead8af      | chore: add images in home section                                              | 23/04/2025  |
-| OpenDoors/StockSip-LandingPage         | master                           | 85a32a0      | feat(footer): add footer section and style                                     | 23/04/2025  |
-| OpenDoors/StockSip-LandingPage         | feature/benefits                 |              |                                                                                |             |
-| OpenDoors/StockSip-LandingPage         | feature/how-it-works             |              |                                                                                |             |
-| OpenDoors/StockSip-LandingPage         | feature/premium-plans            |              |                                                                                |             |
-| OpenDoors/StockSip-LandingPage         | feature/testimonials             |              |                                                                                |             |
+| Repository                             | Branch                           | Commit Id | Commit Message                             | Commited On |
+|----------------------------------------|----------------------------------|-----------|--------------------------------------------|-------------|
+| OpenDoors/StockSip-LandingPage         | master                           | f35ecc2   | chore: add home section                    | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | master                           | df4416f   | feat(home): add home section and styles    | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | master                           | fead8af   | chore: add images in home section          | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | master                           | 85a32a0   | feat(footer): add footer section and style | 23/04/2025  |
+| OpenDoors/StockSip-LandingPage         | feature/benefits                 | 1985575   | feat(benefits): add benefits section       | 25/04/2025  |
+| OpenDoors/StockSip-LandingPage         | feature/benefits                 | 4ac613f   | feat(benefits): add css styles             | 25/04/2025  |
+| OpenDoors/StockSip-LandingPage         | feature/how-it-works             |           |                                            |             |
+| OpenDoors/StockSip-LandingPage         | feature/premium-plans            |           |                                            |             |
+| OpenDoors/StockSip-LandingPage         | feature/testimonials             |           |                                            |             |
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
 
