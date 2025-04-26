@@ -87,7 +87,6 @@ En esta sección, se detallará el diccionario de las principales clases que se 
 - **Inventory:** Es la clase principal de la aplicación. Contiene productos y el stock de cada uno. Además, genera alertas dependiendo del estado actual del almacén. Posee métodos para actualizar el stock de productos y actualizar el almacén en general (eliminar, agregar productos).
 - **Zone:** Es una clase que contiene información sobre la zona en la que se encuentra el almacén. Por ejemplo: La zona de muestra de productos, el almacén general de productos, entre otros.
 - **Product:** Es una clase que contiene todo el detalle de los productos tanto del proveedor como del dueño de licorería. Posee métodos para actualizar la información del producto, para colocar un stock mínimo que, si el número de stock es más bajo que el colocado, podrá generar notificaciones sobre bajo stock al usuario.
-- **ProductType:** Es un _value object_ que contiene el tipo de producto que posee tanto proveedor como dueño de licorería. Ejemplo: cerveza, vino, vodka, etc.
 - **ProductInfo:** Es un _value object_ que contiene la información más importante del producto como el nombre, cantidad de líquido, precio unitario y fecha de vencimiento.
 - **Provider:** Es una clase que contiene información sobre un proveedor de productos.
 - **Alert:** Es una clase que se usa para estructurar un mensaje de alerta o notificación que recibirá el usuario.
