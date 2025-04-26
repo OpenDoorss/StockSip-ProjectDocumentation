@@ -58,6 +58,13 @@
 
 ### 4.8.1. Class Diagram ###
 
+A continuación, se adjunta el link de acceso a la vista del diagrama de clases diseñado en LucidChart:
+[Link de acceso al Diagrama de Clases en LucidChart](https://lucid.app/lucidchart/f96ef385-17d9-4c55-b002-b959d622d9d3/edit?viewport_loc=3318%2C172%2C3216%2C1202%2CHWEp-vi-RSFO&invitationId=inv_95b21289-cf5f-45a7-85fe-9164e3f49e26)
+
+<p align="center">
+  <img src="../img/Chapter IV/class_diagram.png" 
+  alt="class_diagram"/>
+
 ### 4.8.2. Class Dictionary ###
 
 ## _4.9. Database Design_ ##
