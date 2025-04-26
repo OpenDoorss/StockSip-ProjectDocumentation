@@ -44,6 +44,8 @@ Para identificar nuestros Bounded Context, es necesario realizar un análisis es
 
 Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
 
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: [Enlace para ir al Strategic Domain-Driven Design en Miro](https://miro.com/welcomeonboard/UHppZTZxeVVXc09jaEVlbi91T3R3eWRDdUU4MFhmSGJQM2hXcHdoNm44Z3Y2T05tRU1kR2hNR0c0MkxyWVUwa3JPalFia0lDZXphSnpPaWV0Q0hpRnFySDQ2TVh4NFZwcm1iMVFZN2JLSk9HN1FyZ21MN0pKbDA4dEIvUURuNFl3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=497635945416)
+
 1. Bounded Context **Inventory**
 
 ![inventoryBC-event-storming](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Event-Storming/inventoryBC-event-storming.png)
@@ -62,7 +64,7 @@ Para identificar los eventos de dominio, es recomendable realizar una sesión de
 
 5. Bounded Context **Reporting**
 
-![reportingBc-event-storming](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Event-Storming/reportingBC-event-storming.png)
+![reportingBc-event-storming](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Event-Storming/reporting-event-storming.png)
 
 6. Bounded Context **Notification**
 
@@ -83,6 +85,22 @@ El modelado del flujo de mensajes de dominio es una técnica que permite visuali
 3. **Escenario**: Registrar una nueva cuenta
 
 ![scenario-register-account](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario3.png)
+
+4. **Escenario**: Ver almacén digital
+
+![scenario-view-warehouse](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario4.png)
+
+5. **Escenario**: Añadir un producto nuevo en el almacén digital
+
+![scenario-add-product](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario5.png)
+
+6. **Escenario**: Actualizar un estado de pedido
+
+![scenario-update-state-order](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario6.png)
+
+7. **Escenario***: Crear guía de conservación
+
+![scenario-create-careguide](../img/Chapter%20IV/Strategic-Domain-Driven-Design/Domain-Message-Flow-Modelling/scenario7.png)
 
 ## 4.6.3. Bounded Context ##
 
