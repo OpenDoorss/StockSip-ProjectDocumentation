@@ -27,6 +27,39 @@
 ## _4.4. Web Applications UX/UI Design_ ##
 
 ### 4.4.1. Web Applications Wireframes ###
+En esta sección se presentarán los wireframes de la aplicación, los cuales son bosquejos de baja fidelidad sobre las funcionalidades principales de nuestra solución. Finalmente, se dividieron estos wireframes en trece secciones.
+
+### Seccion inicio de seccion/registro ####
+En esta seccion el usuario podra crear su cuenta e iniciar seccion con la cuenta anteriormente creada. Podra elegir entre el rol de dueño de licoreria y proveedor. Tambien podra recuperar su contraseña mediante un codigo de confirmacion, el codigo le llegara a su correo que registro al crear su cuenta.
+
+<p align="center">
+  <img src="https://i.imgur.com/Avjk8pL.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/nDzzNXF.png"/>
+</p>
+
+### Perfil ###
+En esta seccion se presentan los perfiles de los dos tipos de usuarios. En el los usuarios podran cambiar sus datos personales, caracteristicas y podra cambiar el tipo de plan entre Plan Free y Plan Premium
+
+<p align="center">
+  <img src="https://i.imgur.com/MQm7fZw.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/QiuEB6B.png"/>
+</p>
+
+### DashBoard ###
+En esta seccion los dos tipos de usuarios podran ver su dashboard, este contiene un resumen general, alertas y accesos rapidos para las herramientas de la aplicacion.
+<p align="center">
+  <img src="https://i.imgur.com/aMI2gZi.png"/>
+</p>
+
+### Facturacion ###
+En esta seccion el usuario podra ver las facturas que realizo, asi mismo, tambien puede crear comprobante cuando este por realizar una venta.
+<p align="center">
+  <img src="https://i.imgur.com/rV3e8Tw.png"/>
+</p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams ###
 
