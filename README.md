@@ -52,6 +52,7 @@
 | 1.0     | 26-04-2025 | Nicolás Juarez | Se añadio la sección de Wireflow Diagrams en el capítulo 4.                                   |
 | 1.0     | 26-04-2025 | Camila Huamani | Se añadio la sección de Web Applications Mockups en el capítulo 4.                            |
 | 1.0     | 26-04-2025 | Nicolás Juarez | Se añadio la sección de Userflow Diagrams en el capítulo 4.                                   |
+| 1.0     | 22-04-2025 | Matias Diaz    | Se añadio la sección de Web Applications Prototyping para el capítulo 4.                                      |
 | 1.0     | 26-04-2025 | Farid Coronel  | Se añadio la sección de Strategic Domain-Driven Design en el capítulo 4.                      |
 | 1.0     | 26-04-2025 | Farid Coronel  | Se añadio la sección de Domain-Driven Software Architecture en el capítulo 4.                 |
 | 1.0     | 24-04-2025 | Nicolás Juarez | Se añadio la sección de Class Diagram en el capítulo 4.                                       |
