@@ -157,6 +157,7 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 
   > <p align="center">Lean Ux Canvas</p>
 </p>
+
 ## _1.3. Segmentos objetivo_ ##
 
 A continuación, se determinan los segmentos objetivos a los que va dirigida la propuesta de solución **StockSip** para la gestión de inventarios y productos en licorerías.
