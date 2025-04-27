@@ -153,7 +153,7 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 
 ### 1.2.2.4. Lean UX Canvas ###
 <p align="center">
-  <img src="../img/lean_ux_canvas.jpg" alt="lean_ux_canvas"/>
+  <img src="../img/Chapter I/lean_ux_canvas.jpg" alt="lean_ux_canvas"/>
 
   > <p align="center">Lean Ux Canvas</p>
 </p>
