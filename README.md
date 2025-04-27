@@ -30,7 +30,7 @@
 | 1.0     | 11-04-2025 | Camila Huamani | Se añadio la sección de Lean UX Problem Statements para el capítulo 1.                        |
 | 1.0     | 11-04-2025 |                | Se añadio la sección de Lean UX Assumptions para el capítulo 1.                               |
 | 1.0     | 11-04-2025 | Camila Huamani | Se añadio la sección de Lean UX Hypotheses para el capítulo 1.                                |
-| 1.0     | 12-04-2025 |                | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                    |
+| 1.0     | 12-04-2025 | Matias Diaz    | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                    |
 | 1.0     | 12-04-2025 | Camila Huamani | Se añadio la sección de Target Segments para el capítulo 1.                                   |
 | 1.0     | 14-04-2025 |                | Se añadio la sección de Competidores para el capítulo 2.                                      |
 | 1.0     | 14-04-2025 | Camila Huamani | Se añadio la sección de Diseño de Entrevistas para el capítulo 2.                             |
@@ -39,6 +39,7 @@
 | 1.0     | 18-04-2025 | Camila Huamani | Se añadio la sección de User Personas para el capítulo 2.                                     |
 | 1.0     | 22-04-2025 | Nicolás Juarez | Se añadio la sección de Needfinding para el capítulo 2.                                       |
 | 1.0     | 22-04-2025 | Farid Coronel  | Se añadio la sección de Ubiquitous Language para el capítulo 2.                               |
+| 1.0     | 22-04-2025 | Matias Diaz    | Se añadio la sección de competidores para el capítulo 2.                                      |
 | 1.0     | 22-04-2025 | Nicolás Juarez | Se añadio la sección de To-Be Scenario Mapping para el capítulo 3.                            |
 | 1.0     | 22-04-2025 | Camila Huamani | Se añadio la sección de User Stories para el capítulo 3.                                      |
 | 1.1     | 24-04-2025 | Nicolás Juarez | Se modificó la sección de User Stories para el capítulo 3 agregando más historias de usuario. |
