@@ -1105,3 +1105,4 @@ A continuación, se adjunta el link de acceso a la vista del diagrama de base de
 <p align="center">
   <img src="../img/Chapter IV/database_diagram.png" 
   alt="database_diagram"/>
+
