@@ -32,7 +32,7 @@
 | 1.0     | 11-04-2025 | Camila Huamani | Se añadio la sección de Lean UX Hypotheses para el capítulo 1.                                |
 | 1.0     | 12-04-2025 | Matias Diaz    | Se añadio la sección de Lean UX Canvas para el capítulo 1.                                    |
 | 1.0     | 12-04-2025 | Camila Huamani | Se añadio la sección de Target Segments para el capítulo 1.                                   |
-| 1.0     | 14-04-2025 | Martin Gonzales | Se añadio la sección de Competidores para el capítulo 2.                                      |
+| 1.0     | 14-04-2025 | Matias Diaz    | Se añadio la sección de Competidores para el capítulo 2.                                      |
 | 1.0     | 14-04-2025 | Camila Huamani | Se añadio la sección de Diseño de Entrevistas para el capítulo 2.                             |
 | 1.0     | 16-04-2025 | Martin Gonzales | Se añadio la sección de Registro de Entrevistas para el capítulo 2.                           |
 | 1.0     | 17-04-2025 | Martin Gonzales | Se añadio la sección de Análisis de Entrevistas para el capítulo 2.                           |
