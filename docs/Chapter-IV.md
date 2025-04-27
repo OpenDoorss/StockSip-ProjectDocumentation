@@ -874,7 +874,12 @@ En esta sección se presentarán los mockups de la aplicación web, los cuales s
 ### 4.4.4. Web Applications Userflow Diagrams ###
 
 ## _4.5. Web Applications Prototyping_ ##
+El prototipado de la web es esencial porque permite visualizar y probar el diseño y la funcionalidad de una aplicación antes de su desarrollo completo. Este proceso es clave para detectar posibles problemas de usabilidad y asegurar que el producto final cumpla con las expectativas de los usuarios y client
 
+![prototype](/img/Chapter%20IV/prototype-cover.png)
+
+Enlace del video: 
+[Prototype OpenDoors](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311938_upc_edu_pe/EcgyARqELXhKqFAmlQBQBHcBznsrMC2SCkotEsGUi1luYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LYTDaV)
 ## _4.6. Strategic Domain-Driven Design_ ##
 
 ## 4.6.1. Event Storming ##
