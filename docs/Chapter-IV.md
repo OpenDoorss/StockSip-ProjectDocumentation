@@ -130,6 +130,18 @@ En esta sección, el usuario podrá visualizar el catálogo del proveedor y real
   <img src="https://i.imgur.com/jFjoH7u.png"/>
 </p>
 
+### Inventario ###
+En esta sección, el usuario podrá gestionar su inventario utilizando diversas herramientas: agregar, editar y eliminar productos, registrar la salida de productos indicando el tipo de salida, y visualizar un resumen general del estado de todo su inventario, facilitando así un control más eficiente y organizado.
+<p align="center">
+  <img src="https://i.imgur.com/dlDrYu0.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/IRfisL1.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/IpSYiFz.png"/>
+</p>
+
 ### 4.4.2. Web Applications Wireflow Diagrams ###
 
 ### 4.4.3. Web Applications Mock-ups ###
