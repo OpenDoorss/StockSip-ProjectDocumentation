@@ -115,9 +115,51 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
+El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la creacion del landing page.
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review ###
+<p align="center">
+  <img src="https://i.imgur.com/RM5QuV9.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/l6XxVmI.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/Rdp57BN.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/FsUQGMa.png"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/wR7L77j.png"/>
+</p>
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review ###
+La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
+* Primero se creo un repositorio para alojar el codigo del landing page
+* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
+<p align="center">
+  <img src="https://i.imgur.com/WLeViFN.png"/>
+</p>
+
+* Tercero, se realizo el merge a develop para corregir errores
+* Cuarto, cuando se corrigieron los errores, se realizo merge al master
+* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
+<p align="center">
+  <img src="https://i.imgur.com/RM5QuV9.png"/>
+</p>
 
 ### 5.2.1.8. Team Collaboration Insights durint Sprint ###
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+<p align="center">
+  <img src="https://i.imgur.com/7mo7SJU.png"/>
+</p>
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="https://i.imgur.com/xaO8mjo.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo:
+<p align="center">
+  <img src="https://i.imgur.com/vBY3Ne2.png"/>
+</p>
