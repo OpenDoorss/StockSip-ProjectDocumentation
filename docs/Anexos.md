@@ -19,3 +19,6 @@ https://www.figma.com/design/AdvG5jOWOUAEfgunORKgtN/StockSip---OPEN-SOURCE?node-
 
 **Wireflow Diagrams** <br>
 https://lucid.app/lucidchart/e1a6f3fc-3016-4144-9166-eded08cff0ae/edit?viewport_loc=1321%2C-565%2C5985%2C2672%2C0_0&invitationId=inv_c5aa6e0c-6ff1-4d79-ab96-df365030897c
+
+**Video Exposicion**<br>
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319724_upc_edu_pe/EW7zrNXkozhMpLg3ElmyxaQBxt99KOEBE4FzmqY79AjfUQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=kZwVvK
