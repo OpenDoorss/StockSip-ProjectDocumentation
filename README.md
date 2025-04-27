@@ -30,5 +30,5 @@
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 | -- | -- | -- |
-| 3.c1 Comunica de manera oral con efectividad a diferentes rangos de audiencia | | |
-| 3.c2 Comunica por escrito con efectividad rangos de audiencia
+| 3.c1 Comunica de manera oral con efectividad a diferentes rangos de audiencia | Camila Victoria, Huamani Cruz<br>TB1:  <br>Nicolas Emilio Walter, Juarez Leon<br>TB1: <br>Angel Martin, Gonzales Castillo<br>TB1:  <br>Farid Sebastian, Coronel Espinoza<br>TB1:  <br>Matias Sebastian, Diaz Quispe<br>TB1:  | |
+| 3.c2 Comunica por escrito con efectividad rangos de audiencia | Camila Victoria, Huamani Cruz<br>TB1:  <br>Nicolas Emilio Walter, Juarez Leon<br>TB1: <br>Angel Martin. Gonzales Castillo<br>TB1:  <br>Farid Sebastian, Coronel Espinoza<br>TB1: <br>Matias Sebastian, Diaz Quispe<br>TB1:   | |
