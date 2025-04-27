@@ -59,6 +59,22 @@
 | 1.0     | 26-04-2025 | Martin Gonzales | Se añadio la sección de Software Configuration Management en el capítulo 5.                   |
 | 1.0     | 26-04-2025 | Nicolás Juarez | Se añadio la sección de Sprint 1 en el capítulo 5.                                            |
 
+# Project Report Collaboration Insights
+
+Repositorio del **Project Report**: https://github.com/OpenDoorss/StockSip-ProjectDocumentation
+
+Link de la organización **EXPDesigners**: https://github.com/OpenDoorss 
+
+### Tb1:  Reporte de la colaboración del proyecto:
+
+Este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+
+![Commits](img/README/Collaboration-Insights)
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+![git-clones.png]()
+
 # Student OutCome
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
@@ -96,4 +112,3 @@
     - [2.3.4. Empathy Mapping](docs/Chapter-II.md#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](docs/Chapter-II.md#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](docs/Chapter-II.md#24-ubiquitous-language)
-
