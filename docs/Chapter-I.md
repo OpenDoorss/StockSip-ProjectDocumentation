@@ -4,7 +4,25 @@
 
 ### 1.1.1. Descripción de la Startup ###
 
+En el contexto actual, donde el manejo eficiente del inventario y el conocimiento profundo de los productos son clave para el éxito comercial, OpenDoors ofrece una solución para dueños de licorerías que buscan optimizar la gestión de sus negocios. Somos una startup comprometida con desarrollar una aplicación que permite a los proveedores listar especificaciones detalladas sobre el cuidado y almacenamiento de productos de licorería, brindando a los dueños de licorerías la información necesaria para preservar la calidad y el valor de sus productos. La startup proporciona a los usuarios una herramienta para gestionar su inventario de manera eficiente, con control completo del stock y alertas que indican el momento óptimo para renovar la mercadería.
+
+<!-- Tabla Misión - Visión - Valores -->
+
+| Misión| Visión| Valores
+|--|--|--|
+| Ofrecer una solución que permita a los dueños de licorerías gestionar eficientemente su inventario y acceder a información detallada sobre el cuidado de productos de licorería, optimizando la calidad del servicio y la rentabilidad del negocio. | Ser la aplicación líder para la gestión inteligente de licorerías, permitiendo a los dueños de estos establecimientos tomar decisiones informadas, mantener un control efectivo del stock y garantizar la mejor experiencia para sus clientes. | Transparencia y confianza, Innovación constante, Responsabilidad con nuestros clientes |
+
+
 ### 1.1.2. Perfiles de integrantes del equipo ###
+
+| Foto                                                                         | Integrante                        | Código     | Carrera               | Habilidades y conocimientos técnicos                                                                                                                                                                                                                            |
+|------------------------------------------------------------------------------|-----------------------------------|------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Angel-Gonzales-Photo](https://i.imgur.com/dfZFyYP.jpg)                     | Angel Martin Gonzales Castillo    | U202319724 | Ingeniera de SoftWare | Tengo conocimientos en Python y C++, Java Basico, HTML y CSS basico. Apoyo al equipo activamente y trato de aprendar cosas nuevas y mejorar los conocimientos que ya poseo.                                                                                                                                                                                                                                                             |
+| ![Farid-Coronel-Photo](../img/Chapter%20I/Profile-picture/Farid-Coronel.png) | Coronel Espinoza Farid Sebastian  | U202312508 | Ingeniera de SoftWare | Tengo conocimientos técnicos en Python y Java, programación orientada a objetos y algoritmos, además de HTML y CSS. Me encanta el trabajo en equipo, por lo que siempre intentó mantener una buena dinámica junto a mis compañeros y mantener el equipo activo. |
+| ![Matias-Diaz-Photo](../img/Chapter%20I/Profile-picture/MatiasDiaz.png)                    | Diaz Quispe Matías Sebastian      | U202311938 | Ingeniera de SoftWare | --                                                                                                                                                                                                                                                              |
+| ![Camila-Huamani-Photo](../img/Chapter%20I/Profile-picture/Camila-Huamani.png)                 | Huamani Cruz Camila Victoria      | U202315234 | Ingeniera de SoftWare | Tengo conocimientos en los lenguajes Python y C + +, programación orientada a objetos y modelado de páginas web. Me considero una persona comprometida, por lo que siempre busco perfeccionar mis habilidades y aplicar las mejores prácticas en cada proyecto.                                                                                                                                                                                                                                                              |
+| ![Nicolas-Juarez-Photo](../img/Chapter%20I/Profile-picture/Nicolas-Juarez.png)                 | Juarez Leon Nicolas Emilio Walter | U202317483 | Ingeniera de SoftWare | Poseo habilidades como la comunicación, responsabilidad y organización que ayudarán al equipo a trabajar mejor cada avance requerido del proyecto. Espero poder realizar un gran aporte al equipo en el desarrollo del proyecto y que todo vaya bien encaminado hacia el éxito.                                                                                                                                                                                                                                                              |
+
 
 ## _1.2. Solution Profile_ ##
 
@@ -16,7 +34,7 @@ Finalmente, "StockSip" promete a sus usuarios ser la herramienta clave para gest
 <p align="center">
   <img src="../img/Chapter I/stocksip_logo.png" alt="logo_stocksip"/>
 
-  > <p align="center">Logo de "StockSip"</p>
+> <p align="center">Logo de "StockSip"</p>
 </p>
 
 ### 1.2.1. Antecedentes y problemática ###
