@@ -152,7 +152,11 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 **Cuando veamos** con alertas inteligentes y visualizaciones claras que indiquen productos próximos a vencer y aquellos con baja rotación.
 
 ### 1.2.2.4. Lean UX Canvas ###
+<p align="center">
+  <img src="../img/Chapter I/lean_ux_canvas.jpg" alt="lean_ux_canvas"/>
 
+  > <p align="center">Lean Ux Canvas</p>
+</p>
 ## _1.3. Segmentos objetivo_ ##
 
 A continuación, se determinan los segmentos objetivos a los que va dirigida la propuesta de solución **StockSip** para la gestión de inventarios y productos en licorerías.
