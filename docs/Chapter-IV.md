@@ -731,14 +731,14 @@ Luego, se muestra el resultado de la traducción de acción a pantallas. A conti
 Primero, se definen las tareas típicas que realizaría un usuario para completar este objetivo:
 
 <p align="center">
-  <img src="../img/Chapter IV/wireflows/taskflow_12.png"
+  <img src="../img/Chapter IV/wireflows/taskflow_13.png"
     alt="taskflow_12"/>
 </p>
 
 Luego, se muestra el resultado de la traducción de acción a pantallas. A continuación, se muestra que el proveedor accede a la sección de Guías de conservación desde la sección Reportes. Luego, usa el botón para crear una nueva guía y completa los espacios requeridos. Finalmente, guarda y se muestra la guía creada.
 
 <p align="center">
-  <img src="../img/Chapter IV/wireflows/wireflow_12.png"
+  <img src="../img/Chapter IV/wireflows/wireflow_13.png"
     alt="wireflow_12"/>
 </p>
 
