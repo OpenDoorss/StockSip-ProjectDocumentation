@@ -27,7 +27,7 @@
 ## _4.4. Web Applications UX/UI Design_ ##
 
 ### 4.4.1. Web Applications Wireframes ###
-En esta sección se presentarán los wireframes de la aplicación, los cuales son bosquejos de baja fidelidad sobre las funcionalidades principales de nuestra solución. Finalmente, se dividieron estos wireframes en trece secciones.
+En esta sección se presentarán los wireframes de la aplicación, los cuales son bosquejos de baja fidelidad sobre las funcionalidades principales de nuestra solución. Finalmente, se dividieron estos wireframes en doce secciones.
 
 ### Seccion inicio de seccion/registro ####
 En esta sección, el usuario podra crear su cuenta e iniciar seccion con la cuenta anteriormente creada. Podra elegir entre el rol de dueño de licoreria y proveedor. Tambien podra recuperar su contraseña mediante un codigo de confirmacion, el codigo le llegara a su correo que registro al crear su cuenta.
