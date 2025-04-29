@@ -265,7 +265,7 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
   <img src="https://i.imgur.com/wR7L77j.png"/>
 </p>
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review ###
+### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
 La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
 * Primero se creo un repositorio para alojar el codigo del landing page
 * Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
@@ -280,7 +280,7 @@ La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para e
   <img src="https://i.imgur.com/RM5QuV9.png"/>
 </p>
 
-### 5.2.1.8. Team Collaboration Insights durint Sprint ###
+### 5.2.1.7. Team Collaboration Insights durint Sprint ###
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
 <p align="center">
   <img src="https://i.imgur.com/7mo7SJU.png"/>
@@ -295,3 +295,72 @@ Grafico de los push y merge realizados por el equipo:
 <p align="center">
   <img src="https://i.imgur.com/vBY3Ne2.png"/>
 </p>
+
+### 5.3.1. Sprint 2 ###
+
+### 5.3.1.1. Sprint Planning 2 ###
+
+| Sprint #                                     | Sprint 2                                               |
+|----------------------------------------------|--------------------------------------------------------|
+| <b> Sprint planning Background </b>          | --                                                     |
+| Date                                         | 2025/04/29                                             |
+| Time                                         | 11:15 AM                                               |
+| Location                                     | Reunión presencial en el aula VH107 del curso en la sede Villa |
+| Prepared By                                  | Gonzales Castillo, Angel Martin                        |
+| Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Diaz Quispe, Matias Sebastian / Coronel Espinoza, Farid Sebastian |
+| Sprint 1 Review Summary                      |                                                        |
+| Sprint 1 Retrospective Summary               |                                                        |
+| <b> Sprint Goal & User Stories </b>          | --                                                     |
+| Sprint 2 Goal                                | <b> Our focus </b> is on (GOAL) <br> <b> We believe it delivers </b> (IMPACT) <br> <b> This will be confirmed when </b> (EVENT). |
+| Sprint 2 Velocity                            | 25                                                     |
+| Sum of Story Points                          | 21                                                     |
+
+### 5.3.1.2. Aspect Leaders and Collaborators ###
+
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este segundo sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application.
+
+| Team Member                        | GitHub Username | Seccion        | Seccion                         | Seccion    | Seccion     | Seccion| Secccion | 
+|------------------------------------|-----------------|----------------|---------------------------------|------------|-------------|--------|----------|
+| Huamani Cruz, Camila Victoria      | victiila06      |                |                                 |            |             |        |          |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     |                |                                 |            |             |        |          |
+| Coronel Espinoza, Farid Sebastian  | Far14z          |                |                                 |            |             |        |          |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                |                                 |            |             |        |          |
+| Diaz Quispe, Matias Sebastian      | equinox-1092    |                |                                 |            |             |        |          |
+
+### 5.2.1.3. Sprint Backlog 1 ###
+
+Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es (OBJETIVO).
+
+Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+
+<p align="center">
+  <img src="../img/Chapter V/sprint-2/sprint_backlog_2.png" 
+  alt="sprint_backlog_2"/>
+
+A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este segundo sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
+
+| Sprint 2     | Sprint Backlog 2                                              |     |                                         |                                                                                                            |                    |                |            |
+|--------------|---------------------------------------------------------------|-----|-----------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------|
+| User Stories |                                                               | Work Item/Task                                |                                                                                                            |                    |                |            |
+| Id           | Title                                                         | Id  | Title                                   | Description                                                                                                | Estimation (Hours) | Assigned to    | Status     |
+
+### 5.2.1.4. Development Evidence for Sprint Review ###
+
+En esta sección, se describen los principales avances de implementación realizados en este segundo sprint.
+
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
+
+| Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
+|----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
+| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+
+### 5.2.1.5. Execution Evidence for Sprint Review ###
+
+### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
+
+### 5.2.1.7. Team Collaboration Insights durint Sprint ###
+
