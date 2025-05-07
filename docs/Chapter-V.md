@@ -99,7 +99,7 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
   Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.  
     
 * **Nomenclatura en Angular:**  
-  Para la codificación del proyecto en Angular, se utilizará el artículo *“Angular coding style guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Angular recomienda para escribir código en sus aplicaciones. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Angular.. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://v17.angular.io/guide/styleguide](https://v17.angular.io/guide/styleguide)  
+  Para la codificación del proyecto en Angular, se utilizará el artículo *“Angular coding style guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Angular recomienda para escribir código en sus aplicaciones. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Angular. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://angular.dev/style-guide](https://angular.dev/style-guide)  
   Finalmente, se aplicará el contenido del artículo para el Frontend Applications de StockSip.  
     
 * **Nomenclatura en Java:**  
@@ -158,7 +158,7 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 | Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Diaz Quispe, Matias Sebastian / Coronel Espinoza, Farid Sebastian |
 | <b> Sprint Goal & User Stories </b>          | --                                                     |
 | Sprint 1 Goal                                | <b> Our focus </b> is on develop and deploy the first version of the landing page <br> <b> We believe it delivers </b> a first view of what our product offers to our target segments <br> <b> This will be confirmed when </b> the target segments are visiting the site and can see and know the benefits on using our product. |
-| Sprint 1 Velocity                            | 25                                                     |
+| Sprint 1 Velocity                            | 21                                                     |
 | Sum of Story Points                          | 21                                                     |
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
@@ -308,26 +308,26 @@ Grafico de los push y merge realizados por el equipo:
 | Location                                     | Reunión presencial en el aula VH107 del curso en la sede Villa |
 | Prepared By                                  | Gonzales Castillo, Angel Martin                        |
 | Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Diaz Quispe, Matias Sebastian / Coronel Espinoza, Farid Sebastian |
-| Sprint 1 Review Summary                      |                                                        |
-| Sprint 1 Retrospective Summary               |                                                        |
+| Sprint 1 Review Summary                      | In the previous sprint, the team completed a first view of the Landing Page implementing the basic sections and styles it will need like Benefits, Plans, Information about the Startup. |
+| Sprint 1 Retrospective Summary               | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.  |
 | <b> Sprint Goal & User Stories </b>          | --                                                     |
-| Sprint 2 Goal                                | <b> Our focus </b> is on (GOAL) <br> <b> We believe it delivers </b> (IMPACT) <br> <b> This will be confirmed when </b> (EVENT). |
-| Sprint 2 Velocity                            | 25                                                     |
-| Sum of Story Points                          | 21                                                     |
+| Sprint 2 Goals                               | <b> Our focus </b> is to offer a more detailed visualization and a greater adaptability of the current StockSip Landing Page. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices. <br><br> <b> Our focus </b> is on implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments register to  the application and use the principal funcionalities like warehouses and care guides. |
+| Sprint 2 Velocity                            | 135                                                    |
+| Sum of Story Points                          | 135                                                    |
 
 ### 5.3.1.2. Aspect Leaders and Collaborators ###
 
-En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este segundo sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application.
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este segundo sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes (Guía de cuidados y Reprote de pérdidas) y Alertas.
 
-| Team Member                        | GitHub Username | Seccion        | Seccion                         | Seccion    | Seccion     | Seccion| Secccion | 
-|------------------------------------|-----------------|----------------|---------------------------------|------------|-------------|--------|----------|
-| Huamani Cruz, Camila Victoria      | victiila06      |                |                                 |            |             |        |          |
-| Gonzales Castillo, Angel Martin    | XdiabloX426     |                |                                 |            |             |        |          |
-| Coronel Espinoza, Farid Sebastian  | Far14z          |                |                                 |            |             |        |          |
-| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                |                                 |            |             |        |          |
-| Diaz Quispe, Matias Sebastian      | equinox-1092    |                |                                 |            |             |        |          |
+| Team Member                        | GitHub Username | Inventarios y Zonas | Productos | Cuenta de Usuario | Reportes (Guía de cuidados y Reprote de pérdidas) | Alertas | 
+|------------------------------------|-----------------|---------------------|-----------|-------------------|---------------------------------------------------|---------|
+| Huamani Cruz, Camila Victoria      | victiila06      |                     |           | L                 |                                                   |         |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     |                     |           |                   |                                                   | L       |
+| Coronel Espinoza, Farid Sebastian  | Far14z          | L                   |           |                   |                                                   |         |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                     | L         |                   |                                                   |         |
+| Diaz Quispe, Matias Sebastian      | equinox-1092    |                     |           |                   | L                                                 |         |
 
-### 5.2.1.3. Sprint Backlog 1 ###
+### 5.2.1.3. Sprint Backlog 2 ###
 
 Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es (OBJETIVO).
 
