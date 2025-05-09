@@ -147,10 +147,14 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Acción que toma el usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
 
-20. **Replenishment Plan** (Plan de Reabastecimiento)
+20. **Expiration date** (Fecha de expiración)
+
+**Definición:** Fecha límite de consumo de un producto, que puede ser determinada por el fabricante o la legislación. Es importante para garantizar la calidad y seguridad del producto. En el caso de los licores, se refiere a la fecha en que el producto pierde su calidad óptima, aunque no necesariamente indica que esté en mal estado. La fecha de vencimiento es especialmente relevante para productos como licores de crema, que tienen una vida útil más corta debido a su contenido lácteo.
+
+21. **Replenishment Plan** (Plan de Reabastecimiento)
 
 **Definición:** Permite al proveedor crear planes para enviar los pedidos de sus clientes con cierta frecuencia. Ayuda al proveedor a tener en cuenta el tiempo que le toma a un dueño de licorería solicitar productos para abastecerse.
 
-21. **Purchase suggestion** (Sugerencia de compra)
+22. **Purchase suggestion** (Sugerencia de compra)
 
 **Definición:** Sugerencias que el dueño o proveedor toma a la hora de compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
