@@ -170,12 +170,3 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 25. **Control Panel** (Panel de Control)
 
 **Definición:** Interfaz principal del usuario donde puede manipular el sistema y sus funcionalidades a su antojo. Se visualiza el inventario, las notificaciones o alertas activas, perfil y ajustes de configuración.
-
-
-26. **Authentication** (Autenticación)
-
-**Definición:** Funcionalidad que permite verificar la identidad de un usuario al momento de acceder al sistema, de forma que se asegure que el acceso sea realizado por personas autorizadas.
-
-27. **Authorization** (Autorización)
-
-**Definición:** Funcionalidad que permite verificar si un usuario autenticado tiene acceso a funciones específicas de acuerdo con el plan que ha contratado (por ejemplo, Gratuito o Premium), así como validar su permiso para realizar acciones relacionadas con pagos, como activar un plan, renovar suscripciones o acceder a funciones exclusivas.
