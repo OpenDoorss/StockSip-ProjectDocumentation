@@ -147,26 +147,10 @@ Para poder validar mejor la propuesta solución planteada, se diseñarán pregun
 
 **Definición:** Notificación automática que avisa al usuario cuando un producto está por agotarse o cerca de su fecha de vencimiento, facilitando la planificación de compras.
 
-20. **Expiration Alert** (Alerta de Expiración)
+20. **Replenishment Plan** (Plan de Reabastecimiento)
 
-**Definición:** Funcionalidad que identifica productos con fecha de vencimiento próxima y envía alertas al usuario.
+**Definición:** Permite al proveedor crear planes para enviar los pedidos de sus clientes con cierta frecuencia. Ayuda al proveedor a tener en cuenta el tiempo que le toma a un dueño de licorería solicitar productos para abastecerse.
 
-21. **Replenishment Plan** (Plan de Reabastecimiento)
+21. **Purchase suggestion** (Sugerencia de compra)
 
-**Definición:** Funcionalidad que permite al proveedor crear planes para enviar los pedidos de sus clientes con cierta frecuencia. Ayuda al proveedor a tener en cuenta el tiempo que le toma a un dueño de licorería solicitar productos para abastecerse.
-
-22. **Purchase suggestion** (Sugerencia de compra)
-
-**Definición:** Sugerencias automáticas de qué y cuándo compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
-
-23. **Free Plan** (Plan Gratuito)
-
-**Definición:** Modelo sin costo que brinda acceso a las funcionalidades básicas de la aplicación, como el registro de productos y ventas, con limitaciones en personalización, soporte e integraciones. Ideal para licorerías que están iniciando y buscan digitalizar su operación de manera sencilla. 
-
-24. **Premium Plan** (Plan Premium)
-
-**Definición:** Modelo de pago que otorga acceso a funciones avanzadas de la aplicación, como reportes personalizados, soporte prioritario e integración con proveedores. Ideal para licorerías que buscan escalar su operación.
-
-25. **Control Panel** (Panel de Control)
-
-**Definición:** Interfaz principal del usuario donde puede manipular el sistema y sus funcionalidades a su antojo. Se visualiza el inventario, las notificaciones o alertas activas, perfil y ajustes de configuración.
+**Definición:** Sugerencias que el dueño o proveedor toma a la hora de compra productos (nuevos o ya existentes), basadas en tus niveles de stock y patrones de consumo.
