@@ -66,6 +66,7 @@ Un diagrama de contenedores es una representación visual que muestra los difere
 
 ### 4.7.3. Software Architecture Components Diagram ###
 
+![StockSip Container Diagram](../img/Chapter%20IV/Software-Architecture/container-diagram.png)
 Un diagrama de componentes es una representación visual que muestra los diferentes componentes de un contenedor y cómo interactúan entre sí. En el caso de StockSip, el diagrama de componentes ilustra la arquitectura interna de la aplicación web de cada bounded context.
 
 
