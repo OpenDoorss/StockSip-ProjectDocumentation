@@ -61,14 +61,17 @@ Un diagrama de contexto es una representación visual que muestra cómo un siste
 
 Un diagrama de contenedores es una representación visual que muestra los diferentes contenedores (aplicaciones, bases de datos, servicios, etc.) que componen un sistema y cómo interactúan entre sí. En el caso de StockSip, el diagrama de contenedores ilustra la arquitectura general del sistema, incluyendo la aplicación web, la base de datos y otros componentes relevantes.
 
-
+![StockSip Container Diagram](../img/Chapter%20IV/Software-Architecture/container-diagram.png)
 > <p align="center">StockSip Container Diagram</p>
 
 ### 4.7.3. Software Architecture Components Diagram ###
 
-![StockSip Container Diagram](../img/Chapter%20IV/Software-Architecture/container-diagram.png)
 Un diagrama de componentes es una representación visual que muestra los diferentes componentes de un contenedor y cómo interactúan entre sí. En el caso de StockSip, el diagrama de componentes ilustra la arquitectura interna de la aplicación web de cada bounded context.
 
+1. **Component Diagram — Frontend Application**
+
+![StockSip Frontend Application Component Frontend Diagram](../img/Chapter%20IV/Software-Architecture/component-diagram-spa.png)
+> <p align="center">StockSip Frontend Application Container Diagram</p>
 
 ## _4.8. Software Object-Oriented Design_ ##
 
