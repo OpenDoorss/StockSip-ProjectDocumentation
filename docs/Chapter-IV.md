@@ -62,8 +62,36 @@ A continuación, se adjunta el link de acceso a la vista del diagrama de clases 
 [Link de acceso al Diagrama de Clases en LucidChart](https://lucid.app/lucidchart/f96ef385-17d9-4c55-b002-b959d622d9d3/edit?viewport_loc=3318%2C172%2C3216%2C1202%2CHWEp-vi-RSFO&invitationId=inv_95b21289-cf5f-45a7-85fe-9164e3f49e26)
 
 <p align="center">
-  <img src="../img/Chapter IV/class_diagram.png" 
+  <img src="../img/Chapter%20IV/Class-Diagram/class_diagram.png" 
   alt="class_diagram"/>
+
+1. **Inventory Context*
+
+![Class Diagram Inventory Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/inventory-context.png)
+
+2. **Authentication Context**
+
+![Authentication Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/authentication-context.png)
+
+3. **Reporting Context**
+
+![Reporting Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/reporting-context.png)
+
+4. **Notification Context**
+
+![Notification Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/notification-context.png)
+
+5. **Order Context**
+
+![Order Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/order-context.png)
+
+6. **Payment Context**
+
+![Payment Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/payment-context.png)
+
+7. **Shared Context**
+
+![Shared Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/shared-context.png)
 
 ### 4.8.2. Class Dictionary ###
 
