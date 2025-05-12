@@ -115,7 +115,7 @@ El impacto de una mala gestión de inventario en licorerías puede ser significa
 
 El Lean UX es un enfoque que permite validar las soluciones propuestas para problemas identificados. Este enfoque se centra en las personas que utilizarán nuestro producto. Una vez identificada la problemática a resolver, se empleó este proceso para reconocer áreas clave que contribuirán a dar forma al producto propuesto.
 
-### 1.2.2.1. Lean UX Problems Statements ###
+### 1.2.2.1. Lean UX Problem Statement ###
 
 Actualmente, tanto los proveedores de licores como los dueños de licorerías enfrentan dificultades por la falta de herramientas digitales que les permitan monitorear en tiempo real el inventario, la demanda y el estado de los productos. Esto genera problemas como desabastecimiento, sobrestock, vencimientos, y mala conservación del licor, afectando la calidad del producto, las ventas y la eficiencia en la reposición. Además, muchos dueños de licorerías no cuentan con acceso práctico a información técnica que les ayude a tomar decisiones informadas sobre el almacenamiento y la gestión de sus productos.
 
