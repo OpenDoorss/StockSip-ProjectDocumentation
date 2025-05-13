@@ -123,6 +123,59 @@ Actualmente, tanto los proveedores de licores como los dueños de licorerías en
 
 ### 1.2.2.2. Lean UX Assumptions ###
 
+##### 1.2.2.2.1 Business Assumptions
+
+- Existe un mercado no atendido de licorerías pequeñas y medianas que requieren soluciones tecnológicas para el control de inventario.
+
+- Las pérdidas económicas en las licorerías están vinculadas al mal manejo de inventario, lo que genera una necesidad urgente.
+
+- Los proveedores de productos alcohólicos están interesados en que sus productos sean bien almacenados y podrían ver valor en una solución como StockSip.
+
+- Las licorerías buscan profesionalizar sus operaciones para competir con cadenas más grandes.
+
+- Existe poca competencia directa enfocada exclusivamente en licorerías.
+
+##### 1.2.2.2.2 Business Outcomes
+
+- Generar oportunidades de monetización, ya sea por suscripción mensual o alianzas con proveedores.
+
+- Validar el enfoque de diseño centrado en el usuario para futuras soluciones tecnológicas.
+    
+- Obtener métricas clave que puedan utilizarse para atraer inversores o fondos.
+
+##### 1.2.2.2.3 User Assumptions
+
+- Los dueños de licorerías no utilizan actualmente herramientas especializadas, sino métodos manuales (libretas, hojas de cálculo).
+
+- Tienen interés en mantener sus productos en condiciones óptimas, pero no siempre saben cómo hacerlo.
+
+- Necesitan una solución simple, rápida y económica que no requiera capacitación extensa.
+    
+- Les preocupa perder productos por vencimiento o rotación inadecuada.
+    
+- Valoran el control visual del inventario para tomar decisiones diarias.
+
+##### 1.2.2.2.4 User Outcomes
+
+- Los usuarios reportan una mayor organización de su inventario y menos errores de reposición.
+
+- Los dueños disminuyen las pérdidas por productos vencidos o mal almacenados.
+
+- Empiezan a ver la tecnología como una aliada accesible.
+    
+- Recomiendan la herramienta a otros colegas del rubro.
+    
+- Disminuyen su dependencia de hojas de cálculo manuales.
+
+##### 1.2.2.2.4 Features
+
+- Si implementamos una solución digital que permita a los proveedores de licores ver en tiempo real el inventario de sus clientes, con reposiciones automáticas y alertas sobre productos por vencer, entonces se optimizará el proceso logístico y se reducirán las pérdidas por vencimiento.
+
+- Si los dueños de licorerías tienen acceso a una funcionalidad que les brinde información técnica clara y accesible sobre el almacenamiento y manejo adecuado de sus productos, entonces podrán tomar decisiones más informadas que aseguren la calidad y durabilidad del inventario.
+
+- Si los dueños de licorerías cuentan con un sistema de alertas visuales e inteligentes sobre productos próximos a vencer y de baja rotación, entonces podrán gestionar proactivamente sus ciclos de venta y reducir pérdidas por vencimiento
+
+
 ### 1.2.2.3. Lean UX Hypothesis Statements ###
 
 - **Hyphotesis Statement 1**
