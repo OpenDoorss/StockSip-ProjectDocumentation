@@ -22,10 +22,11 @@
 * **Software Development**
 
   Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript.
+  Para el desarrollo del Frontend Web Application, se utilizaron las aplicaciones de Github y WebStorm. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y Typescript, asi mismo se utilizo el framework de Angular.
 
 * **Software Testing**
 
-  Las pruebas del Landing Page se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
+  Las pruebas del Landing Page y del Frontend se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
 
 ### 5.1.2. Source Code Management ###
@@ -37,6 +38,7 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page.
 
 * **Landing Page: [https://github.com/OpenDoorss/StockSip-LandingPage.git](https://github.com/OpenDoorss/StockSip-LandingPage.git)**
+* **Frontend Web Applications: [https://github.com/OpenDoorss/stocksip-front-end-application.git](https://github.com/OpenDoorss/stocksip-front-end-application.git)**
 
 #### **5.1.2.2. GitFlow**
 
