@@ -203,7 +203,7 @@ Para desarrollar la propuesta de solución, se creará un _User Persona_ por cad
 <b> User Persona 1: Dueños de licorerías </b>
 
 <p align="center">
-  <img src="../img/Chapter II/user_persona1.png" 
+  <img src="https://i.imgur.com/Lafw0GH.png" 
   alt="user_persona1"/>
 
   > <p align="center">User Persona del primer segmento objetivo</p>
@@ -216,7 +216,7 @@ En esta imagen, se colocó información relacionada al primer user persona. El c
 <b> User Persona 2: Proveedores de productos de licorerías </b>
 
 <p align="center">
-  <img src="../img/Chapter II/user_persona2.png" 
+  <img src="https://i.imgur.com/pmeVhED.png" 
   alt="user_persona2"/>
 
   > <p align="center">User Persona del segundo segmento objetivo</p>
