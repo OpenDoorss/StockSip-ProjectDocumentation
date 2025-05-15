@@ -148,6 +148,8 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 
 ### 5.2.1.1. Sprint Planning 1 ###
 
+A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
+
 | Sprint #                                     | Sprint 1                                               |
 |----------------------------------------------|--------------------------------------------------------|
 | <b> Sprint planning Background </b>          | --                                                     |
@@ -158,8 +160,8 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 | Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Diaz Quispe, Matias Sebastian / Coronel Espinoza, Farid Sebastian |
 | <b> Sprint Goal & User Stories </b>          | --                                                     |
 | Sprint 1 Goal                                | <b> Our focus </b> is on develop and deploy the first version of the landing page <br> <b> We believe it delivers </b> a first view of what our product offers to our target segments <br> <b> This will be confirmed when </b> the target segments are visiting the site and can see and know the benefits on using our product. |
-| Sprint 1 Velocity                            | 21                                                     |
-| Sum of Story Points                          | 21                                                     |
+| Sprint 1 Velocity                            | 20                                                     |
+| Sum of Story Points                          | 16                                                     |
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
 
@@ -178,6 +180,7 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 1, el objetivo del mismo es el desarrollar y desplegar una primera versión del landing page del producto. Esto conlleva implementar las diversas secciones que presenta un landing page que puedan ayudar a los visitantes del sitio a conocer mejor el producto en desarrollo.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
+[Link de acceso al Sprint Backlog #1 en Trello](https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1)
 
 <p align="center">
   <img src="../img/Chapter V/sprint_backlog.png" 
@@ -300,6 +303,8 @@ Grafico de los push y merge realizados por el equipo:
 
 ### 5.3.1.1. Sprint Planning 2 ###
 
+A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones para Call-To-Action para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockSip.
+
 | Sprint #                                     | Sprint 2                                               |
 |----------------------------------------------|--------------------------------------------------------|
 | <b> Sprint planning Background </b>          | --                                                     |
@@ -312,8 +317,8 @@ Grafico de los push y merge realizados por el equipo:
 | Sprint 1 Retrospective Summary               | The principal area the team has to improve is having more communication between the members to let each others know how is the progress is going for each member. Now, the plan for next sprint is to work more organized so each member know what to do.  |
 | <b> Sprint Goal & User Stories </b>          | --                                                     |
 | Sprint 2 Goals                               | <b> Our focus </b> is to offer a more detailed visualization and a greater adaptability of the current StockSip Landing Page. <br> <b> We believe it delivers </b> different forms of accessing the Landing Page from different sizes of screens and languages to target segments and visitors. <br> <b> This will be confirmed when </b> our target segments and visitors access the Landing through different devices. <br><br> <b> Our focus </b> is on implement and deploy the first functional version of the Front-End application with key features like digital warehouses, the dashboard, registration of products, warnings, care guides and basic navigation between sections. <br> <b> We believe it delivers </b> a complete first vision of functionalities the aplication offers to the target segments. <br> <b> This will be confirmed when </b> our target segments register to  the application and use the principal funcionalities like warehouses and care guides. |
-| Sprint 2 Velocity                            | 135                                                    |
-| Sum of Story Points                          | 135                                                    |
+| Sprint 2 Velocity                            | 101                                                    |
+| Sum of Story Points                          | 101                                                    |
 
 ### 5.3.1.2. Aspect Leaders and Collaborators ###
 
