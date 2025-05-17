@@ -1218,48 +1218,24 @@ Es una metodología que organiza y estructura el software en base a los dominios
 Un diagrama de contexto es una representación visual que muestra cómo un sistema interactúa con otros sistemas y actores externos. En el caso de StockSip, el diagrama de contexto ilustra las interacciones entre la aplicación y los usuarios, así como otros sistemas relevantes.
 
 ![StockSip Context Diagram](../img/Chapter%20IV/Software-Architecture/context-diagram.png)
-> <p align="center">StockSip Context Diagram</p>
 
-### 4.7.2. Software Architecture Container Diagrams ###
+### 4.7.2. Software Architecture Container Diagram ###
 
 Un diagrama de contenedores es una representación visual que muestra los diferentes contenedores (aplicaciones, bases de datos, servicios, etc.) que componen un sistema y cómo interactúan entre sí. En el caso de StockSip, el diagrama de contenedores ilustra la arquitectura general del sistema, incluyendo la aplicación web, la base de datos y otros componentes relevantes.
 
 ![StockSip Container Diagram](../img/Chapter%20IV/Software-Architecture/container-diagram.png)
-> <p align="center">StockSip Container Diagram</p>
 
-### 4.7.3. Software Architecture Components Diagrams ###
+### 4.7.3. Software Architecture Components Diagram ###
 
 Un diagrama de componentes es una representación visual que muestra los diferentes componentes de un contenedor y cómo interactúan entre sí. En el caso de StockSip, el diagrama de componentes ilustra la arquitectura interna de la aplicación web de cada bounded context.
 
-1. Reporting Context
+1. **Component Diagram — Frontend Application**
 
-![StockSip Reporting Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/reporting-component.png)
-> <p align="center">StockSip Reporting Component Diagram</p>
+![StockSip Frontend Application Component Frontend Diagram](../img/Chapter%20IV/Software-Architecture/component-diagram-spa.png)
 
-2. Authentication Context
+2.**Component Diagram — Backend Application**
 
-![StockSip Authentication Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/authentication-component.png)
-> <p align="center">StockSip Authentication Component Diagram</p>
-
-3. Order Context
-
-![StockSip Order Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/order-component.png)
-> <p align="center">StockSip Order Component Diagram</p>
-
-4. Notification Context
-
-![StockSip Notification Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/notification-component.png)
-> <p align="center">StockSip Notification Component Diagram</p>
-
-5. Inventory Context
-
-![StockSip Inventory Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/inventory-component.png)
-> <p align="center">StockSip Inventory Component Diagram</p>
-
-6. Payment Context
-
-![StockSip Payment Context Diagram](../img/Chapter%20IV/Software-Architecture/components-diagrams/payment-component.png)
-> <p align="center">StockSip Payment Component Diagram</p>
+![StockSip Backend Application Component Backend Diagram](../img/Chapter%20IV/Software-Architecture/component-diagram-apirest.png)
 
 ## _4.8. Software Object-Oriented Design_ ##
 
@@ -1269,8 +1245,36 @@ A continuación, se adjunta el link de acceso a la vista del diagrama de clases 
 [Link de acceso al Diagrama de Clases en LucidChart](https://lucid.app/lucidchart/f96ef385-17d9-4c55-b002-b959d622d9d3/edit?viewport_loc=3318%2C172%2C3216%2C1202%2CHWEp-vi-RSFO&invitationId=inv_95b21289-cf5f-45a7-85fe-9164e3f49e26)
 
 <p align="center">
-  <img src="../img/Chapter IV/class_diagram.png" 
+  <img src="../img/Chapter%20IV/Class-Diagram/class_diagram.png" 
   alt="class_diagram"/>
+
+1. **Inventory Context*
+
+![Class Diagram Inventory Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/inventory-context.png)
+
+2. **Authentication Context**
+
+![Authentication Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/authentication-context.png)
+
+3. **Reporting Context**
+
+![Reporting Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/reporting-context.png)
+
+4. **Notification Context**
+
+![Notification Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/notification-context.png)
+
+5. **Order Context**
+
+![Order Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/order-context.png)
+
+6. **Payment Context**
+
+![Payment Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/payment-context.png)
+
+7. **Shared Context**
+
+![Shared Context](../img/Chapter%20IV/Class-Diagram/Bounded-Context/shared-context.png)
 
 ### 4.8.2. Class Dictionary ###
 
@@ -1303,9 +1307,9 @@ En esta sección, se detallará el diccionario de las principales clases que se 
 ### 4.9.1. Database Diagram ###
 
 A continuación, se adjunta el link de acceso a la vista del diagrama de base de datos diseñado en Vertabelo.
-[Link de acceso al Diagrama de Base de Datos](https://my.vertabelo.com/doc/4fUjzmQ2srbVzhRC8cE7TcMHqw8az7R0)
+[Link de acceso al Diagrama de Base de Datos](https://my.vertabelo.com/doc/VLmIGyLbx1GPFZ0L6D1hGdwVqZKZLXNK)
 
 <p align="center">
-  <img src="../img/Chapter IV/database_diagram.png" 
+  <img src="https://i.imgur.com/B03oVdR.png" 
   alt="database_diagram"/>
 
