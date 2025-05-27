@@ -109,6 +109,27 @@ Este gráfico ofrece una visualización de las veces que se ha clonado nuestro r
 
 [Colocar imagen de GitFlow para Trabajo Parcial]
 
+## Tercer Avance (TB2) ##
+
+### Reporte de la colaboración del avance proyecto:
+
+Respecto de este tercer avance del proyecto, se implementaron correcciones y actualizaciones de las secciones que no fueron corregidas correctamente en el avance previo. A continuación, se realiza un resumen de las actividades respecto del informe realizadas en este avance: 
+- El integrante Martin Gonzales implementó correcciones sobre las entrevistas agregando mayor información sobre browser y dispositivos que usan los usuarios de las entrevistas realiada. Además, completó los gráficos sobre estos últimos datos.
+- La integrante Camila Huamani implementó correcciones respecto del Business Outcome redactándolos de manera que sean medibles.
+- El integrante Farid Coronel implementó correcciones en los bounded contexts añadiendo uno nuevo que trata el perfil del usuario.
+- El integrante Matias Diaz implementó los commits realizados dentro de la seccion de evidencias del tercer sprint.
+- El integrante Nicolas Juarez implementó correcciones en el Product Backlog del negocio colocando al inicio las historias de usuario para visitantes y al final las historias técnicas para la aplicación back-end. Además, añadió las descripciones como el Sprint Planning, Aspect Leaders, etc. en la sección del Sprint 3 y la corrección de los collaboration insights tanto de los sprints como del informe del proyecto. 
+
+Finalmente, este gráfico representa la cantidad de commits realizados por cada miembro del equipo en el repositorio del proyecto. Cada barra representa a un miembro del equipo y la altura de la barra indica el número total de commits realizados por esa persona.
+
+[Colocar imagen de commits para TB2]
+
+### Ramificación del proyecto usando GitFlow:
+
+Este gráfico ofrece una visualización de las veces que se ha clonado nuestro repositorio, junto con las fechas correspondientes a cada evento. También muestran datos sobre el número de visitas que ha recibido el repositorio de nuestro equipo a lo largo del tiempo.
+
+[Colocar imagen de GitFlow para TB2]
+
 
 # Student Outcome
 
