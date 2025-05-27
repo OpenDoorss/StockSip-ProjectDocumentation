@@ -4,7 +4,25 @@
 
 ### 1.1.1. Descripción de la Startup ###
 
+En el contexto actual, donde el manejo eficiente del inventario y el conocimiento profundo de los productos son clave para el éxito comercial, OpenDoors ofrece una solución para dueños de licorerías que buscan optimizar la gestión de sus negocios. Somos una startup comprometida con desarrollar una aplicación que permite a los proveedores listar especificaciones detalladas sobre el cuidado y almacenamiento de productos de licorería, brindando a los dueños de licorerías la información necesaria para preservar la calidad y el valor de sus productos. La startup proporciona a los usuarios una herramienta para gestionar su inventario de manera eficiente, con control completo del stock y alertas que indican el momento óptimo para renovar la mercadería.
+
+<!-- Tabla Misión - Visión - Valores -->
+
+| Misión| Visión| Valores
+|--|--|--|
+| Ofrecer una solución que permita a los dueños de licorerías gestionar eficientemente su inventario y acceder a información detallada sobre el cuidado de productos de licorería, optimizando la calidad del servicio y la rentabilidad del negocio. | Ser la aplicación líder para la gestión inteligente de licorerías, permitiendo a los dueños de estos establecimientos tomar decisiones informadas, mantener un control efectivo del stock y garantizar la mejor experiencia para sus clientes. | Transparencia y confianza, Innovación constante, Responsabilidad con nuestros clientes |
+
+
 ### 1.1.2. Perfiles de integrantes del equipo ###
+
+| Foto                                                                         | Integrante                        | Código     | Carrera               | Habilidades y conocimientos técnicos                                                                                                                                                                                                                            |
+|------------------------------------------------------------------------------|-----------------------------------|------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Angel-Gonzales-Photo](https://i.imgur.com/dfZFyYP.jpg)                     | Angel Martin Gonzales Castillo    | U202319724 | Ingeniera de SoftWare | Tengo conocimientos en Python y C++, Java Basico, HTML y CSS basico. Apoyo al equipo activamente y trato de aprendar cosas nuevas y mejorar los conocimientos que ya poseo.                                                                                                                                                                                                                                                             |
+| ![Farid-Coronel-Photo](../img/Chapter%20I/Profile-picture/Farid-Coronel.png) | Coronel Espinoza Farid Sebastian  | U202312508 | Ingeniera de SoftWare | Tengo conocimientos técnicos en Python y Java, programación orientada a objetos y algoritmos, además de HTML y CSS. Me encanta el trabajo en equipo, por lo que siempre intentó mantener una buena dinámica junto a mis compañeros y mantener el equipo activo. |
+| ![Matias-Diaz-Photo](../img/Chapter%20I/Profile-picture/MatiasDiaz.png)                    | Diaz Quispe Matías Sebastian      | U202311938 | Ingeniera de SoftWare | --                                                                                                                                                                                                                                                              |
+| ![Camila-Huamani-Photo](../img/Chapter%20I/Profile-picture/Camila-Huamani.png)                 | Huamani Cruz Camila Victoria      | U202315234 | Ingeniera de SoftWare | Tengo conocimientos en los lenguajes Python y C + +, programación orientada a objetos y modelado de páginas web. Me considero una persona comprometida, por lo que siempre busco perfeccionar mis habilidades y aplicar las mejores prácticas en cada proyecto.                                                                                                                                                                                                                                                              |
+| ![Nicolas-Juarez-Photo](../img/Chapter%20I/Profile-picture/Nicolas-Juarez.png)                 | Juarez Leon Nicolas Emilio Walter | U202317483 | Ingeniera de SoftWare | Poseo habilidades como la comunicación, responsabilidad y organización que ayudarán al equipo a trabajar mejor cada avance requerido del proyecto. Espero poder realizar un gran aporte al equipo en el desarrollo del proyecto y que todo vaya bien encaminado hacia el éxito.                                                                                                                                                                                                                                                              |
+
 
 ## _1.2. Solution Profile_ ##
 
@@ -16,7 +34,7 @@ Finalmente, "StockSip" promete a sus usuarios ser la herramienta clave para gest
 <p align="center">
   <img src="../img/Chapter I/stocksip_logo.png" alt="logo_stocksip"/>
 
-  > <p align="center">Logo de "StockSip"</p>
+> <p align="center">Logo de "StockSip"</p>
 </p>
 
 ### 1.2.1. Antecedentes y problemática ###
@@ -97,27 +115,66 @@ El impacto de una mala gestión de inventario en licorerías puede ser significa
 
 El Lean UX es un enfoque que permite validar las soluciones propuestas para problemas identificados. Este enfoque se centra en las personas que utilizarán nuestro producto. Una vez identificada la problemática a resolver, se empleó este proceso para reconocer áreas clave que contribuirán a dar forma al producto propuesto.
 
-### 1.2.2.1. Lean UX Problems Statements ###
+### 1.2.2.1. Lean UX Problem Statement ###
 
-- **Problem Statement 1**
+Actualmente, tanto los proveedores de licores como los dueños de licorerías enfrentan dificultades por la falta de herramientas digitales que les permitan monitorear en tiempo real el inventario, la demanda y el estado de los productos. Esto genera problemas como desabastecimiento, sobrestock, vencimientos, y mala conservación del licor, afectando la calidad del producto, las ventas y la eficiencia en la reposición. Además, muchos dueños de licorerías no cuentan con acceso práctico a información técnica que les ayude a tomar decisiones informadas sobre el almacenamiento y la gestión de sus productos.
 
-Muchos proveedores de licores no cuentan con herramientas digitales que les permitan monitorear en tiempo real la demanda y el inventario de sus clientes. Esto genera problemas como desabastecimiento, sobrestock, y falta de visibilidad sobre los productos que están siendo mal almacenados o que están próximos a vencer, afectando directamente tanto sus ventas como las de sus clientes.
-
-¿Cómo podríamos diseñar una solución digital que permita a los proveedores de licores tener visibilidad en tiempo real de los inventarios y la demanda de sus clientes, mejorando la eficiencia de la reposición y reduciendo las pérdidas económicas por vencimiento y mal almacenamiento?
-
-- **Problem Statement 2**
-
-En la actualidad, muchos dueños de licorerías no tienen acceso práctico a información útil sobre cómo almacenar y cuidar correctamente sus productos. Por eso, muchas veces toman decisiones basadas en costumbre o intuición, lo que puede afectar la calidad del licor que venden y generar pérdidas por un mal manejo de los productos.
-
-¿Cómo podríamos diseñar la experiencia de acceso a la información técnica dentro de "StockSip" para que los dueños de licorerías tomen decisiones más informadas y aseguren la calidad de sus productos?
-
-- **Problem Statement 3**
-
-Actualmente, los dueños de licorerías carecen de herramientas que les permitan visualizar con anticipación qué productos están por vencer o cuáles presentan baja rotación. Esto impide acciones preventivas como promociones estratégicas o ajustes en los pedidos.
-
-¿Cómo podríamos diseñar "StockSip" para ofrecer alertas inteligentes y visualizaciones claras que ayuden a los dueños de licorerías a anticipar pérdidas y tomar decisiones correctivas, logrando una reducción del 35% en productos vencidos y un aumento del 25% en ventas de productos próximos a vencer?
+¿Cómo podríamos diseñar una solución digital integral que brinde visibilidad en tiempo real del inventario y la demanda, ofrezca información técnica accesible y genere alertas inteligentes y visualizaciones claras para anticipar pérdidas, mejorar la toma de decisiones y aumentar la eficiencia operativa de proveedores y licorerías?
 
 ### 1.2.2.2. Lean UX Assumptions ###
+
+##### 1.2.2.2.1 Business Assumptions
+
+- Existe un mercado no atendido de licorerías pequeñas y medianas que requieren soluciones tecnológicas para el control de inventario.
+
+- Las pérdidas económicas en las licorerías están vinculadas al mal manejo de inventario, lo que genera una necesidad urgente.
+
+- Los proveedores de productos alcohólicos están interesados en que sus productos sean bien almacenados y podrían ver valor en una solución como StockSip.
+
+- Las licorerías buscan profesionalizar sus operaciones para competir con cadenas más grandes.
+
+- Existe poca competencia directa enfocada exclusivamente en licorerías.
+
+##### 1.2.2.2.2 Business Outcomes
+
+- Generar oportunidades de monetización, ya sea por suscripción mensual o alianzas con proveedores.
+
+- Validar el enfoque de diseño centrado en el usuario para futuras soluciones tecnológicas.
+    
+- Obtener métricas clave que puedan utilizarse para atraer inversores o fondos.
+
+##### 1.2.2.2.3 User Assumptions
+
+- Los dueños de licorerías no utilizan actualmente herramientas especializadas, sino métodos manuales (libretas, hojas de cálculo).
+
+- Tienen interés en mantener sus productos en condiciones óptimas, pero no siempre saben cómo hacerlo.
+
+- Necesitan una solución simple, rápida y económica que no requiera capacitación extensa.
+    
+- Les preocupa perder productos por vencimiento o rotación inadecuada.
+    
+- Valoran el control visual del inventario para tomar decisiones diarias.
+
+##### 1.2.2.2.4 User Outcomes
+
+- Los usuarios reportan una mayor organización de su inventario y menos errores de reposición.
+
+- Los dueños disminuyen las pérdidas por productos vencidos o mal almacenados.
+
+- Empiezan a ver la tecnología como una aliada accesible.
+    
+- Recomiendan la herramienta a otros colegas del rubro.
+    
+- Disminuyen su dependencia de hojas de cálculo manuales.
+
+##### 1.2.2.2.4 Features
+
+- Si implementamos una solución digital que permita a los proveedores de licores ver en tiempo real el inventario de sus clientes, con reposiciones automáticas y alertas sobre productos por vencer, entonces se optimizará el proceso logístico y se reducirán las pérdidas por vencimiento.
+
+- Si los dueños de licorerías tienen acceso a una funcionalidad que les brinde información técnica clara y accesible sobre el almacenamiento y manejo adecuado de sus productos, entonces podrán tomar decisiones más informadas que aseguren la calidad y durabilidad del inventario.
+
+- Si los dueños de licorerías cuentan con un sistema de alertas visuales e inteligentes sobre productos próximos a vencer y de baja rotación, entonces podrán gestionar proactivamente sus ciclos de venta y reducir pérdidas por vencimiento
+
 
 ### 1.2.2.3. Lean UX Hypothesis Statements ###
 
@@ -157,6 +214,7 @@ Actualmente, los dueños de licorerías carecen de herramientas que les permitan
 
   > <p align="center">Lean Ux Canvas</p>
 </p>
+
 ## _1.3. Segmentos objetivo_ ##
 
 A continuación, se determinan los segmentos objetivos a los que va dirigida la propuesta de solución **StockSip** para la gestión de inventarios y productos en licorerías.
