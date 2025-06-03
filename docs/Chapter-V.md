@@ -22,11 +22,19 @@
 * **Software Development**
 
   Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript.
+  Para el desarrollo del Frontend Web Application, se utilizaron las aplicaciones de Github y WebStorm. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y Typescript, asi mismo se utilizo el framework de Angular.
 
 * **Software Testing**
 
-  Las pruebas del Landing Page se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
+  Las pruebas del Landing Page y del Frontend se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page y al frontend del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
+  Las pruebas del frontend se realizaron utilizando una fake API mediante JSON Server, que funcionó como una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
+
+* **Software Deployment**
+
+  Para el despliegue del Landing page se uso la el servicio web de github pages, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio.
+  Para el despliegue del Frontend se uso beeceptor y firebase. Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
+  
 
 ### 5.1.2. Source Code Management ###
 
@@ -37,6 +45,7 @@ En esta sección, se describen los medios y esquemas de organización para gesti
 A continuación, se adjuntan los enlaces para acceder a los repositorios donde se almacenarán los archivos de proyecto relacionados al Landing Page.
 
 * **Landing Page: [https://github.com/OpenDoorss/StockSip-LandingPage.git](https://github.com/OpenDoorss/StockSip-LandingPage.git)**
+* **Frontend Web Applications: [https://github.com/OpenDoorss/stocksip-front-end-application.git](https://github.com/OpenDoorss/stocksip-front-end-application.git)**
 
 #### **5.1.2.2. GitFlow**
 
@@ -99,7 +108,7 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
   Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.  
     
 * **Nomenclatura en Angular:**  
-  Para la codificación del proyecto en Angular, se utilizará el artículo *“Angular coding style guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Angular recomienda para escribir código en sus aplicaciones. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Angular. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://angular.dev/style-guide](https://angular.dev/style-guide)  
+  Para la codificación del proyecto en Angular, se utilizará el artículo *“Angular coding style guide”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura que establece las convenciones de codificación que Angular recomienda para escribir código en sus aplicaciones. Su objetivo principal es promover un código consistente, legible y mantenible, especialmente para proyectos que podrían integrarse en el ecosistema de Angular.. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://v17.angular.io/guide/styleguide](https://angular.dev/style-guide)  
   Finalmente, se aplicará el contenido del artículo para el Frontend Applications de StockSip.  
     
 * **Nomenclatura en Java:**  
@@ -141,6 +150,81 @@ En esta sección, se especifica la configuración para realizar el despliegue de
 
 <p align="center">
   <img src="https://i.imgur.com/aeqpcKT.png">
+
+A continuación, se describen los pasos necesarios para desplegar el Frontend del proyecto, empezando por la creación del repositorio hasta el lanzamiento del proyecto.
+
+* **Paso 1: Creación del repositorio**  
+  Como primer paso, se debe crear el repositorio en GitHub que será el lugar donde se aloja todo lo relacionado al Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/X6DvQRn.png">
+
+* **Paso 2: Carga de archivos y carpetas necesarios**   
+  Como segundo paso, se importan todos los archivos y carpetas necesarios para el desarrollo del Frontend.
+
+<p align="center">
+  <img src="https://i.imgur.com/XUIzxlB.png">
+
+* **Paso 3: Creacion del proyecto en WebStorm**  
+  Como tercer paso, se creara el proyecto en WebStorm, importamos nuestros features e instalamos las dependencias necesarias. 
+
+<p align="center">
+  <img src="https://i.imgur.com/pDPb0M4.png">
+
+* **Paso 4: Comando ng build**  
+  Como cuarto paso, ingresaremos el comando ng build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto traducido a html, css y javascript.
+
+<p align="center">
+  <img src="https://i.imgur.com/WUsvhqP.png">
+<p align="center">
+  <img src="https://i.imgur.com/SuN3YEo.png">
+  
+* **Paso 5: Probar el funcionamiento del build**  
+  Ingresamos a la pagina web Beeceptor e iniciamos sesion con nuestra cuenta, crearemos un nuevo mock server y copiaremos el enlace que nos proporciona. Volvemos al WebStorm, nos dirigimos a la carpeta environments y colocamos el enlace en la parte de apiUrl en los dos archivos
+
+<p align="center">
+  <img src="https://i.imgur.com/3W2K0Qm.png">
+  
+* **Paso 6: Probar el funcionamiento del build con HTTP**  
+  Ingresamos a la pagina web npmjs y buscamos HTTP-server, es un servidor para probar que nuestro build funcione en un entorno de desarrollo, copiamos el comando npm i http-server --save-dev. Luego ingresamos el comando http-server ruta/nuestro/dist/browser y elegimos cualquier de los links presentes. Se podra a acceder a nuestra aplicacion.
+
+<p align="center">
+  <img src="https://i.imgur.com/OMaUvwE.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/IRjDrXI.png"> 
+
+* **Paso 7: Probar despliegue con Firebase**  
+  Ingresamos a la pagina web Firebase e ingremos con nuestra cuenta de google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicacion,
+nos ubicamos en el apartado de hosting
+
+<p align="center">
+  <img src="https://i.imgur.com/LF7yomG.png">
+<p align="center">
+  <img src="https://i.imgur.com/IMS9O5Y.png">
+<p align="center">
+  <img src="https://i.imgur.com/TMeYnnF.png">
+  
+* **Paso 8: Configurar el despliegue**  
+  Regresamos a nuestro WebStorm y en la consola ingresamos el comando firebase login y decimos NO, nos pedira que ingremos con nuestra cuenta de google con la que creamos el proyecto e inicializamos el firebase con el comando firebase init, con las flechitas del teclado nos desplazamos a la opcion Hosting y presionamos la barra espaciadora para seleccionarlo y damos enter. Elejimos 'Use an existing proyect' y elegimos nuestro proyecto, colocamos ruta/nuestro/dist/browser y decimos YES NO NO
+
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+<p align="center">
+  <img src="https://i.imgur.com/lJ5Emix.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/9phLLJm.png">
+
+* **Paso 9: Desplegar nuestro proyecto**  
+  Nos dirigimos al archivo firebase.json y agregamos una seccion "site": "nombre de nuestro site" e ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando ng build para actualizar, ingresamos con el enlace que nos proporciona y nuestro proyecto ya estaria desplegado
+
+<p align="center">
+  <img src="https://i.imgur.com/W6r5Iwp.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/d5iOzXH.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/7CvKjfw.png"> 
 
 ## _5.2. Landing Page, Services & Applications Implementation_ ##
 
