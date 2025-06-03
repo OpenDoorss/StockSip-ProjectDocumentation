@@ -64,7 +64,7 @@
 
 Repositorio del **Project Report**: https://github.com/OpenDoorss/StockSip-ProjectDocumentation
 
-Link de la organización **EXPDesigners**: https://github.com/OpenDoorss 
+Link de la organización **OpenDoors**: https://github.com/OpenDoorss 
 
 ### Tb1:  Reporte de la colaboración del proyecto:
 
