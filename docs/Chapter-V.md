@@ -353,26 +353,20 @@ El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la 
 </p>
 
 ### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
-La organizacion de nuestro codigo se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
-* Primero se creo un repositorio para alojar el codigo del landing page
-* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
-<p align="center">
-  <img src="https://i.imgur.com/WLeViFN.png"/>
-</p>
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno al producto principal: Landing Page. Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
 
-* Tercero, se realizo el merge a develop para corregir errores
-* Cuarto, cuando se corrigieron los errores, se realizo merge al master
-* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
-<p align="center">
-  <img src="https://i.imgur.com/RM5QuV9.png"/>
-</p>
-
-### 5.2.1.7. Team Collaboration Insights durint Sprint ###
 El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
 <p align="center">
   <img src="https://i.imgur.com/7mo7SJU.png"/>
 </p>
 
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar la sección de como funciona la aplicacion en el Landing page.
+- La integrante Camila Huamani implementó las seccion de inicio y contacto en el Landing page.
+- El integrante Farid Coronel fue responsable de implementar la seccion beneficios en el landing page.
+- El integrante Matias Diaz implementó la seccion de planes en el Landing page.
+- El integrante Nicolas Juarez implementó la seccion de testiminos en el Landing page.
+  
 Commits de los integrantes en el Landing Page:
 <p align="center">
   <img src="https://i.imgur.com/xaO8mjo.png"/>
@@ -382,7 +376,6 @@ Grafico de los push y merge realizados por el equipo:
 <p align="center">
   <img src="https://i.imgur.com/vBY3Ne2.png"/>
 </p>
-
 ### 5.2.2. Sprint 2 ###
 
 ### 5.2.2.1. Sprint Planning 2 ###
