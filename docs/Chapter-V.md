@@ -376,6 +376,7 @@ Grafico de los push y merge realizados por el equipo:
 <p align="center">
   <img src="https://i.imgur.com/vBY3Ne2.png"/>
 </p>
+
 ### 5.2.2. Sprint 2 ###
 
 ### 5.2.2.1. Sprint Planning 2 ###
@@ -499,26 +500,183 @@ A continuación, se presenta la tabla con las tareas necesarias para completar s
 |              |                                                               | US009T003   | Integrar un API para selección de dirección del usuario                            | Para el apartado de la dirección de usuario se debe usar un API que muestre un mapa con el que el usuario puede interactuar para marcar su ubicación                | 4.5                | Camila huamani  | Done        |
 | US010        | Selección de rol durante registro                             | US010T001   | Crear un botón para seleccionar rol de usuario                                     | Usando Angular Material, usar el componente del botón "select" para que el usuario pueda elegir su rol al registrarse.                                              | 4                  | Camila Huamani  | Done        |
 
-### 5.2.2.4. Development Evidence for Sprint Review ###
+### 5.3.1.4. Development Evidence for Sprint Review ###
 
 En esta sección, se describen los principales avances de implementación realizados en este segundo sprint.
 
-A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el segundo sprint.
+A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el primer sprint.
 
-| Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
-|----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Front-End-App       |                                  |           |                                                                  |             |
+| Repository                          | Branch                      | Commit Id   | Commit Message                                                               | Commited On |
+| ----------------------------------- | --------------------------- | ----------- | ---------------------------------------------------------------------------- | ----------- |
+| Opendorss/StockSip-Front-End-App | develop                     | 758bdf2     | chore: add domain-driven file structure.                                     | 11/05/2025  |
+| Opendorss/StockSip-Front-End-App | develop                     | 80feb21     | chore: add dependencies.                                                     | 11/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/inventory           | 2b62152     | feat(warehouse): add json-server data.                                       | 13/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 13/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/i18n                | c36fa88     | feat(i18n): add language switcher component.                                 | 13/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/inventory           | ce55380     | feat(warehouse): add inventory component.                                    | 13/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/inventory           | 66d0aa9     | feat(warehouse): add product component.                                      | 13/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/inventory           | f88e7bc     | feat(warehouse): add warehouse environment endpoints.                        | 13/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/profile             | bac777a     | feat(profile): add profile page and components                               | 14/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/authentication      | e19d7c2     | feat(authentication): add login page and components                          | 14/05/2025  |
+| Opendorss/StockSip-Front-End-App | develop                     | 9bfc008     | feat(public): add side navigation bar routing                                | 14/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/dashboard           | 44a318c<br> | feat(analytics-and-reporting): update side navigation bar sections           | 16/05/2025  |
+| Opendorss/StockSip-Front-End-App | feature/alerts              | a45f12e     | feat(alerts): add alerts component.                                          | 16/05/2025  |
+| Opendorss/StockSip-LandingPage   | feature/i18n                | ddf0f82     | feat(i18n): Add data-i18n attributes to FAQ and statistics sections          | 15/05/2025  |
+| Opendorss/StockSip-LandingPage   | develop                     | ac735e5     | chore: add page icon                                                         | 15/05/2025  |
+| Opendorss/StockSip-LandingPage   | feature/faq                 | f63ab33c    | feat(faq): add faq section and styles.                                       | 15/05/2025  |
+| Opendorss/StockSip-LandingPage   | feature/exploration-off-app | 78e7985     | feat(exploration-of-the-app): add exploration of the application section<br> | 15/05/2025  |
 
-### 5.2.2.5. Execution Evidence for Sprint Review ###
+### 5.3.1.5. Execution Evidence for Sprint Review ###
 
-### 5.2.2.6. Software Deployment Evidence for Sprint Review ###
+El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización tanto del landing page como de la aplicación Frontend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
 
-### 5.2.2.7. Team Collaboration Insights durint Sprint ###
+#### **Landing Page**
 
+**Inicio Actualizado**
+<p align="center">
+  <img src="https://i.imgur.com/u1TwQ7f.png"/>
+</p>
+
+<br>
+
+**Estadísticas**
+<p align="center">
+  <img src="https://i.imgur.com/8rUyLIU.png"/>
+</p>
+<br>
+
+**Propuesta de valor**
+<p align="center">
+  <img src="https://i.imgur.com/Nuns8GD.png"/>
+</p>
+<br>
+
+**Exploración de la Aplicación**
+<p align="center">
+  <img src="https://i.imgur.com/1FRWrt0.png"/>
+</p>
+<br>
+
+**Preguntas frecuentes**
+<p align="center">
+  <img src="https://i.imgur.com/AIv2pf0.png"/>
+</p>
+<br>
+
+#### **Front End Application**
+
+**Inicio de sesión**
+<p align="center">
+  <img src="https://i.imgur.com/J5cbi5p.png"/>
+</p>
+<br>
+
+**Perfil de usuario**
+
+<p align="center">
+  <img src="https://i.imgur.com/jYYG1aD.png"/>
+</p>
+<br>
+
+**Reportes**
+
+<p align="center">
+  <img src="https://i.imgur.com/MKUCfFa.png"/>
+</p>
+<br>
+
+**Guías de Conservación**
+<p align="center">
+  <img src="https://i.imgur.com/BVaQjr1.png"/>
+</p>
+<br>
+
+**Alertas**
+<p align="center">
+  <img src="https://i.imgur.com/Hx43AXx.png"/>
+</p>
+<br>
+
+Link al landing page: [Landing_Page_StockSip](https://opendoorss.github.io/StockSip-LandingPage/)
+
+Link a la aplicación: [App_Front_End_StockSip](https://stocksip-od-app.web.app/)
+
+
+### 5.3.1.6. Software Deployment Evidence for Sprint Review ###
+Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en dos partes principales: el **Landing Page** y el **Frontend funcional**. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
+
+#### Despliegue del Landing Page
+La organizacion de nuestro codigo relacionado al Landing page se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
+* Primero se creo un repositorio para alojar el codigo del landing page
+* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
+<p align="center">
+  <img src="https://i.imgur.com/WLeViFN.png"/>
+</p>
+
+* Tercero, se realizo el merge a develop para corregir errores
+* Cuarto, cuando se corrigieron los errores, se realizo merge al master
+* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
+<p align="center">
+  <img src="https://i.imgur.com/RM5QuV9.png"/>
+</p>
+
+#### Despliegue del Frontend
+La organizacion de nuestro codigo relacionado al Frontend se realizo en un repositorio en GitHub y la codificacion de este mismo se realizo en JetBrains WebStorm. Para el despliegue del landing page se utilizo Firebase
+* Primero, se creó un repositorio en GitHub para alojar el código fuente del Frontend, permitiendo así una gestión centralizada y control de versiones
+* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del Frontend, lo que permitió trabajar en paralelo de manera organizada.
+<p align="center">
+  <img src="https://i.imgur.com/mGniKQ9.png"/>
+</p>
+
+* Tercero, se creó un proyecto en WebStorm y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
+* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
+* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
+* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama master, consolidando una versión estable del proyecto.
+* Septimo, se configuró Firebase como herramienta de despliegue, preparando los archivos necesarios y definiendo el entorno adecuado.
+* Octavo, se realizó el despliegue del Frontend a través de Firebase. A continuación, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src="https://i.imgur.com/J5cbi5p.png"/>
+</p>
+
+* Link publico: [App_Front_End_StockSip](https://stocksip-od-app.web.app/)
+
+### 5.3.1.7. Team Collaboration Insights durint Sprint ###
+
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Landing Page y Web Application (Frontend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="https://i.imgur.com/7mo7SJU.png"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar la sección de alertas en el Frontend, asegurando su correcto funcionamiento e integración con el resto de la aplicación.
+- La integrante Camila Huamani implementó correcciones en el landing page, asi mismo agrego las secciones de exploracion de la aplicacion y preguntas frecuentes. En el Frontend se encargo de realizar la autenticacion, en ella creo los formularios de registro e inicio de sesion, tambien se encargo de implementar el perfil del usuario y el dashboard.
+- El integrante Farid Coronel fue responsable de implementar la seccion de inventarios en el Frontend, se aseguro el correcto funcionamiento.
+- El integrante Matias Diaz implementó la seccion de reportes en el Frontend, dentro de esta seccion agrego las guias de conservacion.
+- El integrante Nicolas Juarez implementó la seccion de productos en el Frontend, asegurandose su correcto funcionamiento.
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="https://i.imgur.com/xaO8mjo.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el landing page:
+<p align="center">
+  <img src="https://i.imgur.com/vBY3Ne2.png"/>
+</p>
+
+Commits de los integrantes en el Frontend:
+<p align="center">
+  <img src="https://i.imgur.com/pfifLqs.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el Frontend: 
+
+<p align="center">
+  <img src="https://i.imgur.com/3Y3G0cw.png"/>
+</p>
 
 
 ### 5.2.3. Sprint 3 ###
