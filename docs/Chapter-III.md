@@ -139,7 +139,6 @@ En esta sección, se presentarán los mapas de impacto para cada segmento objeti
   <img src="../img/Chapter III/impact_map1.png" alt="mapa_impacto1"/>
 
   > <p align="center">Mapa de impacto del primer segmento objetivo</p>
-</p>
 
 El mapa de impacto del primer segmento objetivo nos permitió visualizar con claridad la conexión entre los objetivos del negocio y las verdaderas necesidades del usuario final. Gracias a esta herramienta, identificamos comportamientos clave que queremos fomentar, como el monitoreo proactivo del inventario y la toma de decisiones informadas sobre reposición de productos. 
 <br>
@@ -150,7 +149,6 @@ El mapa de impacto del primer segmento objetivo nos permitió visualizar con cla
   <img src="../img/Chapter III/impact_map2.png" alt="mapa_impacto2"/>
 
   > <p align="center">Mapa de impacto del segundo segmento objetivo</p>
-</p>
 
 El mapa de impacto del segundo segmento objetivo nos ayudó a entender cómo este actor tiene un rol fundamental en el cumplimiento de los objetivos comerciales. Nos permitió identificar oportunidades de mejora en su interacción con los clientes, como la necesidad de herramientas para organizar sus rutas y fortalecer la comunicación. También nos permitió extender el alcance de la solución al contemplar funcionalidades útiles para su gestión interna, como la creación de planes de reabastecimiento y guías de remisión.
 <br>
