@@ -705,13 +705,13 @@ A continuación, se detalla, en la tabla siguiente, información sobre el planea
 
 En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este tercer sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application y en su contraparte para el Back-End Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes, Ordenes de compra y Alertas.
 
-| Team Member                        | GitHub Username | Inventarios y Zonas | Productos | Cuenta de Usuario | Reportes  | Alertas | Ordenes de compra |
-|------------------------------------|-----------------|---------------------|-----------|-------------------|-----------|---------|-------------------|
-| Huamani Cruz, Camila Victoria      | victiila06      |                     |           | L                 |           |         |                   |
-| Gonzales Castillo, Angel Martin    | XdiabloX426     |                     |           |                   |           | L       |                   |
-| Coronel Espinoza, Farid Sebastian  | Far14z          | L                   |           |                   |           |         |                   |
-| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                     | L         |                   |           |         |                   |
-| Diaz Quispe, Matias Sebastian      | equinox-1092    |                     |           |                   | L         |         |                   |
+| Team Member                        | GitHub Username | Alerts and Notifications | Analytics and Reporting | Authentication | Inventory Management  | Order Operation and Monitoring | Payment and Subscriptions | Profile Management |
+|------------------------------------|-----------------|--------------------------|-------------------------|----------------|-----------------------|--------------------------------|---------------------------|--------------------|
+| Huamani Cruz, Camila Victoria      | victiila06      |                          |                         | L              |                       |                                |                           | L                  |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     | L                        |                         |                |                       |                                |                           |                    |
+| Coronel Espinoza, Farid Sebastian  | Far14z          |                          |                         |                | L                     |                                | L                         |                    |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      |                          |                         |                |                       | L                              |                           |                    |
+| Diaz Quispe, Matias Sebastian      | equinox-1092    |                          | L                       |                |                       |                                |                           |                    |
 
 ### 5.2.3.3. Sprint Backlog 3 ###
 
