@@ -833,3 +833,172 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review ###
 
 ### 5.2.3.8. Team Collaboration Insights durint Sprint ###
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de entrevistas
+
+### 5.3.2. Registro de entrevistas
+
+### 5.3.3. Evaluación según heurísticas
+
+##### APP A EVALUAR: **StockSip**
+---
+
+##### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo  
+2. Inicio de sesión de un usuario
+3. Creación de un almacén
+4. Visualización de las alertas de la aplicación
+5. Visualización de almacenes creados
+6. Insertar una imagen a un almacén
+7. Carga de alertas en la aplicación
+8. Realización de una orden de compra
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+
+1. Asignar un producto a un inventario
+2. Registrar salidas de productos
+3. Proceso de adquisición de una membresía
+4. Registrar reportes de pérdidas
+
+---
+
+##### ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.                                     |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+---
+
+##### TABLA RESUMEN
+
+| #   | Problema                                                                                                | Escala de severidad | Heurística/Principio violado                                                        |
+| --- | ------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------- |
+| 1   | Faltan validaciones visibles para los campos (ej: email inválido) en el formulario de inicio de sesión. | 3                   | Usability: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+| 2   | Faltan validaciones para no permitir contraseñas inseguras.                                             | 2                   | Usability: Prevención de errores                                                    |
+| 3   | No se muestra mensaje de error al usuario si la carga de una imagen falla al crear un almacén.          | 3                   | Usability: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+| 4   | No hay paginación ni scroll controlado para muchos almacenes                                            | 1                   | Information Architecture: Is it scalable?                                           |
+| 5   | No hay búsqueda ni filtros para listas largas                                                           | 1                   | Information Architecture: Is it findable?                                           |
+| 6   | Texto de error poco informativo y no contextualizado cuando fallan en cargar las alertas                | 2                   | Usability: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+| 7   | La jerarquía visual no destaca adecuadamente alertas críticas                                           | 1                   | Usability: Estética y diseño minimalista                                            |
+
+---
+
+##### DESCRIPCIÓN DE PROBLEMAS
+
+###### PROBLEMA #1: Faltan validaciones para asegurar que un usuario agregue un correo electronico correctamente.
+
+**Severidad:** 3  
+**Heurística violada:** Usability - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
+
+**Descripción:**  
+Si el usuario pone un correo inválido con cualquier palabras después del símbolo (@), no hay mensajes visuales de error.
+
+<p align="center">
+  <img src="https://i.imgur.com/f9kdg7e.png">
+</p>
+
+**Recomendación:**  
+Agregar validaciones básicas con mensajes claros, donde se validan correos reales con las palabras "gmail, hotmail, etc."
+
+###### PROBLEMA #2: No hay una validación para contraseñas seguras.
+
+**Severidad:** 2  
+**Heurística violada:** Usability - Prevención de errores
+
+**Descripción:**  
+Un usuario se puede registrar con contraseñas cuya longitud sea menor de 8 caracteres, sin símbolos o números, lo que no previene errores de seguridad.
+
+<p align="center">
+  <img src="https://i.imgur.com/p9TApMn.png">
+</p>
+
+**Recomendación:**  
+Agregar validaciones básicas para que los usuarios creen contraseñas con más de 8 caracteres, letras mayúsculas y símbolos.
+
+###### PROBLEMA #3: No hay comunicación visible del error al crear un nuevo almacén
+
+**Severidad:** 3  
+**Heurística violada:** Usability - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores.
+
+**Descripción:**  
+Aunque se asigna un error cuando no se puede crear un nuevo almacén, este error **no se muestra en el la pantalla del usuario**. El usuario no sabe qué ocurrió.
+
+<p align="center">
+  <img src="https://i.imgur.com/bonFWjk.png">
+</p>
+
+**Recomendación:**  
+Agregar un componente que muestre el error cuando no se pudo crear un nuevo almacén.
+
+###### PROBLEMA #4: No hay un control que permita regresar a la tienda durante el trámite de compra  
+
+**Severidad:** 1  
+**Heurística violada:** Information Architecture: Is it scalable?
+
+**Descripción:**  
+Si hay muchos almacenes, no hay mecanismos para manejar la cantidad de elementos (paginación, scroll infinito, scroll virtual).
+
+<p align="center">
+  <img src="https://i.imgur.com/Ky4KlN4.png">
+</p>
+
+**Recomendación:**  
+Agregar soporte para paginación o carga por lotes, o bien un scroll con carga perezosa.
+
+###### PROBLEMA #5: No hay opción de búsqueda o filtrado de almacenes
+
+**Severidad:** 1  
+**Heurística violada:** Information Architecture: Is it findable?
+
+**Descripción:**  
+Si la lista de almacenes crece, el usuario no tiene cómo buscar por nombre de almacén.
+
+<p align="center">
+  <img src="https://i.imgur.com/z2fRhTV.png">
+</p>
+
+**Recomendación:**  
+Agregar un buscador o filtro en la parte superior de la sección de almacenes.
+
+###### PROBLEMA #6: Texto de error poco informativo y no contextualizado
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
+
+**Descripción:**  
+El mensaje "Error loading alerts." no brinda detalles útiles ni opciones para volver a intentar.
+
+<p align="center">
+  <img src="https://i.imgur.com/JLAq8vP.png">
+</p>
+
+**Recomendación:**  
+Mostrar mensaje más útil e interactivo: "No se pudieron cargar las alertas. Verifica tu conexión e intenta nuevamente."
+
+###### PROBLEMA #7: Falta jerarquía visual en alertas críticas
+
+**Severidad:** 1  
+**Heurística violada:** Usability: Estética y diseño minimalista
+
+**Descripción:**  
+Las alertas críticas como “Urgent Repositioning” no destacan visualmente frente a otras.
+
+<p align="center">
+  <img src="https://i.imgur.com/wfqgtxr.png">
+</p>
+
+**Recomendación:**  
+Usar color de fondo, bordes o íconos para distinguir prioridades.
+
+## 5.4. Video About The Product
+
+## 5.5. Video About The Team
