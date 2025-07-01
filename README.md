@@ -18,6 +18,8 @@
 | Gonzales Castillo Angel Martin | u202319724 |
 | Huamani Cruz Camila Victoria | u202315234 |
 | Juarez Leon Nicolas Emilio Walter | u202317483 |
+| Julca Minaya Sergio Gino | u202318274|
+
 
 ###### Mayo 2025
 
