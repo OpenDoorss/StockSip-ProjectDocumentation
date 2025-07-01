@@ -818,27 +818,455 @@ En esta sección, se describen los principales avances de implementación realiz
 
 A continuación, se muestra una tabla que contiene la información sobre los _commits_ hechos que contienen partes de las funcionalidades que debemos implementar para completar el tercer sprint.
 
-| Repository                             | Branch                           | Commit Id | Commit Message                                                   | Commited On |
-|----------------------------------------|----------------------------------|-----------|------------------------------------------------------------------|-------------|
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
-| OpenDoors/StockSip-Back-End-App        |                                  |           |                                                                  |             |
+| Repository                      | Branch                   | Commit Id | Commit Message                                                                        | Commited On  |
+| ------------------------------- | ------------------------ | --------- | ------------------------------------------------------------------------------------- | ------------ |
+| OpenDoors/StockSip-Back-End-App | inventories              | a996184   | feat(inventory-management): add account warehouses inbound service.                   | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | inventories              | 8475722   | feat(inventories): add resources and assemblers.                                      | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | products                 | 79d402e   | feat(products): add command for updating only the minimum stock level.                | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | inventories              | b7a66ad   | feat(inventories): add queries.                                                       | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | care-guides              | 3a892b5   | feat(care-guides): add repository implementation.                                     | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | care-guides              | 344f781   | feat(care-guides): add care guide command service contract.                           | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | care-guides              | e77812c   | feat(care-guides): add commands.                                                      | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | release                  | 0f86516   | chore: add dockerfile.                                                                | Jun 22, 2025 |
+| OpenDoors/StockSip-Back-End-App | alerts                   | 9384e3a   | feat(alerts-and-notifications): add external service in inventory management context. | Jun 20, 2025 |
+| OpenDoors/StockSip-Back-End-App | alerts                   | 2caef51   | feat(alerts-and-notifications): add anti-corruption layer implementation.             | Jun 20, 2025 |
+| OpenDoors/StockSip-Back-End-App | alerts                   | 92d34d    | feat(alerts): add alert commands.                                                     | Jun 20, 2025 |
 
 ### 5.2.3.5. Execution Evidence for Sprint Review ###
+El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización del landing page, del frontend y la primera version del backend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
+
+
+#### **Landing Page**
+
+**Video about the team**
+<p align="center">
+  <img src="https://i.imgur.com/YqXuFYh.png"/>
+</p>
+<br>
+
+**Video about the product**
+<p align="center">
+  <img src="https://i.imgur.com/uRPVNuH.png"/>
+</p>
+<br>
+
+#### **Front End Application**
+
+**Ordenes dueño**
+<p align="center">
+  <img src="https://i.imgur.com/jYVMgI8.png"/>
+</p>
+<br>
+
+**Ordesnes proveedor**
+<p align="center">
+  <img src="https://i.imgur.com/cNl9e1d.png"/>
+</p>
+<br>
+
+**Nueva orden**
+<p align="center">
+  <img src="https://i.imgur.com/B2pc4k7.png"/>
+</p>
+<br>
+
+**Catalogos**
+<p align="center">
+  <img src="https://i.imgur.com/vK4W9dB.png"/>
+</p>
+<br>
+
+**Nuevo catalogos**
+<p align="center">
+  <img src="https://i.imgur.com/1syLV04.png"/>
+</p>
+<br>
+
+#### **Back End Application**
+**Guias de conservacion**
+
+<p align="center">
+  <img src="https://i.imgur.com/Sr9FFNB.png"/>
+</p>
+<br>
+
+
+**Products**
+
+<p align="center">
+  <img src="https://i.imgur.com/HwA3oIl.png"/>
+</p>
+<br>
+
+
+**Warehouses**
+
+<p align="center">
+  <img src="https://i.imgur.com/mkfc0RK.png"/>
+</p>
+<br>
+
+
+**Alertas**
+
+<p align="center">
+  <img src="https://i.imgur.com/JSViuuy.png"/>
+</p>
+<br>
+
+
+**Cuentas de usuario**
+
+<p align="center">
+  <img src="https://i.imgur.com/9EUTotn.png"/>
+</p>
+<br>
+
+
+
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review ###
 
+| Módulo      | Endpoint                                                                                            | Acción                                    | Verbo HTTP | Sintaxis                                       | Parámetros principales                                        | Enlace a Swagger                                              |
+| ----------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------- | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Obtener guía por ID                       | GET        | `/api/v1/care-guides/123`                      | `careGuideId`, `accountId`                                    | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Actualizar guía                           | PUT        | `/api/v1/care-guides/123`                      | Body con nuevos campos                                        | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Eliminar guía                             | DELETE     | `/api/v1/care-guides/123`                      | `careGuideId`                                                 | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}/deallocations`                                                   | Desasignar guía                           | PUT        | `/api/v1/care-guides/123/deallocations`        | `careGuideId`                                                 | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Care Guides | `/api/v1/care-guides/{careGuideId}/allocations/{productId}`                                         | Asignar guía a producto                   | PUT        | `/api/v1/care-guides/123/allocations/45`       | `careGuideId`, `productId`                                    | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Products    | `/api/v1/products/{productId}/care-guide`                                                           | Obtener guía por producto                 | GET        | `/api/v1/products/45/care-guide`               | `productId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Products    | `/api/v1/products/{productId}/exits`                                                                | Obtener salidas por producto              | GET        | `/api/v1/products/45/exits`                    | `productId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Products    | `/api/v1/products/{productId}`                                                                      | Obtener producto por ID                   | GET        | `/api/v1/products/45`                          | `productId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Products    | `/api/v1/products/{productId}`                                                                      | Actualizar producto                       | PUT        | `/api/v1/products/45`                          | Body con valores actualizados                                 | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Products    | `/api/v1/products`                                                                                  | Crear producto                            | POST       | `/api/v1/products`                             | Body con nuevos campos                                        | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Products    | `/api/v1/products`                                                                                  | Obtener productos por perfil              | GET        | `/api/v1/products?profileId=10`                | `profileId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses`                                                                                | Obtener todos los almacenes               | GET        | `/api/v1/warehouses`                           | —                                                             | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses`                                                                                | Crear un almacén                          | POST       | `/api/v1/warehouses`                           | Body con datos del almacén                                    | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}`                                                                  | Obtener almacén por ID                    | GET        | `/api/v1/warehouses/123`                       | `warehouseId`                                                 | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}`                                                                  | Actualizar almacén                        | PUT        | `/api/v1/warehouses/123`                       | Body actualizado + `warehouseId`                              | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}`                                                                  | Eliminar almacén                          | DELETE     | `/api/v1/warehouses/123`                       | `warehouseId`                                                 | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}`                                  | Agregar stock a producto                  | POST       | `/warehouses/123/inventories/product/456`      | `expirationDate`, `quantity`                                  | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}/additions`                        | Añadir stock                              | PUT        | `.../additions`                                | `addedQuantity`, `stockExpirationDate`                        | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/{productId}/substractions`                            | Quitar stock                              | PUT        | `.../substractions`                            | `removedQuantity`, `expirationDate`                           | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}/moves`                            | Mover stock entre almacenes               | PUT        | `.../moves`                                    | `newWarehouseId`, `movedQuantity`, `movedStockExpirationDate` | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}/expiration-date/{expirationDate}` | Obtener inventario por fecha              | GET        | `/.../expiration-date/2025-06-22`              | `warehouseId`, `productId`, `expirationDate`                  | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}`                                  | Eliminar stock con fecha                  | DELETE     | `/.../product/456` (en body: `expirationDate`) | `warehouseId`, `productId`                                    | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/product-exits/{productId}`                                        | Registrar salida de producto              | POST       | `.../product-exits/456`                        | `expirationDate`, `quantityExited`, `exitReason`              | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/product-exits/{productId}`                                        | Obtener salidas por producto              | GET        | `.../product-exits/456`                        | `warehouseId`, `productId`                                    | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/product-exits`                                                    | Obtener salidas por almacén               | GET        | `/.../product-exits`                           | `warehouseId`                                                 | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/products`                                                         | Obtener productos por almacén             | GET        | `/.../products`                                | `warehouseId`                                                 | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Warehouses  | `/api/v1/warehouses/{warehouseId}/products/provider/{providerId}`                                   | Obtener productos por proveedor y almacén | GET        | `/.../products/provider/789`                   | `warehouseId`, `providerId`                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Alerts      | `/api/v1/alerts/{alertId}`                                                                          | Obtener alerta por ID                     | GET        | `/api/v1/alerts/123`                           | `alertId`                                                     | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides/{careGuideId}`                                            | Obtener Care Guide por ID                 | GET        | `/accounts/1/care-guides/10`                   | `accountId`, `careGuideId`                                    | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides`                                                          | Obtener todos los Care Guides             | GET        | `/accounts/1/care-guides`                      | `accountId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides`                                                          | Crear Care Guide sin producto             | POST       | `/accounts/1/care-guides`                      | `accountId`, Body                                             | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/care-guides/product/{productId}`                                      | Crear Care Guide con producto             | POST       | `/accounts/1/care-guides/product/99`           | `accountId`, `productId`, Body                                | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/products`                                                             | Obtener productos por cuenta              | GET        | `/accounts/1/products`                         | `accountId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/warehouses`                                                           | Obtener almacenes por cuenta              | GET        | `/accounts/1/warehouses`                       | `accountId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+| Accounts    | `/api/v1/accounts/{accountId}/alerts`                                                               | Obtener alertas por cuenta                | GET        | `/accounts/1/alerts`                           | `accountId`                                                   | [Ver Link](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html) |
+
+## **Ejemplos Detallados**
+
+
+### Care Guides
+
+#### Endpoint: Endpoint: `/api/v1/care-guides/{careGuideId}` – `GET`
+
+- **Descripción:** Crea una nueva guía de cuidado sin asociarla inicialmente a un producto.
+    
+- **Parámetros:**
+    
+    - `careGuideId` (path)
+    - `accountId` (path)
+        
+- **Ejemplo de llamada:**
+
+	- GET /api/v1/care-guides/123
+    
+- **Respuesta (`200 Ok`):**
+    
+	{
+	  "id": "123",
+	  "accountId": "456",
+	  "productId": "789",
+	  "title": "Guía de Almacenamiento",
+	  "summary": "Instrucciones para conservar el producto",
+	  "minTemp": 5,
+	  "maxTemp": 15,
+	  "placeStorage": "Ambiente fresco",
+	  "recommendation": "Evitar exposición solar directa"
+	}
+
+
+### Products
+
+### Endpoint: `/api/v1/products` – `POST`
+
+- **Descripción:** Crea un nuevo producto asociado a un proveedor.
+    
+- **Body:**
+
+	{
+	  "additionalName": "Whisky Etiqueta Azul",
+	  "liquorType": "Whisky",
+	  "brandName": "Blue Label",
+	  "unitPriceAmount": 250,
+	  "minimumStock": 10,
+	  "imageUrl": "http://example.com/image.png",
+	  "providerId": "sup123"
+	}
+	
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "prod678",
+	  "imageUrl": "http://example.com/image.png",
+	  "name": "Whisky Etiqueta Azul",
+	  "brandName": "Blue Label",
+	  "liquorType": "Whisky",
+	  "unitPriceAmount": 250,
+	  "minimumStock": 10,
+	  "providerId": "sup123"
+	}
+	
+- **Respuesta de error (`400`):**  
+    `"Product could not be created..."`
+
+
+### Warehouses
+
+### Endpoint: `/api/v1/warehouses/{warehouseId}/inventories/product/{productId}` – `POST`
+
+- **Descripción:** Añade stock a un producto en un almacén determinado, registrando su fecha de expiración.
+    
+- **Parámetros:**
+    
+    - `warehouseId`: ID del almacén
+        
+    - `productId`: ID del producto
+        
+ - Body:
+        
+	 {
+	  "expirationDate": "2025-12-01T00:00:00",
+	  "quantity": 100
+	 }
+        
+- **Respuesta exitosa (`201 Created`):**
+
+	{
+	  "id": "inv123",
+	  "productId": "prod456",
+	  "warehouseId": "wh789",
+	  "bestBeforeDate": "2025-12-01T00:00:00",
+	  "stock": 100,
+	  "productState": "FRESH"
+	}
+
+
+
+### Alerts
+
+### Endpoint: `/api/v1/alerts/{alertId}` – `GET`
+
+- **Descripción:** Recupera una alerta del sistema según su identificador único.
+    
+- **Parámetros:**
+    
+    - `alertId` (path): ID de la alerta.
+        
+- **Ejemplo de llamada:**
+    
+    `GET /api/v1/alerts/a123`
+    
+- **Ejemplo de respuesta (`200 OK`):**
+    
+    {
+	  "id": "a123",
+	  "title": "Alerta de Temperatura",
+	  "message": "La temperatura ha superado el límite permitido.",
+	  "severity": "HIGH",
+	  "type": "STORAGE_CONDITION",
+	  "productId": "p456",
+	  "warehouseId": "w789"
+	  }
+    
+- **Respuesta de error (`404 Not Found`):**
+    
+    `Alert not found...`
+
+
+### Account
+
+### Endpoint: `/api/v1/accounts/{accountId}/care-guides` – `POST`
+
+- **Descripción:** Crea una nueva guía de cuidado sin asociarla inicialmente a un producto.
+    
+- **Parámetros:**
+    
+    - `accountId` (path): ID de la cuenta.
+        
+- **Body:**
+    
+	{
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
+    
+- **Respuesta (`201 Created`):**
+    
+	{
+	  "id": "cg01",
+	  "accountId": "acc01",
+	  "productId": null,
+	  "title": "Guía de temperatura baja",
+	  "summary": "Almacenar bajo 8 °C",
+	  "minTemp": 2,
+	  "maxTemp": 8,
+	  "placeStorage": "Refrigerado",
+	  "recommendation": "Evitar exposición al calor."
+	}
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review ###
 
+#### Despliegue del Back End
+* Primero, se creó un repositorio en GitHub para alojar el código fuente del Backend, permitiendo así una gestión centralizada y control de versiones
+* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del BackEnd, lo que permitió trabajar en paralelo de manera organizada.
+<p align="center">
+  <img src="https://i.imgur.com/e31bJ1F.png"/>
+</p>
+
+* Tercero, se creó un proyecto en Rider y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
+* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
+* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
+* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama release, consolidando una versión estable del proyecto.
+* Septimo, se configuró el archivo dockerfile y appsettings.production para poder utilizar la web render para su despliegue exitoso.
+* Octavo, se configuro la pagina FreeSQLDatabase para poder desplegar nuestra base de datos en la nube.
+* Noveno, se realizó el despliegue del Backend a través de Render. A continuación, se muestra la evidencia del despliegue:
+<p align="center">
+  <img src="https://i.imgur.com/Aw9gYTV.png"/>
+</p>
+
+* Link publico: [Web_Services_StockSip](https://stocksip-back-end-application.onrender.com/swagger-ui/index.html)
+
 ### 5.2.3.8. Team Collaboration Insights durint Sprint ###
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los tres principales productos: Landing Page, Web Application (Frontend) y Web Services(BackEnd). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+
+El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+
+<p align="center">
+  <img src="https://i.imgur.com/7mo7SJU.png"/>
+</p>
+
+A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+- El integrante Martín Gonzales fue responsable de implementar la sección de alertas en el Frontend y creacion del bounded context alerts and notifications
+- La integrante Camila Huamani agrego los videos about the team y about the product. En el Frontend se encargo de realizar las secciones de catalogo y órdenes de compra y creacion del bounded context authentication, y profile management
+- El integrante Farid Coronel fue responsable de implementar el bounded context de inventory management y payments and subscriptions.
+- El integrante Matias Diaz implementó la seccion de planes de reabastecimiento en el Frontend y creacion del bounded context analytics and reporting
+- El integrante Nicolas Juarez implementó la creacion del bounded context inventory management
+
+Commits de los integrantes en el Landing Page:
+<p align="center">
+  <img src="https://i.imgur.com/xaO8mjo.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el landing page:
+<p align="center">
+  <img src="https://i.imgur.com/vBY3Ne2.png"/>
+</p>
+
+Commits de los integrantes en el Frontend:
+<p align="center">
+  <img src="https://i.imgur.com/pfifLqs.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el Frontend: 
+
+<p align="center">
+  <img src="https://i.imgur.com/3Y3G0cw.png"/>
+</p>
+
+Commits de los integrantes en el BackEnd:
+<p align="center">
+  <img src="https://i.imgur.com/oDFYrHx.png"/>
+</p>
+
+Grafico de los push y merge realizados por el equipo en el BackEnd 
+
+<p align="center">
+  <img src="https://i.imgur.com/09vttpb.png"/>
+</p>
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
 
+
+En las entrevistas de validación se incluirá:
+
+- **Exploración del Landing Page:**
+    
+    - ¿Comprendieron el propósito de la aplicación?
+        
+    - ¿Fue clara la propuesta de valor?
+        
+- **Validación de la Aplicación Web:**
+    
+    - Se validarán las funcionalidades clave según el flujo de cada user goal.
+        
+    - Se observarán comportamientos, puntos de confusión, y reacciones espontáneas.
+        
+- **Registro de métricas cualitativas y cuantitativas:**
+        
+    - Nivel de comprensión (autoevaluación del usuario).
+        
+    - Comentarios de usabilidad y experiencia.
+        
+    - Satisfacción con el flujo (escala del 1 al 5).
+	
+- **Flujos a Desarrollar:**
+
+| **User Goal** | **Descripción del Flujo**                                                                                                 | **Objetivo de Validación**                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **UG 1**      | El usuario accede al Landing Page, se registra con sus datos, y se le asigna un plan gratuito.                            | Validar claridad del formulario de registro y comprensión del plan gratuito. |
+| **UG 2**      | El usuario inicia sesión con su cuenta y selecciona plan premium si aplica.                                               | Validar facilidad de login y claridad en elección de plan.                   |
+| **UG 4**      | Desde el dashboard, el licorero accede fácilmente a la sección de inventario.                                             | Confirmar acceso intuitivo al inventario desde cualquier punto.              |
+| **UG 5**      | El licorero accede al inventario, agrega un nuevo producto llenando el formulario, y el producto se asocia correctamente. | Validar comprensión y facilidad del formulario de producto.                  |
+| **UG 8**      | El licorero navega desde cualquier parte a la sección Reportes utilizando el icono correspondiente.                       | Verificar navegación clara y sin fricción hacia reportes.                    |
+| **UG 9**      | Desde la sección Reportes, el licorero crea un nuevo reporte llenando los datos solicitados.                              | Validar flujo lógico y claridad de campos al generar reportes.               |
+| **UG 11**     | El licorero crea una nueva orden de compra: elige productos, cantidad y proveedor. Luego la envía.                        | Verificar fluidez del proceso y facilidad para seleccionar y enviar pedidos. |
+| **UG 12**     | El proveedor accede a la sección de Conservación, genera una nueva guía completando datos, y la visualiza.                | Validar comprensión del proceso de creación de guías de conservación.        |
+
 ### 5.3.2. Registro de entrevistas
+
+
+**Entrevista 1**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p align="center"><img src="https://i.imgur.com/fJEnnVU.png"/></p> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Erick Coronel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Farid Sebastian Coronel Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Timing: Minuto 00:06-15:30                                         | **Resumen:** La entrevista se realizo a Erick Coronel, de 59 años, con el fin de validar dos productos de software enfocados en empresas de licores. La evaluación se centró en la landing page, el flujo de navegación, claridad de contenido y funcionalidad de las secciones clave (planes, testimonios, dashboard, almacenes, alertas, perfil y reportes). Erick valoró positivamente la estructura general del sitio, destacando la claridad de los testimonios, los beneficios de los planes y el seguimiento en tiempo real de inventario. Mencionó que sería conveniente aumentar ligeramente el tamaño de la fuente para una mejor legibilidad. También sugirió que la opción multilingüe (español-inglés) debería estar disponible en todas las secciones, ya que el contenido en inglés no siempre resulta accesible. Apreció los iconos y accesos rápidos del dashboard, considerándolos intuitivos. Opinó que la sección de almacenes es clara, aunque recomendó incluir más visibilidad de ciertos datos como precio y cantidad por botella. Consideró que las alertas de productos próximos a vencer y de bajo stock son funcionales y útiles para la toma de decisiones. Respecto al registro y perfil, destacó que el diseño es amigable y los colores ayudan a guiar el proceso. También le pareció útil incluir redes sociales en el perfil. Finalmente, evaluó como clara y precisa la sección de reportes, indicando que no requiere mejoras importantes en su diseño o ubicación. Satisfaccion de flujo: 4.5/5|
+
+**Entrevista 2**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p align="center"><img src="https://i.imgur.com/B0hSLHp.png"/></p> | **Distrito:** Chorrillos<br>**Entrevistado:** Luis Alfonzo Jimenez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Camila Victoria Huamani Cruz                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Timing: Minuto 15:40-28:04                                         | **Resumen:** La entrevista se realizo a Luis Alfonzo Jimenez, de 55 años, participó en la validación de la aplicación Stock, diseñada para la gestión de inventario en licorerías. Durante la prueba, creó una cuenta, seleccionó su rol como dueño de licorería, y accedió sin problemas al dashboard, el cual le permitió visualizar ventas, productos en stock y alertas relevantes. Exploró la sección de almacenamiento, donde creó un producto nuevo ingresando datos como tipo de licor, marca, precio e imagen. También navegó por la sección de reportes y generó una guía de conservación, configurando temperatura, duración del producto abierto y comentarios útiles para sus trabajadores. Luis continuó creando una orden de compra desde la sección correspondiente, seleccionando productos del catálogo y asignando un proveedor. Finalmente, accedió al perfil para modificar su información personal, revisar su rol y consultar los beneficios del plan premium. En su opinión, la aplicación es muy amigable, clara y sencilla de manejar. Destacó como funcionalidad clave la gestión del stock mínimo y la emisión de alertas, que considera fundamentales para tomar decisiones de reposición, sobre todo en fechas críticas como fines de semana. Valoró positivamente la estructura general de la app, aunque aclaró que un mayor uso permitiría familiarizarse aún más con ella. Satisfaccion de flujo: 4.8/5| 
+**Entrevista 3**
+
+| Entrevista                                                         | Registro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p align="center"><img src="https://i.imgur.com/AshFnYN.png"/></p> | **Distrito:** Villa el Salvador<br>**Entrevistado:** Brayner Coronel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Link](https://acortar.link/8Nl8Ms)                                | **Entrevistador:** Farid Sebastian Coronel Espinoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Timing: Minuto 28:06-41:29                                         | **Resumen:** La entrevista se realizo a Brayner Coronel, de 28 años, participó en la entrevista de validación de nuestra aplicacion. Se evaluó principalmente el flujo de navegación y la experiencia visual en la landing page y distintas secciones del sistema. Brayner destacó positivamente la estructura de la landing page, valorando la inclusión de testimonios, preguntas frecuentes, soporte bilingüe (español e inglés) y planes diferenciados (gratuito y premium). Considera que estos elementos ayudan al visitante a orientarse, confiar en el servicio y tomar decisiones. Sugirió que los nombres en los almacenes podrían omitir palabras redundantes como "vino" si ya están en el contexto de un almacén de vinos, para mejorar la visualización. Respecto al diseño, valoró los colores y la organización visual de las secciones. Le pareció comprensible la navegación mediante iconos en la barra lateral, considerando que estos son suficientemente descriptivos. También resaltó como útil la funcionalidad de selección de roles al registrarse, el perfil de usuario editable, y la posibilidad de cambiar idioma fácilmente. En cuanto al inventario, consideró clara la visualización de productos, imágenes, precio, stock y capacidad de edición o creación de nuevos ítems. En la sección de reportes, entendió correctamente las distintas funciones: pérdidas, transportes, reposiciones y conservación. Opinó que los reportes son fáciles de navegar y bien segmentados. Finalmente, destacó la utilidad de las alertas por productos próximos a vencer o con stock crítico, y sugirió que algunos accesos clave, como los catálogos y pedidos, deberían estar disponibles desde accesos rápidos para agilizar la interacción. Satisfaccion de flujo: 4.7/5|
+
 
 ### 5.3.3. Evaluación según heurísticas
 
@@ -903,7 +1331,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 Si el usuario pone un correo inválido con cualquier palabras después del símbolo (@), no hay mensajes visuales de error.
 
 <p align="center">
-  <img src="https://i.imgur.com/f9kdg7e.png">
+  <img src="https://i.imgur.com/h2gIADr.png">
 </p>
 
 **Recomendación:**  
@@ -918,7 +1346,7 @@ Agregar validaciones básicas con mensajes claros, donde se validan correos real
 Un usuario se puede registrar con contraseñas cuya longitud sea menor de 8 caracteres, sin símbolos o números, lo que no previene errores de seguridad.
 
 <p align="center">
-  <img src="https://i.imgur.com/p9TApMn.png">
+  <img src="https://i.imgur.com/e7dY6mI.png">
 </p>
 
 **Recomendación:**  
@@ -933,7 +1361,7 @@ Agregar validaciones básicas para que los usuarios creen contraseñas con más 
 Aunque se asigna un error cuando no se puede crear un nuevo almacén, este error **no se muestra en el la pantalla del usuario**. El usuario no sabe qué ocurrió.
 
 <p align="center">
-  <img src="https://i.imgur.com/bonFWjk.png">
+  <img src="https://i.imgur.com/qUhkUh9.png">
 </p>
 
 **Recomendación:**  
@@ -975,10 +1403,10 @@ Agregar un buscador o filtro en la parte superior de la sección de almacenes.
 **Heurística violada:** Usability: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
 
 **Descripción:**  
-El mensaje "Error loading alerts." no brinda detalles útiles ni opciones para volver a intentar.
+los mensajes presentes no brindan detalles útiles ni opciones para volver a intentar.
 
 <p align="center">
-  <img src="https://i.imgur.com/JLAq8vP.png">
+  <img src="https://i.imgur.com/qVwEGzl.png">
 </p>
 
 **Recomendación:**  
@@ -993,7 +1421,7 @@ Mostrar mensaje más útil e interactivo: "No se pudieron cargar las alertas. Ve
 Las alertas críticas como “Urgent Repositioning” no destacan visualmente frente a otras.
 
 <p align="center">
-  <img src="https://i.imgur.com/wfqgtxr.png">
+  <img src="https://i.imgur.com/KT1j1y0.png">
 </p>
 
 **Recomendación:**  
