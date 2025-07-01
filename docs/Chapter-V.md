@@ -835,16 +835,25 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 ### 5.2.3.5. Execution Evidence for Sprint Review ###
 El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización del landing page, del frontend y la primera version del backend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
 
+A continuacion, se adjunta el enlace al video de ejecucion de los tres productos de software que registraron un progreso para este sprint:
+[[PONER EL ENLACE DEL VIDEO EXPOSICION]]
+
 
 #### **Landing Page**
+A continuacion, se explica a detalle las nuevas secciones implementadas en nuestro sitio web de negocio estatico. En este sprint, se implementaron las secciones acerca del equipo de desarrollo y acerca del producto.
 
-**Video about the team**
+**Video about the team** <br>
+Se implemento el video acerca del equipo de desarrollo de los productos de software. Este video contiene informacion sobre progreso realizado por cada uno de los integrantes del grupo en el ciclo de vida del proyecto. Ademas, este video contiene reflexiones personales y grupales acerca del desarrollo general de los productos.
+Finalmente, se da una opinion sobre el avance realizado por cada uno de los miembros respecto de su aporte al proyecto y a las competencias del Student Outcome del curso.
+
 <p align="center">
   <img src="https://i.imgur.com/YqXuFYh.png"/>
 </p>
 <br>
 
 **Video about the product**
+Se implemento el video acerca de los productos de software desarrollados por el equipo. Este video contiene explicacion de como funcionan las secciones de la aplicacion web.
+
 <p align="center">
   <img src="https://i.imgur.com/uRPVNuH.png"/>
 </p>
@@ -1205,7 +1214,6 @@ Grafico de los push y merge realizados por el equipo en el BackEnd
 
 ### 5.3.1. Diseño de entrevistas
 
-
 En las entrevistas de validación se incluirá:
 
 - **Exploración del Landing Page:**
@@ -1429,4 +1437,6 @@ Usar color de fondo, bordes o íconos para distinguir prioridades.
 
 ## 5.4. Video About The Product
 
-## 5.5. Video About The Team
+<p align="center">
+  <img src="https://i.imgur.com/YqXuFYh.png"/>
+
