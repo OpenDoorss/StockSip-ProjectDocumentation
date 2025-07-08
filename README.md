@@ -46,7 +46,6 @@
 
 ###### Junio 2025
 
-</div>
 
 # Registro de Versiones del Informe
 
