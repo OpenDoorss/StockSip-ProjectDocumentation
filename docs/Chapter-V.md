@@ -1421,28 +1421,49 @@ También, los logros incluyen la implementación en la aplicación frontend de p
 
 A continuación, se muestran las capturas de pantalla de las secciones implementadas en la Landing Page, aplicación Front End y aplicación Backend. Estas imágenes reflejan el progreso realizado en el sprint y sirven como evidencia del trabajo completado.
 
+- Vídeo de ejecución de los tres productos para este sprint: https://youtu.be/32aIog7QiWQ
+
 ## **Landing Page**
 
 Se adjuntan los enlaces para acceder al sitio web desplegado y al vídeo de ejecución del sitio web estático. El vídeo muestra el funcionamiento de cada sección del sitio web y cómo se ve en un navegador web.
-- Sitio web estático desplegado:
-- Vídeo de ejecución:
+
+Video sobre exploracion de la aplicacion
+<p align="center">
+  <img src="https://i.imgur.com/JKOTI6O.png" 
+  alt="Exploration of the app section in landing page"/>
+</p>
 
 
 ## **Front End Application**
 
 Se adjuntan los enlaces para acceder a la aplicación frontend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo se ve en un navegador web.
-- Aplicación Frontend desplegada:
-- Vídeo de ejecución de la Aplicación Frontend:
 
+Seccion de almacenes
+<p align="center">
+  <img src="https://i.imgur.com/JKOTI6O.png" 
+  alt="Warehouses in frontend"/>
+</p>
 
+Seccion de ordenes
+<p align="center">
+  <img src="https://i.imgur.com/eRTeEX5.png" 
+  alt="Orders in frontend"/>
+</p>
 
 ### **Back End Application**
 Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo fueron nombradas las rutas de los endpoints implementados.
-- Aplicación Backend desplegada:
-- Vídeo de ejecución de la Aplicación Frontend:
 
+Endpoints para catalogos en el backend
+<p align="center">
+  <img src="https://i.imgur.com/IJZMiKb.png" 
+  alt="Catalogs in backend"/>
+</p>
 
-
+Endpoints para cuentas en el backend
+<p align="center">
+  <img src="https://i.imgur.com/Vnvk58B.png" 
+  alt="Accounts in backend"/>
+</p>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 En esta sección, se describe la evidencia de documentación de los endpoints que se han implementado en la aplicación backend de nuestro proyecto para este sprint. A continuación, se muestra la tabla que contiene una breve descripción de las acciones y requisitos de cada endpoint implementado.
@@ -1450,37 +1471,6 @@ En esta sección, se describe la evidencia de documentación de los endpoints qu
 | Módulo      | Endpoint                                                                                            | Acción                                    | Verbo HTTP | Sintaxis                                       | Parámetros principales                                        | Enlace a Swagger                                              |
 | ----------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------- | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
 | Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Obtener guía por ID                       | GET        | `/api/v1/care-guides/123`                      | `careGuideId`, `accountId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
-
-## **Ejemplos Detallados**
-
-### Care Guides
-
-#### Endpoint: Endpoint: `/api/v1/care-guides/{careGuideId}` – `GET`
-
-- **Descripción:** Crea una nueva guía de cuidado sin asociarla inicialmente a un producto.
-
-- **Parámetros:**
-
-  - `careGuideId` (path)
-  - `accountId` (path)
-
-- **Ejemplo de llamada:**
-
-  - GET /api/v1/care-guides/123
-
-- **Respuesta (`200 Ok`):**
-
-  {
-  "id": "123",
-  "accountId": "456",
-  "productId": "789",
-  "title": "Guía de Almacenamiento",
-  "summary": "Instrucciones para conservar el producto",
-  "minTemp": 5,
-  "maxTemp": 15,
-  "placeStorage": "Ambiente fresco",
-  "recommendation": "Evitar exposición solar directa"
-  }
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en tres partes principales: la Landing Page, el Frontend y Backend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
@@ -1610,11 +1600,6 @@ Se adjunta el enlace a la aplicación backend desplegada: https://stocksip-back-
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como un resumen de las labores realizadas por cada miembro del equipo para el cumplimiento completo de la entrega relacionada a este sprint.
 
-El proyecto se realizó mediante un repositorio en GitHub con los siguientes integrantes participantes:
-<p align="center">
-  <img src="https://i.imgur.com/DAyXhVR.png"/>
-</p>
-
 A continuation, se detallará el trabajo que realizo cada integrante del equipo para cada producto avanzado en este sprint:
 
 ### Landing Page ###
@@ -1624,7 +1609,6 @@ A continuation, se detallará el trabajo que realizo cada integrante del equipo 
 - El integrante Farid Coronel formó parte de la última grabación del vídeo sobre el equipo.
 - El integrante Nicolas Juarez formó parte de la grabación definitiva del vídeo sobre el equipo y reorganizó la estructura de los archivos del sitio web de negocio.
 
-[[FALTAN IMÁGENES]]
 A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la última versión del sitio web de negocio. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en el desarrollo de las actualizaciones de las secciones del sitio web.
 <p align="center">
   <img src="https://i.imgur.com/3B3zlvd.png"/>
@@ -1640,17 +1624,12 @@ También, se adjunta el gráfico del avance realizado por cada rama de funcional
 - El integrante Martín Gonzales fue responsable de implementar el consumo de servicios web para las guías de conservación, alertas y salidas de productos.
 - La integrante Camila Huamani implementó el consumo de servicios web para las secciones de órdenes de compra, catálogos, autenticación y perfiles.
 - El integrante Farid Coronel fue responsable de implementar el consumo de servicios web para las secciones de productos y almacenes.
+- El integrante Sergio Julca fue responsable de implementar las secciones de inventarios y productos.
 - El integrante Nicolas Juarez fue responsable de implementar el consumo de servicios web para los productos de la aplicación.
-
-[[FALTAN IMÁGENES]]
-A continuación, se muestra la cantidad de commits realizados por los integrantes para el avance de la última versión de la aplicación Frontend. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en la implementación de los servicios web en todas las secciones de la aplicación.
-<p align="center">
-  <img src="https://i.imgur.com/Rcpfw7u.png"/>
-</p>
 
 También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación front end. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación frontend principalmente la implementación del consumo de servicios web y autenticación de usuarios.
 <p align="center">
-  <img src="https://i.imgur.com/qcDq5Ef.png" width=500/>
+  <img src="https://i.imgur.com/A73aRUf.png" width=500/>
 </p>
 
 ### Aplicación Backend ###
