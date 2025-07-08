@@ -1437,3 +1437,13 @@ Usar color de fondo, bordes o íconos para distinguir prioridades.
 ## 5.4. Video About The Product
 
 ## 5.5. Video About The Team
+
+
+| Módulo         | Endpoint                               | Acción                       | Verbo HTTP | Parámetros                                    | Enlace a Swagger                                                   |
+| -------------- | -------------------------------------- | ---------------------------- | ---------- | --------------------------------------------- | ------------------------------------------------------------------ |
+| Authentication | `/api/v1/authentication/sign-in`       | Iniciar sesión               | POST       | Body: `{ username, password }`                | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
+| Orders         | `/api/v1/orders`                       | Listar todas las órdenes     | GET        | Ninguno                                       | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
+| Orders         | `/api/v1/orders`                       | Crear nueva orden            | POST       | Body: `{ orderDate, buyer, supplier, items }` | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
+| Orders         | `/api/v1/orders/{id}/status`           | Actualizar estado de orden   | PATCH      | Path: `id`, Query: `status`                   | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
+| Orders         | `/api/v1/orders/supplier/{supplierId}` | Listar órdenes por proveedor | GET        | Path: `supplierId`                            | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
+| Orders         | `/api/v1/orders/buyer/{buyerId}`       | Listar órdenes por comprador | GET        | Path: `buyerId`                               | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
