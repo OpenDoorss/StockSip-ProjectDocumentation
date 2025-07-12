@@ -1889,6 +1889,7 @@ Enlace al video acerca del producto: [https://acortar.link/dnNGV5](https://acort
 </p>
 
 ## 5.5. Video About The Team
+
 En esta sección, se adjunta el enlace al video que presenta al equipo de trabajo que desarrolló el producto de software. En este video, cada miembro del equipo comparte su rol y contribuciones al proyecto, destacando la colaboración y el esfuerzo conjunto para crear una solución efectiva.
 
 Enlace al video acerca del equipo de trabajo que desarrollo el producto de software: [https://acortar.link/omYKFj](https://acortar.link/omYKFj)
@@ -1896,3 +1897,4 @@ Enlace al video acerca del equipo de trabajo que desarrollo el producto de softw
 <p align="center">
   <img src="https://i.imgur.com/x1CrLdb.png">
 </p>
+
