@@ -2,43 +2,57 @@
 
 ## _5.1. Software Configuration Management_ ##
 
+En esta sección, se detalla la configuración de la tecnología a usar en el ciclo de vida de desarrollo del proyecto del curso.
+
 ### 5.1.1. Software Development Environment Configuration ###
+
+En esta sección, se explica los entornos en donde se decidió llevar a cabo el ciclo de vida de desarrollo de los productos de software relacionados al proyecto del curso.
 
 * **Project Management**
 
-  En el aspecto de gestión y desarrollo del ciclo de vida del proyecto se utilizó la aplicación Discord y Google Meet para las reuniones de grupo en las cuales se conversan sobre temas relacionados a avances y corrección de aspectos del proyecto. Luego, para la documentación del proyecto, se utilizó el formato MarkDown
+  - En el aspecto de gestión y desarrollo del ciclo de vida del proyecto se utilizó la aplicación DISCORD y GOOGLE MEET para las reuniones de grupo en las cuales se conversan sobre temas relacionados a avances y corrección de aspectos del proyecto. Además, para la documentación del proyecto, se utilizó el formato Mark Down en un repositorio de GitHub para el control de versiones del informe.
 
 * **Requirements Management**
 
-  Para el manejo de los requisitos (historias de usuario, product backlog, sprint backlog), se utilizó Trello es una herramienta ideal para gestionar proyectos. Usando esta herramienta, se puede organizar un product backlog, ya que permite estructurar tareas visualmente en un tablero. Puedes crear listas que representen etapas del flujo de trabajo, y en cada lista añadir tarjetas que describan las user stories o tareas individuales. Estas tarjetas permiten detallar información clave, como prioridades, etiquetas de color, descripciones y checklists, facilitando así el seguimiento y la colaboración del equipo.
+  - Para el manejo de los requisitos (historias de usuario, product backlog, sprint backlog) del producto, se utilizó TRELLO la cual es una herramienta ideal para gestionar proyectos. Además, usando esta herramienta, se puede organizar un product backlog, ya que permite estructurar tareas visualmente en un tablero. También puedes crear listas que representen etapas del flujo de trabajo, y en cada lista añadir tarjetas que describan las user stories o tareas individuales. Estas tarjetas permiten detallar información clave, como prioridades, etiquetas de color, descripciones y checklists, facilitando así el seguimiento y la colaboración del equipo.
 
 * **Product UX/UI Design**
 
-  Para el desarrollo de plantillas de los User Persona  y del Impact Mapping se utilizó UXPressia. Es una plataforma especializada en la creación de mapas de experiencia del usuario ofreciendo una interfaz enfocada exclusivamente en UX que facilita la estructuración clara y profesional de estos elementos. Destaca por sus plantillas personalizables, la posibilidad de añadir datos reales, imágenes y métricas, y por permitir la colaboración en tiempo real. Para la creación del Lean UX Canvas se utilizó la aplicación canva. Esta aplicación es una herramienta versátil para crear diversos diseños. Canva facilita la colaboración del equipo y la exportación de los proyectos en archivo PNG o PDF, manteniendo el proceso creativo ordenado y atractivo. Para los Journey Mapping, Empathy Mapping, entre otros mapas,  se decidió utilizar Miro. Esta aplicación permite una colaboración en tiempo real entre equipos, ofrece una interfaz visual e intuitiva, y cuenta con plantillas prediseñadas que agilizan el proceso sin perder calidad metodológica.
+  - Para el desarrollo de plantillas de los user persona, de los Impact Maps y los User Journey Maps se utilizó la aplicación UXPRESSIA la cual es una plataforma especializada en la creación de mapas de experiencia del usuario ofreciendo una interfaz enfocada exclusivamente en UX que facilita la estructuración clara y profesional de estos elementos. Destaca por sus plantillas personalizables, la posibilidad de añadir datos reales, imágenes y métricas, y por permitir la colaboración en tiempo real.
 
-  Luego, para el desarrollo de wireframes, mockups y prototipos de aplicación, se decidió utilizar Figma. Esta es una herramienta que facilita el diseño de interfaces, permitiéndonos trabajar con colores, imágenes, formas, y otros elementos visuales para crear nuestra aplicación. Nos ofrece la posibilidad de probar diversos modelos de dispositivos. Además, esta plataforma será clave en la creación de nuestro prototipo, ya que brinda una simulación interactiva que permite visualizar y experimentar el proyecto desde la perspectiva del usuario.
+  - Para la creación del Lean UX Canvas se utilizó la aplicación de diseño CANVA. Esta aplicación es una herramienta versátil para crear diversos diseños. Canva facilita la colaboración del equipo y la exportación de los proyectos en archivo PNG o PDF, manteniendo el proceso creativo ordenado y atractivo. Para los Journey Mapping, Empathy Mapping, entre otros mapas,  se decidió utilizar Miro. Esta aplicación permite una colaboración en tiempo real entre equipos, ofrece una interfaz visual e intuitiva, y cuenta con plantillas prediseñadas que agilizan el proceso sin perder calidad metodológica.
 
+  - Finalmente, para el desarrollo de interfaces de usuario (wireframes, mockups y prototipos de aplicación) se decidió utilizar FIGMA. Esta es una herramienta que facilita el diseño de interfaces, permitiéndonos trabajar con colores, imágenes, formas, y otros elementos visuales para crear nuestra aplicación. Nos ofrece la posibilidad de probar diversos modelos de dispositivos. Además, esta plataforma será clave en la creación de nuestro prototipo, ya que brinda una simulación interactiva que permite visualizar y experimentar el proyecto desde la perspectiva del usuario.
 
 * **Software Development**
 
-  Para el desarrollo del Software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GitHub y JetBrains. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript.
-  Para el desarrollo del Frontend Web Application, se utilizaron las aplicaciones de Github y WebStorm. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y Typescript, asi mismo se utilizo el framework de Angular.
-  Para el desarrollo del Web Services, se utilizaron las aplicacionde de Github. Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que WebStorm es el programa en el que se codifica nuestra aplicacion BackEnd usando el lenguaje de Java, asi mismo se utilizo el framework de Spring con su extension Spring Boot.
+  - Para el desarrollo del producto de software correspondiente al Landing Page, se utilizarán dos aplicaciones, las cuales son GITHUB y JETBRAINS WEBSTORM. La primera ayuda al equipo a gestionar de manera correcta los avances colaborativos del proyecto. Por otro lado, JetBrains WebStorm ayudará a trabajar el proyecto con lenguajes como HTML5, CSS y JavaScript para el desarrollo del landing page.
 
+  - Para el desarrollo de la aplicación Front-End, se utilizaron las aplicaciones de GITHUB y JETBRAINS WEBSTORM. Por un lado, Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo. Mientras que, por otro lado, JetBrains WebStorm es el programa en el que se codifica nuestra aplicacion Frontend usando los lenguajes HTML5, CSS y JavaScript, asi mismo se utilizo el framework de Angular para los componentes de la aplicación.
+
+  - Para el desarrollo de los Web Services o la Aplicación Back-End, se utilizaron las aplicaciones de GITHUB Y JETBRAINS INTELLIJ IDEA. Por un lado, Github nos ayuda a gestionar la documentacion correcta de los avances que realizan los miembros del equipo y a llever un control de los avances que realiza cada miembro del equipo. Mientras que JetBrains IntelliJ Idea es el programa en el que se codifica nuestra aplicacion BackEnd usando el lenguaje de Java, asi mismo se utilizo el framework de SpringBoot para el desarrollo de los endpoints correspondientes al producto de software.
+
+  - Finalmente, para la creación del esquema de base de datos, se usó MYSQL y el cliente MYSQL WORKBENCH. Gracias a algunas extensiones para ASP.NET Core, se puede generar un esquema relacional en MySql respecto a lo que se implementa en la aplicación Backend. Además, con MySql Workbench, se pueden comprobar las creaciones de datos y los datos almacenados en ella.
+  
 * **Software Testing**
 
-  Las pruebas del Landing Page y del Frontend se realizarán mediante uso del navegador web para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page y al frontend del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
+  - Las pruebas de la Landing Page se realizarán mediante uso del navegador web GOOGLE para verificar que el diseño del mismo cumple con aspectos como el diseño responsivo en cualquier dispositivo desde el que se acceda al landing page del proyecto. Además, para visualizar que se han implementado correctamente elementos visuales que deben aparecer en las distintas secciones de la página.
 
-  Las pruebas del frontend se realizaron utilizando una fake API mediante JSON Server, que funcionó como una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
+  -  Las pruebas de la aplicación Front-End se realizaron utilizando una fake API que usa la dependencia JSON SERVER que simula el consumo de datos traidos de una base de datos temporal para validar el correcto funcionamiento de las interfaces y las interacciones con los datos.
 
-  Las pruebas del backend se realizaron mediante Swagger UI y Postman, herramientas que facilitaron la ejecución de consultas y solicitudes HTTP de manera visual e intuitiva, permitiendo verificar el correcto funcionamiento de los endpoints expuestos por la API. Gracias a estas herramientas, fue posible simular distintos escenarios de uso, validar las respuestas del servidor, analizar los códigos de estado HTTP y garantizar que la lógica del backend respondiera adecuadamente ante entradas válidas y erróneas.
-
+  - Finalmente, las pruebas de la Aplicación Back-End se realizaron mediante SWAGGER UI y POSTMAN, herramientas que facilitaron la ejecución de consultas y solicitudes HTTP de manera visual e intuitiva, permitiendo verificar el correcto funcionamiento de los endpoints expuestos por la API. Gracias a estas herramientas, fue posible simular distintos escenarios de uso, validar las respuestas del servidor, analizar los códigos de estado HTTP y garantizar que la lógica del backend respondiera adecuadamente ante entradas válidas y erróneas.
 
 * **Software Deployment**
 
-  Para el despliegue del Landing page se uso la el servicio web de github pages, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio.
-  Para el despliegue del Frontend se uso beeceptor y firebase. Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
-  Para el despliegue del Backend se utilizo Render. Render es una plataforma en la nube que permite desplegar aplicaciones web, APIs, bases de datos, sitios estáticos y más de forma sencilla y automatizada, sin necesidad de gestionar servidores manualmente. Permite que una aplicación backend (como una API REST hecha en Spring Boot) esté disponible públicamente en internet, funcionando 24/7 con un dominio propio o asignado automáticamente.
+  - Para los despliegues de la Landing Page se uso el servicio web de GITHUB PAGES, este servicio se especializa en el despliegue de sitios web staticos directamente desde un repositorio creado en GitHub.
+
+  - Para el primer y segundo despliegue de la aplicación Front-End se usaron las aplicaciones BEECEPTOR y FIREBASE. Por un lado, Beeceptor es una herramienta en línea (basada en la web) que nos permite crear endpoints HTTP falsos (mock) para probar APIs, se uso ver qué datos está enviando nuestra aplicación. Por otro lado, Firebase es una plataforma desarrollada por Google que permite crear aplicaciones web y móviles más rápido, sin tener que construir un backend completo desde cero, ofrece servicios listos para usar que se pueden usar para conectar facilmente nuestro Frontend.
+
+  - Para el último despliegue de la aplicación Front-End se usó únicamente FIREBASE ya que desde la propia aplicación, se integró la conexión con el último despliegue de la aplicación Back-End.
+
+  - Para los despliegues de la Aplicación Back-End se utilizó RENDER. Render es una plataforma en la nube que permite desplegar aplicaciones web, APIs, bases de datos, sitios estáticos y más de forma sencilla y automatizada, sin necesidad de gestionar servidores manualmente. Permite que una aplicación backend esté disponible públicamente en internet, funcionando 24/7 con un dominio propio o asignado automáticamente.
+
+  - Finalmente, para los despliegues de la Base de Datos se utilizó FREESQLDATABASE. Esta aplicación web es gratuita y nos ayuda a desplegar fácilmente la base de datos con la que va a interactuar la aplicación Backend para almacenar, obtener y crear datos.
 
 ### 5.1.2. Source Code Management ###
 
@@ -51,7 +65,6 @@ A continuación, se adjuntan los enlaces para acceder a los repositorios donde s
 * **Landing Page: [https://github.com/OpenDoorss/StockSip-LandingPage.git](https://github.com/OpenDoorss/StockSip-LandingPage.git)**
 * **Frontend Web Applications: [https://github.com/OpenDoorss/stocksip-front-end-application.git](https://github.com/OpenDoorss/stocksip-front-end-application.git)**
 * **Web Services: [https://github.com/OpenDoorss/stocksip-back-end-application.git](https://github.com/OpenDoorss/stocksip-back-end-application.git)**
-
 
 #### **5.1.2.2. GitFlow**
 
@@ -124,6 +137,18 @@ En esta sección, se definen las referencias que se usaron para adoptar estrateg
 * **Nomenclatura en Spring Boot:**  
   Para la codificación del proyecto en Spring Boot, se utilizará el artículo *“Spring Boot Features”.* Este artículo contiene información útil y necesaria para comprender las características fundamentales que ofrece Spring Boot para el desarrollo de aplicaciones en el ecosistema Spring. Su objetivo principal es presentar de forma estructurada los componentes clave del framework, promoviendo un desarrollo eficiente, coherente y escalable, especialmente para proyectos que buscan aprovechar la configuración automática, la modularidad y las mejores prácticas del desarrollo moderno con Java. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://docs.spring.io/spring-boot/reference/features/index.html](https://docs.spring.io/spring-boot/reference/features/index.html)  
   Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip.
+
+* **Nomenclatura en ASP.NET:**  
+  Para la codificación del proyecto en ASP.NET, se utilizará el artículo *“Microsoft ASP.NET Core Coding Guidelines”.* Este artículo contiene información útil y necesaria para conocer cómo debe ser la nomenclatura y el estilo de los diversos aspectos que conforman un proyecto desarrollado con ASP.NET Core. Se trata de la guía de ingeniería oficial del equipo de ASP.NET Core, en la cual se detallan las convenciones recomendadas para escribir código claro, consistente y fácil de mantener. Esta guía organiza sus recomendaciones en distintos apartados que abarcan desde el formato del código, el uso de tipos y palabras clave, la compatibilidad multiplataforma, hasta el control de cambios en versiones del framework. Cada sección tiene como propósito establecer prácticas que favorezcan la legibilidad, el rendimiento, y la calidad del desarrollo colaborativo a gran escala. A continuación se adjunta el enlace para acceder al artículo de referencia:  [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#codingguidelines)  
+  Finalmente, se aplicará el contenido del artículo para el Web Services de StockSip
+
+* **Nomenclatura para RESTful API:**
+
+  Para la nomenclatura de endpoints a implementar en la aplicación Back-End, se usó el artículo *"REST API URI Naming Conventions and Best Practices".* Este mismo contiene información sobre consejos y buenas prácticas al momento de nombrar correctamente a los endpoints en una aplicación back-end que use el esquema REST. A continuación se adjunta el enlace para acceder al artículo de referencia: [https://restfulapi.net/resource-naming/](https://restfulapi.net/resource-naming/).
+
+* **Nomenclatura en MySQL:**
+
+  Para la nomenclatura de objetos en una base de datos relacional usando MySQL, se usó el artículo *"MYSQL Naming Conventions"* como base para la correcta nomenclatura de tablas y columnas. A continuación, se adjunta el enlace para acceder al artículo de referencia: [(https://medium.com/@centizennationwide/mysql-naming-conventions-e3a6f6219efe)](https://medium.com/@centizennationwide/mysql-naming-conventions-e3a6f6219efe).
 
 ### 5.1.4. Software Deployment Configuration ###
 
@@ -240,20 +265,20 @@ nos ubicamos en el apartado de hosting
 
 ### 5.2.1.1. Sprint Planning 1 ###
 
-A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del primer sprint. En general, el objetivo de este sprint se centra en el desarrollo y despliegue de la primera versión del sitio web estático de StockSip.
 
-| Sprint #                                     | Sprint 1                                               |
-|----------------------------------------------|--------------------------------------------------------|
-| <b> Sprint planning Background </b>          | --                                                     |
-| Date                                         | 2025/04/20                                             |
-| Time                                         | 03:30 PM                                               |
-| Location                                     | Reunión mediante llamada virtual en Discord            |
-| Prepared By                                  | Huamani Cruz, Camila Victoria                          |
-| Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Diaz Quispe, Matias Sebastian / Coronel Espinoza, Farid Sebastian |
-| <b> Sprint Goal & User Stories </b>          | --                                                     |
+| Sprint #                                     | Sprint 1                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b> Sprint planning Background </b>          | --                                                                                                                                                                                                                                                                                                                                |
+| Date                                         | 2025/04/20                                                                                                                                                                                                                                                                                                                        |
+| Time                                         | 03:30 PM                                                                                                                                                                                                                                                                                                                          |
+| Location                                     | Reunión mediante llamada virtual en Discord                                                                                                                                                                                                                                                                                       |
+| Prepared By                                  | Huamani Cruz, Camila Victoria                                                                                                                                                                                                                                                                                                     |
+| Attendees                                    | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Diaz Quispe, Matias Sebastian / Coronel Espinoza, Farid Sebastian                                                                                                                                                          |
+| <b> Sprint Goal & User Stories </b>          | --                                                                                                                                                                                                                                                                                                                                |
 | Sprint 1 Goal                                | <b> Our focus </b> is on develop and deploy the first version of the landing page <br> <b> We believe it delivers </b> a first view of what our product offers to our target segments <br> <b> This will be confirmed when </b> the target segments are visiting the site and can see and know the benefits on using our product. |
-| Sprint 1 Velocity                            | 20                                                     |
-| Sum of Story Points                          | 16                                                     |
+| Sprint 1 Velocity                            | 16                                                                                                                                                                                                                                                                                                                                |
+| Sum of Story Points                          | 16                                                                                                                                                                                                                                                                                                                                |
 
 ### 5.2.1.2. Aspect Leaders and Collaborators ###
 
@@ -272,7 +297,7 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 1, el objetivo del mismo es el desarrollar y desplegar una primera versión del landing page del producto. Esto conlleva implementar las diversas secciones que presenta un landing page que puedan ayudar a los visitantes del sitio a conocer mejor el producto en desarrollo.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
-[Link de acceso al Sprint Backlog #1 en Trello](https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1)
+[https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1](https://trello.com/invite/b/68254069b45285c273087923/ATTI2507d3d76e72207b9b855c678811f82d3CF68D96/stocksip-sprint-backlog-1)
 
 <p align="center">
   <img src="../img/Chapter V/sprint_backlog.png" 
@@ -342,45 +367,61 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 
 ### 5.2.1.5. Execution Evidence for Sprint Review ###
-El objetivo de este sprint fue realizar, en colaboracion con todo el equipo, la creacion del landing page.
+El objetivo de este sprint fue realizar, en collaboration con todo el equipo, la creación de la landing page. A continuación, se explica a detalle la evidencia del proceso de ejecución del sitio web estático.
 
+Se implementó la sección de inicio que contiene información general sobre el producto y sobre la startup detrás del producto. Además, se incluye la visión general de la startup relacionada con el producto y los valores del equipo de desarrollo. Esto tiene un motivo de implementación y es el de llamar la atención de los visitantes del sitio web estático.
 <p align="center">
   <img src="https://i.imgur.com/RM5QuV9.png"/>
 </p>
+
+También, se implementó una sección con un resumen de las funcionalidades que ofrece la aplicación web a los visitantes que decidan convertirse en usuarios de la aplicación.
 <p align="center">
   <img src="https://i.imgur.com/l6XxVmI.png"/>
 </p>
+
+También, se implementó la sección que informa de los potenciales beneficios que ofrece el uso de la aplicación web a los visitantes interesados en usar el producto para el desarrollo de sus actividades.
 <p align="center">
   <img src="https://i.imgur.com/Rdp57BN.png"/>
 </p>
+
+Además, se implementó una sección que contiene algunos testimonios de usuarios que usaron previamente la aplicación web y deciden dar una opinión respecto a su experiencia con el uso de la misma y como les ha ayudado en su situación.
 <p align="center">
   <img src="https://i.imgur.com/FsUQGMa.png"/>
 </p>
+
+También, se implementó la sección con información acerca de los planes de suscripción para los visitantes. Esta sección incluye las restricciones que aplica cada plan a los usuarios que decidan crear una cuenta nueva.
 <p align="center">
   <img src="https://i.imgur.com/wR7L77j.png"/>
 </p>
 
 ### 5.2.1.6. Software Deployment Evidence for Sprint Review ###
-En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno al producto principal: Landing Page. Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
+La organization de nuestro code se realizó en un repositorio en GitHub y para el despliegue de la landing page se utilizó GitHub Pages. Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
 
-El proyecto se realizo mediante repositorio en GitHub. Integrantes participantes:
+Se adjunta el enlace para acceder al sitio web estático desplegado: 
+
+  
+
+
+#### 5.2.1.7. Team Collaboration Insights during Sprint
+En esta sección, se explica la colaboración aportada por cada miembro del equipo durante este sprint. Este proyecto se realizo mediante repositorio en GitHub con los siguientes integrantes participantes:
 <p align="center">
   <img src="https://i.imgur.com/7mo7SJU.png"/>
 </p>
 
-A continuacion de detallara el trabajo que realizo cada integrante del equipo:
+Respecto del avance realizado por cada integrante en este sprint, se detallan las secciones realizadas por cada integrante:
+A continuacion, se detallara el trabajo que realizo cada integrante del equipo:
 - El integrante Martín Gonzales fue responsable de implementar la sección de como funciona la aplicacion en el Landing page.
 - La integrante Camila Huamani implementó las seccion de inicio y contacto en el Landing page.
 - El integrante Farid Coronel fue responsable de implementar la seccion beneficios en el landing page.
 - El integrante Matias Diaz implementó la seccion de planes en el Landing page.
 - El integrante Nicolas Juarez implementó la seccion de testiminos en el Landing page.
-  
-Commits de los integrantes en el Landing Page:
+
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la primera versión del sitio web estático:
 <p align="center">
   <img src="https://i.imgur.com/xaO8mjo.png"/>
 </p>
 
-Grafico de los push y merge realizados por el equipo:
+Finalmente, se muestra el gráfico los avances realizados por los integrantes en las ramas creadas para cada característica que se implementó al sitio web estático en este sprint:
 <p align="center">
   <img src="https://i.imgur.com/vBY3Ne2.png"/>
 </p>
@@ -389,7 +430,7 @@ Grafico de los push y merge realizados por el equipo:
 
 ### 5.2.2.1. Sprint Planning 2 ###
 
-A continuación, se detalla, en la tabla siguiente, información sobre el planeameanto del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones para Call-To-Action para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockSip.
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del segundo sprint. Además, para este sprint se definieron dos objetivos para cubrir los aspectos de sitio web estático y aplicación front-end. El primer objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir secciones para Call-To-Action para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en el desarrollo y despliegue de la primera versión de la aplicación front-end de StockSip.
 
 | Sprint #                                     | Sprint 2                                               |
 |----------------------------------------------|--------------------------------------------------------|
@@ -420,10 +461,10 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 
 ### 5.2.2.3. Sprint Backlog 2 ###
 
-Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es (OBJETIVO).
+Como se mencionó previamente en el planeamiento del sprint número 2, el objetivo del mismo es implementar secciones para que los usuarios puedan ser redirigidos a la aplicación web desde el sitio web estático e implementar secciones importantes como inventarios, almacenes, productos, alertas y guías en la aplicación front end del proyecto.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
-[Link de acceso al Sprint Backlog #2 en Trello](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Desarrollo%20de%20Aplicaciones%20Open%20Source)
+[https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Desarrollo%20de%20Aplicaciones%20Open%20Source](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Desarrollo%20de%20Aplicaciones%20Open%20Source)
 
 <p align="center">
   <img src="../img/Chapter V/sprint-2/sprint-backlog-2_1.png" 
@@ -536,7 +577,13 @@ A continuación, se muestra una tabla que contiene la información sobre los _co
 
 ### 5.3.1.5. Execution Evidence for Sprint Review ###
 
-El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los integrantes del equipo, realizar la actualización tanto del landing page como de la aplicación Frontend. Esta tarea incluyó la mejora de aspectos visuales y funcionales, así como la integración de los cambios en los repositorios correspondientes para su posterior despliegue.
+En esta sección, se explica lo logrado en este sprint con pruebas de lo implementado.
+Primero, los logros de este sprint incluyen la mejora de aspectos visuales y funcionales del sitio web estático, entre ellos, la implementación de secciones de Call-To-Action para los visitantes del sitio web, así como la implementación de secciones relacionadas a almacenes, productos, inventarios, alertas y guías de cuidado en la aplicación front-end de StockSip.
+
+A continuación, se muestran las capturas de pantalla de las secciones implementadas en el Landing Page y la aplicación Front End. Estas imágenes reflejan el progreso realizado en el sprint y sirven como evidencia del trabajo completado.
+
+Se adjunta el enlace al vídeo de ejecución de los productos para este sprint 2:
+- Vídeo de ejecución: [https://youtu.be/ooFjKZ4uB3g](https://youtu.be/ooFjKZ4uB3g)
 
 #### **Landing Page**
 
@@ -605,50 +652,106 @@ El objetivo de este sprint fue, mediante un trabajo colaborativo entre todos los
 </p>
 <br>
 
-Link al landing page: [Landing_Page_StockSip](https://opendoorss.github.io/StockSip-LandingPage/)
-
-Link a la aplicación: [App_Front_End_StockSip](https://stocksip-od-app.web.app/)
-
-
 ### 5.3.1.6. Software Deployment Evidence for Sprint Review ###
-Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en dos partes principales: el **Landing Page** y el **Frontend funcional**. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
+Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en dos partes principales: la Landing Page y el Frontend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
 
 #### Despliegue del Landing Page
-La organizacion de nuestro codigo relacionado al Landing page se realizo en un repositorio en GitHub. Para el despliegue del landing page se utilizo GitHub Pages
-* Primero se creo un repositorio para alojar el codigo del landing page
-* Segundo, cada integrante del equipo creo una rama de cada funcion del landing page
+Para el despliegue del sitio web estático, usamos GitHub Pages, una herramienta que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detalla el proceso seguido para el despliegue del sitio web estático:
+
+- Link al landing page: [https://opendoorss.github.io/StockSip-LandingPage/](https://opendoorss.github.io/StockSip-LandingPage/)
+
+* Partimos de la rama develop del repositorio del sitio web estático con todos los cambios realizados para el sprint actual.
+
+* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/landing-page-v2.0". Desde esa rama, se realizará un nuevo despliegue del sitio web estático.
 <p align="center">
-  <img src="https://i.imgur.com/WLeViFN.png"/>
+  <img src="https://i.imgur.com/keIfkaH.png"/>
 </p>
 
-* Tercero, se realizo el merge a develop para corregir errores
-* Cuarto, cuando se corrigieron los errores, se realizo merge al master
-* Quinto, se desplego el landing page mediante GitHub Pages, evidencia:
+* A continuación, nos dirigimos a la sección de Configuración del repositorio (Settings). Luego, accedemos a la opción de páginas (Pages) dentro del bloque de secciones de código y automatización (Code and automation).
+<p align="center">
+  <img src="https://i.imgur.com/0TJGzpU.png"/>
+</p>
+
+* Después, elegimos el tipo de origen para que despliegue desde una rama que escojamos. Luego, buscamos la rama de lanzamiento que hemos creado para realizar el despliegue de esta versión y guardamos la configuración.
+<p align="center">
+  <img src="https://i.imgur.com/E8TLSWz.png"/>
+</p>
+
+* A continuación, aparecerá el enlace público generado para poder acceder al sitio web estático desplegado.
+<p align="center">
+  <img src="https://i.imgur.com/iWq4Sm3.png"/>
+</p>
+
+* Finalmente, se accede el sitio web desplegado gracias a GitHub Pages y se adjunta la siguiente evidencia.
 <p align="center">
   <img src="https://i.imgur.com/RM5QuV9.png"/>
 </p>
 
 #### Despliegue del Frontend
-La organizacion de nuestro codigo relacionado al Frontend se realizo en un repositorio en GitHub y la codificacion de este mismo se realizo en JetBrains WebStorm. Para el despliegue del landing page se utilizo Firebase
-* Primero, se creó un repositorio en GitHub para alojar el código fuente del Frontend, permitiendo así una gestión centralizada y control de versiones
-* Segundo, cada miembro del equipo creó una rama individual para desarrollar una función específica del Frontend, lo que permitió trabajar en paralelo de manera organizada.
+Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
+
+Link a la aplicación: [https://stocksip-od-app.web.app/](https://stocksip-od-app.web.app/)
+
+* Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
+
+* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/front-end-app-v1.0". Desde esa rama, se realizará el primer despliegue de la aplicación front-end.
+
+* A continuación, se instaló Firebase CLI, lo que permite gestionar y desplegar aplicaciones en Firebase. Luego, se inicializó el proyecto de Firebase en la carpeta del Frontend. Inmediatamente, ejecutamos en la consola el comando "firebase --version" para verificar que se haya instalado correctamente.
 <p align="center">
-  <img src="https://i.imgur.com/mGniKQ9.png"/>
+  <img src="https://i.imgur.com/wrgcd4o.jpeg"/>
 </p>
 
-* Tercero, se creó un proyecto en WebStorm y se conectó al repositorio remoto, facilitando la integración del código con el control de versiones desde el entorno de desarrollo.
-* Cuarto, se implementaron las diferentes funcionalidades asignadas y se realizaron los commits respectivos, siguiendo buenas prácticas para mantener un historial de cambios claro.
-* Quinto, una vez completado el desarrollo, se hizo merge de las ramas individuales a develop, donde se resolvieron conflictos y se corrigieron errores detectados en la integración.
-* Sexto, tras verificar el correcto funcionamiento en develop, se realizó el merge final hacia la rama master, consolidando una versión estable del proyecto.
-* Septimo, se configuró Firebase como herramienta de despliegue, preparando los archivos necesarios y definiendo el entorno adecuado.
-* Octavo, se realizó el despliegue del Frontend a través de Firebase. A continuación, se muestra la evidencia del despliegue:
+* Luego, ejecutamos el comando npm run build en la consola de nuestro proyecto, este comando creara una carpeta llamada Dist que contiene todo nuestro proyecto.
+
+<p align="center">
+  <img src="https://i.imgur.com/kuCErf7.png" alt="Execution of npm run build command">
+
+<p align="center">
+  <img src="https://i.imgur.com/qwP3yJb.png" alt="Creation of the dist folder">
+
+* Luego, ingresamos a la página web Firebase e ingresamos con nuestra cuenta de Google y vamos a la consola, creamos un nuevo proyecto con el nombre de nuestra aplicación.
+
+<p align="center">
+  <img src="https://i.imgur.com/LF7yomG.png">
+
+* Después, nos ubicamos en el apartado de hosting.
+<p align="center">
+  <img src="https://i.imgur.com/IMS9O5Y.png">
+
+* Y se procede a agregar un nuevo sitio web, colocamos el nombre de nuestro sitio y damos clic en Agregar sitio.
+<p align="center">
+  <img src="https://i.imgur.com/7Fb9T6a.png">
+
+* Regresamos a WebStorm y en la consola ingresamos el comando "firebase login" y decimos NO. Luego, nos solicitará que ingresemos con nuestra cuenta de Google con la que creamos el proyecto.
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+
+* A continuación, se nos muestra una pantalla de inicio de sesión exitoso, lo que significa que hemos realizado correcto el anterior paso.
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+
+* Inmediatamente, inicializamos Firebase con el comando "firebase init".
+<p align="center">
+  <img src="https://i.imgur.com/lJ5Emix.png"> 
+
+* Con las teclas direccionales del teclado nos desplazamos a la opción Hosting y presionamos la barra espaciadora para seleccionarlo y damos enter. Elejimos 'Use an existing proyect' y elegimos nuestro proyecto, colocamos solo dist y respondemos con el siguiente orden a las preguntas que realiza FireBase: YES, NO, NO.
+<p align="center">
+  <img src="https://i.imgur.com/9phLLJm.png">
+
+* Nos dirigimos al archivo firebase.json creado en nuestro proyecto y agregamos una sección "site": "nombre de nuestro site".
+
+* A continuación, ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para construir una nueva versión del proyecto con todos los últimos cambios.
+<p align="center">
+  <img src="https://i.imgur.com/d5iOzXH.png"> 
+
+* Finalmente, tras la ejecución del despliegue del Frontend a través de Firebase, se muestra la evidencia del despliegue:
 <p align="center">
   <img src="https://i.imgur.com/J5cbi5p.png"/>
 </p>
 
-* Link publico: [App_Front_End_StockSip](https://stocksip-od-app.web.app/)
-
-### 5.3.1.7. Team Collaboration Insights durint Sprint ###
+### 5.3.1.7. Team Collaboration Insights during Sprint ###
 
 En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como la participación de cada miembro del equipo. Para este sprint, el equipo se organizó en torno a los dos principales productos: Landing Page y Web Application (Frontend). Cada integrante asumió responsabilidades específicas en uno o más de estos componentes, trabajando mediante ramas individuales y siguiendo una estrategia de integración continua.
 
@@ -725,7 +828,7 @@ En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada
 Como se mencionó previamente en el planeamiento del sprint número 3, el objetivo del mismo es concluir con el sitio web estatico integrando secciones que informen a los visitantes sobre los desarrolladores del producto y sobre el producto en si; implementar caracteristicas relacionadas con la realizacion de ordenes de compra en la aplicacion web e implementar endpoints en la aplicacion backend necesarios para la implementacion de caracteristicas fundamentales en la aplicacion web.
 
 Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint. 
-[Link de acceso al Sprint Backlog #3 en Trello](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Desarrollo%20de%20Aplicaciones%20Open%20Source)
+[https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Desarrollo%20de%20Aplicaciones%20Open%20Source](https://trello.com/b/UjadbQbv/stocksip-sprint-backlog-2?filter=label:Desarrollo%20de%20Aplicaciones%20Open%20Source)
 
 <p align="center">
   <img src="../img/Chapter V/sprint-3/sprint-backlog-3_1.png" 
@@ -1208,14 +1311,357 @@ Grafico de los push y merge realizados por el equipo en el BackEnd
   <img src="https://i.imgur.com/09vttpb.png"/>
 </p>
 
+### 5.2.4. Sprint 4 ###
+
+#### 5.2.4.1. Sprint Planning 4
+
+A continuación, se detalla, en la tabla siguiente, información sobre el planeamiento del último sprint del proyecto. Además, para este sprint se definió un objetivo para cubrir los aspectos de sitio web estático, aplicación front-end y aplicación back-end. Una sección del objetivo se centra en desarrollar una mejora visual para el sitio web estático y añadir mejoras para secciones para los videos acerca del producto y del equipo de desarrollo para los visitantes del sitio web. Por otro lado, el segundo objetivo se centra en la implementación de consumo de servicios de la aplicación backend para la aplicación front-end de StockSip. Finalmente, el último objetivo del sprint se centra en la implementación de endpoints relacionados con órdenes de compra y autenticación de usuarios.
+
+| Sprint #                            | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b> Sprint planning Background </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Date                                | 2025/06/24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                                | 11:00 AM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Location                            | Reunión presencial en el aula VH107 del curso en la sede Villa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Prepared By                         | Gonzales Castillo, Angel Martin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Attendees                           | Huamani Cruz, Camila Victoria / Juarez Leon, Nicolas Emilio Walter / Gonzales Castillo, Angel Martin / Coronel Espinoza, Farid Sebastian / Julca Minaya, Sergio Gino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 3 Review Summary             | In the previous sprint, the team finished to implement the videos about the team and about the product in the Landing Page. Also, completed most of the sections of the front-end application and making sure it works with the fake API server. Finaly, the principal endpoints for the back-end application like warehouses, products, inventories, alerts and care guides were implemented.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 3 Retrospective Summary      | In this sprint, the team improved the internal communication between all the members and achieve another level in trust and communication. This will help the team to finish all the remaining tasks left for the final sprint and complete the develop of the product.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| <b> Sprint Goal & User Stories </b> | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sprint 4 Goal                       | Our goal is to offer the complete information and a detailed video about all benefits and features related to the product and the final video with complete details of the team behind the platform in the life cycle of the product development, implement web service consumption for endpoints related to products, warehouses, inventories, alerts, care guides, orders, accounts, users, profiles and authentication in the front end application and increment the possibilities to implement features related to profile preferences; creating an account with a subscription and making orders. We believe it delivers the complete knowledge of the potential benefits of using the application and trust of usage to the visitors; consumption, manipulation and creation of real-time data regarding products, warehouses, inventories, alerts, orders, care guides, accounts, profiles, users and authentication to the liquor store owners and providers and opportunities to implement features related to profile preferences; creating an account with a subscription and making orders to the developers. This will be confirmed when the user registration numbers increment, the liquor store owners use the application to help them to do the inventory control of their stores; the providers use the application to do the inventory control and do the reception and check of the orders to deliver to its clients and the web developers implement features related to profile preferences; creating an account with a subscription and making orders. |
+| Sprint 4 Velocity                   | 91                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points                 | 90                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+En esta sección, se incluye la matriz de liderazgo y colaboración desarrollada para este último sprint. Los principales aspectos que se toman en cuenta en este sprint se centran en cada las principales secciones que presenta el Front-End Web Application y en su contraparte para el Back-End Application. Para esto, hemos definido las siguientes secciones: Inventarios y Zonas, Productos, Cuenta de Usuario, Reportes, Órdenes de compra y Alertas.
+
+| Team Member                        | GitHub Username | Alerts and Notifications | Analytics and Reporting | Authentication | Inventory Management  | Order Operation and Monitoring | Payment and Subscriptions | Profile Management |
+|------------------------------------|-----------------|--------------------------|-------------------------|----------------|-----------------------|--------------------------------|---------------------------|--------------------|
+| Huamani Cruz, Camila Victoria      | victiila06      |                          |                         | L              |                       | L                              |                           | L                  |
+| Gonzales Castillo, Angel Martin    | XdiabloX426     | L                        |           L             |                |                       |                                |                           |                    |
+| Coronel Espinoza, Farid Sebastian  | Far14z          |                          |                         | C              | C                     |                                | L                         |                    |
+| Julca Minaya, Sergio Gino          | sergioMJ05      |                          |                         |                | C                     |                                |                           |                    |
+| Juarez Leon, Nicolas Emilio Walter | JuarezLn10      | C                        |                         | C              | L                     |                                |                           |                    |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+Como se mencionó previamente en el planeamiento de este sprint, el objetivo del mismo es concluir definitivamente con el sitio web estático integrando una mejora en las secciones que informen a los visitantes sobre los desarrolladores del producto y sobre el producto en sí; implementarle a la aplicación frontend la capacidad de consumir los servicios web que ofrece la aplicación backend e implementar endpoints en la aplicación backend necesarios para la implementación de características relacionadas a órdenes de compra y autenticación de usuarios.
+
+Luego de definir el objetivo del sprint, se identificaron las historias de usuario útiles para este sprint. A continuación, se dividió cada historia de usuario en tareas relacionadas a la implementación y cumplimiento de dicha historia. Para ello, se utilizó la aplicación _Trello_ que nos ayuda a gestionar el progreso del sprint.
+[https://trello.com/invite/b/68656a625110370ffdc6aad5/ATTIc7cfb2ae142da72c21ec87c8b1b3e6ad2FABEAB6/stocksip-sprint-backlog-4](https://trello.com/invite/b/68656a625110370ffdc6aad5/ATTIc7cfb2ae142da72c21ec87c8b1b3e6ad2FABEAB6/stocksip-sprint-backlog-4)
+
+<p align="center">
+  <img src="https://i.imgur.com/MoCTfWf.png" 
+  alt="Sprint goal and Stories of Sprint #4"/>
+</p>
+
+
+A continuación, se presenta la tabla con las tareas necesarias para completar satisfactoriamente este último sprint. Además, se asignó un miembro del equipo a cada tarea a desarrollar y el estado de cada tarea.
+
+| Sprint 4     | Sprint Backlog 4                                  |                |                                                                               |                                                                                                                                                              |                    |                 |        |
+|--------------|---------------------------------------------------|----------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|--------|
+| User Stories |                                                   | Work Item/Task |                                                                               |                                                                                                                                                              |                    |                 |        |
+| Id           | Title                                             | Id             | Title                                                                         | Description                                                                                                                                                  | Estimation (Hours) | Assigned to     | Status |
+| US052        | Consultar historial de facturación                | US052T001      | Desarrollar sección que muestre historial de ordenes                          | Desarrollar una sección en el front end que muestre todas las órdenes realizadas.                                                                            | 6                  | Camila Huamani  | Done   |
+|              |                                                   | US052T002      | Implementar endpoint para obtener todas las ordenes de un usuario             | Desarrollar un endpoint que permita obtener todas las ordenes de un determinado usuario.                                                                     | 6                  | Camila Huamani  | Done   |
+| US066        | Acceder al plan premium                           | US066T001      | Desarrollar una sección que permita a los usuarios elegir su plan             | Desarrollar una sección que muestre información del plan premium y el precio del mismo.                                                                      | 6                  | Farid Coronel   | Done   |
+|              |                                                   | US066T002      | Implementar el API de PayPal para realizar pagos                              | Implementar el API de PayPal para validar los pagos.                                                                                                         | 8                  | Farid Coronel   | Done   |
+| US065        | Acceder al plan gratuito                          | US065T001      | Desarrollar una sección que muestre información del plan gratuito             | Desarrollar una sección que muestre información del plan gratuito.                                                                                           | 4                  | Farid Coronel   | Done   | 
+| TS002        | Endpoint para iniciar sesión                      | TS002T001      | Desarrollar un endpoint para inicio de sesión                                 | Desarrollar un endpoint que autentique usuarios para el inicio de sesión.                                                                                    | 5                  | Nicolas Juarez  | Done   |
+|              |                                                   | TS002T002      | Implementar JWT para la generación de Tokens                                  | Implementar JSON Web Tokens para la generación de Tokens con Bearer para la validación.                                                                      | 4                  | Nicolas Juarez  | Done   |
+| TS001        | Endpoint para registrar nuevo usuario             | TS001T001      | Desarrollar un endpoint para el registro de usuarios                          | Desarrollar un endpoint que registre nuevos usuarios.                                                                                                        | 6                  | Nicolas Juarez  | Done   |
+| US042        | Crear guía de remisión interna                    | US042T001      | Desarrollar lógica para trasladar producto a otro inventario                  | Desarrollar lógica de negocio relacionada con traslado de mercadería internamente.                                                                           | 6                  | Nicolas Juarez  | Done   |
+| TS017        | Endpoint para registrar guía de remisión          | TS017T001      | Desarrollar un endpoint para trasladar productos a otro inventario            | Desarrollar un endpoint para poder trasladar productos a otro inventario.                                                                                    | 6                  | Nicolas Juarez  | Done   |
+| TS009        | Endpoint para configurar alertas de vencimiento   | TS009T001      | Desarrollar un endpoint que permita configurar alertas                        | Desarrollar un endpoint para poder modificar la configuración de las alertas.                                                                                | 6                  | Martin Gonzales | Done   |
+| TS022        | Endpoint para visualizar el estado de los pedidos | TS022T001      | Desarrollar un endpoint para obtener las ordenes realizadas                   | Desarrollar un endpoint que permita obtener las ordenes de un usuario específico.                                                                            | 8                  | Camila Huamani  | Done   |
+| TS016        | Endpoint para generar plan de reabastecimiento    | TS016T001      | Desarrollar un botón para trasladar productos a otro inventario               | Desarrollar un botón que permita utilizar el endpoint para trasladar productos de un inventario a otro.                                                      | 6                  | Sergio Julca    | Done   |
+| US032        | Visualizar historial de facturación de compras    | US032T001      | Desarrollar un endpoint para obtener todos las ordenes de una cuenta          | Desarrollar el endpoint que permita obtener las ordenes hechas por una cuenta específica.                                                                    | 8                  | Camila Huamani  | Done   |
+|              |                                                   | US032T002      | Desarrollar un endpoint para obtener todos las ordenes de un proveedor        | Desarrollar el endpoint que permita obtener las ordenes enviadas hacia un proveedor específico.                                                              | 6                  | Camila Huamani  | Done   |
+| TS018        | Endpoint para actualizar perfil del usuario       | TS018T001      | Desarrollar un endpoint para creación de perfiles                             | Desarrollar un endpoint que permita crear perfiles para un usuario.                                                                                          | 6                  | Farid Coronel   | Done   |
+|              |                                                   | TS018T002      | Desarrollar un endpoint para actualizar perfiles                              | Desarrollar un endpoint que permita actualizar el perfil para un usuario.                                                                                    | 6                  | Farid Coronel   | Done   |
+| TS004        | Endpoint para recuperar contraseña                | TS004T001      | Implementar lógica para validar códigos generados para restablecer contraseña | Implementar lógica que permita validar el código enviado al correo electrónico del usuario que desea restablecer su contraseña.                              | 6                  | Camila Huamani  | To-Do  |
+|              |                                                   | TS004T002      | Implementar un endpoint para actualizar contraseña                            | Desarrollar un endpoint que permita la actualización de contraseñas de los usuarios.                                                                         | 5                  | Camila Huamani  | Done   |
+| US014        | Cambiar contraseña desde configuración            | US014T001      |                                                                               | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani  | Done   |
+| US047        | Cambiar contraseña desde el perfil                | US047T001      |                                                                               | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani  | Done   |
+| US012        | Recuperar contraseña mediante correo electrónico  | US012T001      | Implementar botón para acceder a la sección de recuperación de contraseña     | En la aplicación frontend, se debe implementar un botón que redirija al usuario a una sección donde pueda realizar el proceso de recuperación de contraseña. | 4                  | Camila Huamani  | Done   |
+|              |                                                   | US012T002      | Implementar un servicio de email para enviar correos electrónicos             | Implementar un servicio de terceros con el que se pueda enviar correos electrónicos para recuperación de contraseñas.                                        | 6                  | Camila Huamani  | To-Do  |
+|              |                                                   | US012T003      | Implementar lógica para validar códigos generados                             | Implementar lógica que permita validar el código enviado al correo electrónico del usuario que desea recuperar su contraseña.                                | 8                  | Camila Huamani  | To-Do  |
+| US015        | Cerrar sesión manualmente                         | US015T001      | Implementar botón para cerrar sesión                                          | En la aplicación frontend, se debe implementar un botón para que el usuario pueda cerrar sesión de su cuenta                                                 | 4                  | Camila Huamani  | Done   |
+|              |                                                   | US015T002      | Implementar la lógica necesaria para cerrar la sesión del usuario             | Implementar la funcionalidad que permita borrar la información que permite al usuario realizar actividades en la aplicación.                                 | 4                  | Camila Huamani  | Done   |
+| US013        | Elegir una contraseña segura                      | US013T001      | Implementar un método que valide la contraseña                                | Implementar un método que revise la contraseña y valide el nivel de seguridad que posea.                                                                     | 4                  | Camila Huamani  | Done   |
+|              |                                                   | US013T002      | Probar el método de validación de la contraseña                               | Probar que el método funcione para verificar su funcionamiento esperado.                                                                                     | 4                  | Camila Huamani  | Done   |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+En esta sección, se describen los principales avances de implementación realizados en este último sprint.
+
+A continuación, se muestra una tabla que contiene la información sobre los commits hechos que contienen partes de las funcionalidades que debemos implementar para completar este sprint.
+
+Repositorio del sitio web estático: [https://github.com/OpenDoorss/StockSip-LandingPage](https://github.com/OpenDoorss/StockSip-LandingPage)
+Repositorio de la aplicación Frontend: [https://github.com/OpenDoorss/stocksip-front-end-application](https://github.com/OpenDoorss/stocksip-front-end-application)
+Repositorio de la aplicación Backend: [https://github.com/OpenDoorss/stocksip-back-end-application](https://github.com/OpenDoorss/stocksip-back-end-application)
+
+| Repository                        | Branch                    | Commit Id | Commit Message                                                            | Commited On |
+|-----------------------------------|---------------------------|-----------|---------------------------------------------------------------------------|-------------|
+| EXPDesigners/StockSip-LandingPage | feature/testimonials      | d2d8cdd   | fix: change files and folders naming.                                     | 05/07/2025  |
+| EXPDesigners/StockSip-FrontEndApp | feature/warehouse-logic   | 8344243   | feat(inventory): add warehouse logic.                                     | 05/07/2025  |
+| EXPDesigners/StockSip-FrontEndApp | feature/accounts          | eef6170   | feat(accounts): add authentication service.                               | 05/07/2025  |
+| EXPDesigners/StockSip-FrontEndApp | feature/subscription-view | 0082b32   | feat(SAP): add subscription view with responsive design.                  | 05/07/2025  |
+| EXPDesigners/StockSip-FrontEndApp | feature/alerts            | 57b1c92   | feat(alerts): add alert integration in the dashboard                      | 06/07/2025  |
+| EXPDesigners/StockSip-BackEndApp  | feature/orders            | 3e095c7   | feat(orders): add orders controller.                                      | 02/07/2025  |
+| EXPDesigners/StockSip-BackEndApp  | feature/catalogs          | 3e095c7   | feat(catalogs): add clients and dto.                                      | 02/07/2025  |
+| EXPDesigners/StockSip-BackEndApp  | feature/alerts            | 3e095c7   | feat(alerts): add events.                                                 | 05/07/2025  |
+| EXPDesigners/StockSip-BackEndApp  | feature/accounts          | 6a667c1   | feat(authentication): add acl to get account id for the sign in resource. | 05/07/2025  |
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+En esta sección, se explica lo logrado en este sprint con pruebas de lo implementado.
+Primero, los logros de este sprint incluyen la implementación de una mejora en las secciones con dos videos para los visitantes del sitio web: uno que incluye información relacionada a las características y beneficios que ofrece la aplicación web, y otro que detalla información del equipo de desarrollo de la aplicación a lo largo del ciclo de vida del proyecto.
+También, los logros incluyen la implementación en la aplicación frontend de poder consumir servicios web de parte de la aplicación backend en todas las secciones implementadas previamente. Finalmente, también, se logró implementar unos cuantos endpoints en la aplicación backend relacionados con órdenes de compra, alertas, autenticación, perfiles, cuentas y suscripciones.
+
+A continuación, se muestran las capturas de pantalla de las secciones implementadas en la Landing Page, aplicación Front End y aplicación Backend. Estas imágenes reflejan el progreso realizado en el sprint y sirven como evidencia del trabajo completado.
+
+- Vídeo de ejecución de los tres productos para este sprint: https://youtu.be/32aIog7QiWQ
+
+## **Landing Page**
+
+Se adjuntan los enlaces para acceder al sitio web desplegado y al vídeo de ejecución del sitio web estático. El vídeo muestra el funcionamiento de cada sección del sitio web y cómo se ve en un navegador web.
+
+Video sobre exploracion de la aplicacion
+<p align="center">
+  <img src="https://i.imgur.com/R7IKPNX.png" 
+  alt="Exploration of the app section in landing page"/>
+</p>
+
+
+## **Front End Application**
+
+Se adjuntan los enlaces para acceder a la aplicación frontend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo se ve en un navegador web.
+
+Seccion de almacenes
+<p align="center">
+  <img src="https://i.imgur.com/JKOTI6O.png" 
+  alt="Warehouses in frontend"/>
+</p>
+
+Seccion de ordenes
+<p align="center">
+  <img src="https://i.imgur.com/eRTeEX5.png" 
+  alt="Orders in frontend"/>
+</p>
+
+### **Back End Application**
+Se adjuntan los enlaces para acceder a la aplicación backend desplegada y al vídeo de ejecución de la misma. El vídeo muestra el funcionamiento de cada sección implementada y cómo fueron nombradas las rutas de los endpoints implementados.
+
+Endpoints para catalogos en el backend
+<p align="center">
+  <img src="https://i.imgur.com/IJZMiKb.png" 
+  alt="Catalogs in backend"/>
+</p>
+
+Endpoints para cuentas en el backend
+<p align="center">
+  <img src="https://i.imgur.com/Vnvk58B.png" 
+  alt="Accounts in backend"/>
+</p>
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+En esta sección, se describe la evidencia de documentación de los endpoints que se han implementado en la aplicación backend de nuestro proyecto para este sprint. A continuación, se muestra la tabla que contiene una breve descripción de las acciones y requisitos de cada endpoint implementado.
+
+| Módulo      | Endpoint                                                                                            | Acción                                    | Verbo HTTP | Sintaxis                                       | Parámetros principales                                        | Enlace a Swagger                                              |
+| ----------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------- | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| Care Guides | `/api/v1/care-guides/{careGuideId}`                                                                 | Obtener guía por ID                       | GET        | `/api/v1/care-guides/123`                      | `careGuideId`, `accountId`                                    | [Ver Link](https://stocksip-backendapplication.onrender.com/) |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+Para asegurar un desarrollo estructurado y un despliegue eficiente, se organizaron los componentes del proyecto en tres partes principales: la Landing Page, el Frontend y Backend funcional. Cada uno fue alojado en su propio repositorio de GitHub, con procesos de desarrollo independientes y métodos de despliegue distintos. A continuación, se detalla el flujo de trabajo seguido en cada caso, junto con evidencia visual del resultado final.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue del sitio web estático.
+
+### Despliegue del Landing Page
+Para el despliegue del sitio web estático, usamos GitHub Pages por última vez. Esta es una herramienta que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. A continuación, se detalla el proceso seguido para el despliegue del sitio web estático:
+
+Se adjunta el enlace para acceder al sitio web estático desplegado:
+
+* Partimos de la rama develop del repositorio del sitio web estático con todos los cambios realizados para este sprint.
+<p align="center">
+  <img src="https://i.imgur.com/T7oPQGS.png"/>
+</p>
+
+* Luego, enviamos todos los cambios realizados en este segundo sprint desde la rama de desarrollo a una nueva rama de tipo release "release/landing-page-v4.0". Desde esa rama, se realizará el último despliegue del sitio web estático.
+<p align="center">
+  <img src="https://i.imgur.com/fwPFFrn.png"/>
+</p>
+
+* A continuación, nos dirigimos a la sección de Configuración del repositorio (Settings). Luego, accedemos a la opción de páginas (Pages) dentro del bloque de secciones de código y automatización (Code and automation).
+<p align="center">
+  <img src="https://i.imgur.com/0TJGzpU.png"/>
+</p>
+
+* Después, elegimos el tipo de origen para que despliegue desde una rama que escojamos. Luego, buscamos la rama de lanzamiento que hemos creado para realizar el despliegue de esta versión y guardamos la configuración.
+<p align="center">
+  <img src="https://i.imgur.com/kiVhLH4.png"/>
+</p>
+
+* A continuación, aparecerá el enlace público generado para poder acceder al sitio web estático desplegado.
+<p align="center">
+  <img src="https://i.imgur.com/iWq4Sm3.png"/>
+</p>
+
+* Finalmente, se accede el sitio web desplegado gracias a GitHub Pages y se adjunta la siguiente evidencia.
+<p align="center">
+  <img src="https://i.imgur.com/TWaTaot.png"/>
+</p>
+
+### Despliegue de la Aplicación Frontend
+Para el despliegue de esta aplicación, se utilizó Firebase Hosting, una plataforma que permite alojar aplicaciones web de manera sencilla y eficiente.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Frontend:
+
+Se adjunta el enlace a la aplicación frontend desplegada: https://stocksip-od-app.web.app/sign-in
+
+* Partimos de la rama develop del repositorio de la aplicación frontend con todos los cambios realizados para el sprint actual.
+<p align="center">
+  <img src="https://i.imgur.com/ZVkeCUj.png"/>
+</p>
+
+* Luego, enviamos todos los cambios realizados en este último sprint desde la rama de desarrollo a una nueva rama de tipo release. Desde esa rama, se realizará el tercer y último despliegue de la aplicación front-end.
+<p align="center">
+  <img src="https://i.imgur.com/foaO8rj.png"/>
+</p>
+
+* Luego, ejecutamos el comando npm run build en la consola de nuestro proyecto. Este comando actualizará la carpeta Dist que había sido creada para el despliegue anterior.
+<p align="center">
+  <img src="https://i.imgur.com/kuCErf7.png" alt="Execution of npm run build command">
+
+<p align="center">
+  <img src="https://i.imgur.com/qwP3yJb.png" alt="Creation of the dist folder">
+
+* Luego, en la consola ingresamos el comando "firebase login" y decimos NO. Luego, nos solicitará que ingresemos con nuestra cuenta de Google con la que creamos el proyecto.
+<p align="center">
+  <img src="https://i.imgur.com/kyQfbBW.png"> 
+
+* A continuación, se nos muestra una pantalla de inicio de sesión exitoso, lo que significa que hemos realizado correcto el anterior paso.
+<p align="center">
+  <img src="https://i.imgur.com/K6nvtaP.png">
+
+* A continuación, ingresamos el comando firebase deploy, pero antes de eso ingresamos el comando npm run build para construir una nueva versión del proyecto con todos los últimos cambios.
+<p align="center">
+  <img src="https://i.imgur.com/i44OUm2.png"> 
+
+* Luego, ingresamos con el enlace que nos proporciona y podremos visualizar el proyecto desplegado
+<p align="center">
+  <img src="https://i.imgur.com/Zk0LuFl.png">
+
+#### Despliegue del Back End
+Para el despliegue de esta aplicación, se utilizó Render, una plataforma que permite desplegar aplicaciones web de manera sencilla y eficiente que ayuda con el despliegue cada que se realizan cambios al repositorio.
+Para el paso inicial, nos basamos en la configuración inicial de los repositorios de los productos a desarrollar (Sección 5.1.4.). A continuación, se explica del proceso de despliegue de la aplicación Backend:
+
+Se adjunta el enlace a la aplicación backend desplegada: https://stocksip-back-end-application.onrender.com/swagger-ui/index.html
+
+* Partimos de la rama develop del repositorio de la aplicación backend con todos los cambios realizados para el sprint actual.
+<p align="center">
+  <img src="https://i.imgur.com/Gyi4ybF.png"/>
+</p>
+
+* A continuación, creamos la rama release para realizar el despliegue.
+<p align="center">
+  <img src="https://i.imgur.com/rl0uFir.png" 
+  alt="Release branch created"/>
+</p>
+
+* A continuación, nos dirigimos a la página de freesqldatabase para poder desplegar nuestra base de datos 
+<p align="center">
+  <img src="https://i.imgur.com/QOpwA6D.png">
+
+* Luego, nos dirigimos a iniciar el proceso de despliegue de la aplicación backend. En la siguiente imagen, se visualiza la consola de RENDER donde realizamos el despliegue.
+<p align="center">
+  <img src="https://i.imgur.com/VnMrlTd.png">
+
+* Se visualiza un despliegue exitoso de nuestra aplicación.
+<p align="center">
+  <img src="https://i.imgur.com/8lZx9pb.png"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/PxjwQee.png"/>
+</p>
+
+* Ingresaremos a la página web de Render, ingresamos con nuestra cuenta, importamos nuestro repositorio, asignamos la rama en la que se realizara el deploy y confirmamos el despliegue, esperamos a que la propia página verifique el deploy y nos entregue una URL publica.
+<p align="center">
+  <img src="https://i.imgur.com/02heKNc.png"> 
+<p align="center">
+  <img src="https://i.imgur.com/3QF2uQu.png">
+<p align="center">
+  <img src="https://i.imgur.com/wowQCCl.png"> 
+
+* Finalmente, ingresamos a la URL pública que nos proporcionó Render y podemos verificar que se logró el despliegue de nuestra aplicación Backend.
+<p align="center">
+  <img src="https://i.imgur.com/eAzqAkd.png"> 
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+En esta sección se detalla cómo se llevaron a cabo las actividades de implementación durante el sprint, así como un resumen de las labores realizadas por cada miembro del equipo para el cumplimiento completo de la entrega relacionada a este sprint.
+
+A continuation, se detallará el trabajo que realizo cada integrante del equipo para cada producto avanzado en este sprint:
+
+### Landing Page ###
+
+- El integrante Martín Gonzales formó parte de la grabación del último vídeo sobre el equipo.
+- La integrante Camila Huamani mejoró las secciones about the product y about the team en la landing page y formó parte de la grabación del vídeo sobre el equipo.
+- El integrante Farid Coronel formó parte de la última grabación del vídeo sobre el equipo.
+- El integrante Nicolas Juarez formó parte de la grabación definitiva del vídeo sobre el equipo y reorganizó la estructura de los archivos del sitio web de negocio.
+
+A continuación, se adjunta el gráfico con la cantidad de commits realizados por cada integrante del equipo durante este sprint para el desarrollo de la última versión del sitio web de negocio. Cada barra indica la cantidad de commits realizados en cada rama, reflejando el progreso del equipo en el desarrollo de las actualizaciones de las secciones del sitio web.
+<p align="center">
+  <img src="https://i.imgur.com/3B3zlvd.png"/>
+</p>
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la Landing Page. En este gráfico se puede observar el flujo de desarrollo del sitio web estático, donde las ramas que se desarrollaron fueron las relacionadas a las secciones que contienen los vídeos acerca del equipo de desarrollo y del producto.
+<p align="center">
+  <img src="https://i.imgur.com/qF08116.png"/>
+</p>
+
+### Aplicación Frontend ###
+
+- El integrante Martín Gonzales fue responsable de implementar el consumo de servicios web para las guías de conservación, alertas y salidas de productos.
+- La integrante Camila Huamani implementó el consumo de servicios web para las secciones de órdenes de compra, catálogos, autenticación y perfiles.
+- El integrante Farid Coronel fue responsable de implementar el consumo de servicios web para las secciones de productos y almacenes.
+- El integrante Sergio Julca fue responsable de implementar las secciones de inventarios y productos.
+- El integrante Nicolas Juarez fue responsable de implementar el consumo de servicios web para los productos de la aplicación.
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación front end. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación frontend principalmente la implementación del consumo de servicios web y autenticación de usuarios.
+<p align="center">
+  <img src="https://i.imgur.com/A73aRUf.png" width=500/>
+</p>
+
+### Aplicación Backend ###
+
+- El integrante Martín Gonzalez realizó correcciones en los respectivos endpoints para las alertas en el bounded context "Alertas Y Notifications."
+- La integrante Camila Huamani se encargó de completar los endpoints para órdenes de compra y catálogos.
+- El integrante Farid Coronel se encargó de realizar correcciones en los respectivos endpoints para esta sección en la aplicación Backend. Además, implementó los endpoints para la creación de cuentas y suscripciones para la aplicación.
+- El integrante Nicolas Juarez completó los endpoints de perfiles y usuarios teniendo en cuenta el contexto de autenticación y creación de usuarios para la aplicación.
+
+A continuación, se muestra el siguiente gráfico que detalla la cantidad de commits realizados por cada miembro durante este sprint. El gráfico detalla el aporte realizado por cada integrante del equipo para el avance de la última versión de la aplicación backend.
+<p align="center">
+  <img src="https://i.imgur.com/nnu434v.png"/>
+</p>
+
+También, se adjunta el gráfico del avance realizado por cada rama de funcionalidades por el equipo en la aplicación backend. Este gráfico indica el flujo de desarrollo de la aplicación, donde cada rama representa una funcionalidad específica que se implementó durante el sprint para la aplicación backend, entre ellas se incluye endpoints para características como órdenes de compra, catálogos, perfiles, usuarios y suscripciones.
+<p align="center">
+  <img src="https://i.imgur.com/A73aRUf.png" width=500/>
+</p>
+
+### Reflexión del equipo ###
+Finalmente, se realizó una reflexión del equipo sobre el sprint, donde se destacó la importancia de la colaboración y la comunicación constante entre los miembros. Se identificaron áreas de mejora en la planificación y ejecución de tareas, así como la necesidad de realizar pruebas más exhaustivas antes de cada entrega. El equipo también valoró positivamente el uso de herramientas como GitHub para el control de versiones y la gestión de tareas, lo que facilitó el seguimiento del progreso y la resolución de conflictos.
+El equipo valora este avance final como un determinante para la finalización del proyecto, destacando la importancia de la integración de todas las funcionalidades desarrolladas hasta el momento. Se reconoce que aún se pueden implementar funcionalidades más útiles, pero se siente confianza en que el proyecto ha cumplido con su propósito al cumplir con los objetivos establecidos.
+
+
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
 
-
 En las entrevistas de validación se incluirá:
 
-- **Exploración del Landing Page:**
+- **Exploración de la Landing Page:**
     
     - ¿Comprendieron el propósito de la aplicación?
         
@@ -1249,7 +1695,6 @@ En las entrevistas de validación se incluirá:
 | **UG 12**     | El proveedor accede a la sección de Conservación, genera una nueva guía completando datos, y la visualiza.                | Validar comprensión del proceso de creación de guías de conservación.        |
 
 ### 5.3.2. Registro de entrevistas
-
 
 **Entrevista 1**
 
@@ -1435,15 +1880,21 @@ Las alertas críticas como “Urgent Repositioning” no destacan visualmente fr
 Usar color de fondo, bordes o íconos para distinguir prioridades.
 
 ## 5.4. Video About The Product
+En esta sección, se adjunta el enlace al video sobre el producto de software desarrollado. En este video, se detallan funcionalidades principales y beneficios que ofrece la aplicacion a los usuarios finales que usaran la aplicacion web para sus negocios.
+
+Enlace al video acerca del producto: [https://acortar.link/dnNGV5](https://acortar.link/dnNGV5)
+
+<p align="center">
+  <img src="https://i.imgur.com/eM34Itk.png">
+</p>
 
 ## 5.5. Video About The Team
 
+En esta sección, se adjunta el enlace al video que presenta al equipo de trabajo que desarrolló el producto de software. En este video, cada miembro del equipo comparte su rol y contribuciones al proyecto, destacando la colaboración y el esfuerzo conjunto para crear una solución efectiva.
 
-| Módulo         | Endpoint                               | Acción                       | Verbo HTTP | Parámetros                                    | Enlace a Swagger                                                   |
-| -------------- | -------------------------------------- | ---------------------------- | ---------- | --------------------------------------------- | ------------------------------------------------------------------ |
-| Authentication | `/api/v1/authentication/sign-in`       | Iniciar sesión               | POST       | Body: `{ username, password }`                | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
-| Orders         | `/api/v1/orders`                       | Listar todas las órdenes     | GET        | Ninguno                                       | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
-| Orders         | `/api/v1/orders`                       | Crear nueva orden            | POST       | Body: `{ orderDate, buyer, supplier, items }` | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
-| Orders         | `/api/v1/orders/{id}/status`           | Actualizar estado de orden   | PATCH      | Path: `id`, Query: `status`                   | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
-| Orders         | `/api/v1/orders/supplier/{supplierId}` | Listar órdenes por proveedor | GET        | Path: `supplierId`                            | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
-| Orders         | `/api/v1/orders/buyer/{buyerId}`       | Listar órdenes por comprador | GET        | Path: `buyerId`                               | [Ver](https://chatgpt.com/c/686c8734-2d58-8009-8e17-eb8085b6b289#) |
+Enlace al video acerca del equipo de trabajo que desarrollo el producto de software: [https://acortar.link/omYKFj](https://acortar.link/omYKFj)
+
+<p align="center">
+  <img src="https://i.imgur.com/x1CrLdb.png">
+</p>
+
